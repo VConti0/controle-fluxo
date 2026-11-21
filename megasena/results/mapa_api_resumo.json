@@ -1,0 +1,806 @@
+{
+  "concursos": 3088,
+  "campos_api": 32,
+  "campos_que_variam": 21,
+  "colunas_tabela_completa": 77,
+  "pares_testados": 989,
+  "pares_sem_variacao": 551,
+  "pares_significativos_q<0.01": 409,
+  "mais_fortes_sem_tempo": [
+    {
+      "var_a": "acumulou",
+      "var_b": "ganhadores_sena",
+      "n": 3088,
+      "spearman": -0.994,
+      "spearman_sem_tempo": -0.994
+    },
+    {
+      "var_a": "bolo_quadra",
+      "var_b": "bolo_quina",
+      "n": 3088,
+      "spearman": 0.983,
+      "spearman_sem_tempo": 0.982
+    },
+    {
+      "var_a": "ganhadores_sena",
+      "var_b": "cidades_com_sena",
+      "n": 3088,
+      "spearman": 0.978,
+      "spearman_sem_tempo": 0.979
+    },
+    {
+      "var_a": "ano",
+      "var_b": "mes",
+      "n": 3088,
+      "spearman": -0.037,
+      "spearman_sem_tempo": -0.975
+    },
+    {
+      "var_a": "acumulou",
+      "var_b": "cidades_com_sena",
+      "n": 3088,
+      "spearman": -0.973,
+      "spearman_sem_tempo": -0.974
+    },
+    {
+      "var_a": "arrecadacao",
+      "var_b": "bolo_quina",
+      "n": 2019,
+      "spearman": 0.967,
+      "spearman_sem_tempo": 0.968
+    },
+    {
+      "var_a": "arrecadacao",
+      "var_b": "bolo_quadra",
+      "n": 2019,
+      "spearman": 0.984,
+      "spearman_sem_tempo": 0.96
+    },
+    {
+      "var_a": "premio_quina",
+      "var_b": "quinas_por_milhao_arrecadado",
+      "n": 2019,
+      "spearman": -0.974,
+      "spearman_sem_tempo": -0.957
+    },
+    {
+      "var_a": "acumulado_proximo",
+      "var_b": "estimativa_proximo",
+      "n": 2228,
+      "spearman": 0.969,
+      "spearman_sem_tempo": 0.956
+    },
+    {
+      "var_a": "estimativa_recebida",
+      "var_b": "acumulado_recebido",
+      "n": 2227,
+      "spearman": 0.969,
+      "spearman_sem_tempo": 0.956
+    },
+    {
+      "var_a": "premio_quadra",
+      "var_b": "quadras_por_milhao_arrecadado",
+      "n": 2019,
+      "spearman": -0.979,
+      "spearman_sem_tempo": -0.951
+    },
+    {
+      "var_a": "concurso_especial",
+      "var_b": "mega_da_virada",
+      "n": 3088,
+      "spearman": 0.949,
+      "spearman_sem_tempo": 0.948
+    },
+    {
+      "var_a": "ganhadores_quina",
+      "var_b": "ganhadores_quadra",
+      "n": 3088,
+      "spearman": 0.931,
+      "spearman_sem_tempo": 0.929
+    },
+    {
+      "var_a": "premio_sena",
+      "var_b": "estimativa_recebida",
+      "n": 493,
+      "spearman": 0.924,
+      "spearman_sem_tempo": 0.915
+    },
+    {
+      "var_a": "arrecadacao",
+      "var_b": "estimativa_recebida",
+      "n": 2017,
+      "spearman": 0.92,
+      "spearman_sem_tempo": 0.911
+    },
+    {
+      "var_a": "concursos_acumulados_seguidos",
+      "var_b": "acumulado_recebido",
+      "n": 3087,
+      "spearman": 0.838,
+      "spearman_sem_tempo": 0.877
+    },
+    {
+      "var_a": "bolo_quina",
+      "var_b": "estimativa_recebida",
+      "n": 2227,
+      "spearman": 0.863,
+      "spearman_sem_tempo": 0.87
+    },
+    {
+      "var_a": "quadras_por_milhao_arrecadado",
+      "var_b": "quinas_por_milhao_arrecadado",
+      "n": 2019,
+      "spearman": 0.914,
+      "spearman_sem_tempo": 0.866
+    },
+    {
+      "var_a": "bolo_quadra",
+      "var_b": "estimativa_recebida",
+      "n": 2227,
+      "spearman": 0.864,
+      "spearman_sem_tempo": 0.861
+    },
+    {
+      "var_a": "arrecadacao",
+      "var_b": "acumulado_recebido",
+      "n": 2019,
+      "spearman": 0.887,
+      "spearman_sem_tempo": 0.858
+    },
+    {
+      "var_a": "concursos_acumulados_seguidos",
+      "var_b": "estimativa_recebida",
+      "n": 2227,
+      "spearman": 0.848,
+      "spearman_sem_tempo": 0.856
+    },
+    {
+      "var_a": "premio_sena",
+      "var_b": "acumulado_recebido",
+      "n": 664,
+      "spearman": 0.892,
+      "spearman_sem_tempo": 0.855
+    },
+    {
+      "var_a": "premio_quina",
+      "var_b": "premio_quadra",
+      "n": 3088,
+      "spearman": 0.907,
+      "spearman_sem_tempo": 0.849
+    },
+    {
+      "var_a": "arrecadacao",
+      "var_b": "premio_sena",
+      "n": 442,
+      "spearman": 0.865,
+      "spearman_sem_tempo": 0.848
+    },
+    {
+      "var_a": "soma",
+      "var_b": "ate_31",
+      "n": 3088,
+      "spearman": -0.848,
+      "spearman_sem_tempo": -0.848
+    },
+    {
+      "var_a": "premio_quadra",
+      "var_b": "quinas_por_milhao_arrecadado",
+      "n": 2019,
+      "spearman": -0.902,
+      "spearman_sem_tempo": -0.833
+    },
+    {
+      "var_a": "premio_quina",
+      "var_b": "quadras_por_milhao_arrecadado",
+      "n": 2019,
+      "spearman": -0.867,
+      "spearman_sem_tempo": -0.822
+    },
+    {
+      "var_a": "premio_sena",
+      "var_b": "bolo_quina",
+      "n": 664,
+      "spearman": 0.839,
+      "spearman_sem_tempo": 0.805
+    },
+    {
+      "var_a": "bolo_quina",
+      "var_b": "acumulado_recebido",
+      "n": 3087,
+      "spearman": 0.768,
+      "spearman_sem_tempo": 0.792
+    },
+    {
+      "var_a": "premio_sena",
+      "var_b": "bolo_quadra",
+      "n": 664,
+      "spearman": 0.814,
+      "spearman_sem_tempo": 0.782
+    },
+    {
+      "var_a": "bolo_quadra",
+      "var_b": "acumulado_recebido",
+      "n": 3087,
+      "spearman": 0.733,
+      "spearman_sem_tempo": 0.78
+    },
+    {
+      "var_a": "ganhadores_quadra",
+      "var_b": "bolo_quina",
+      "n": 3088,
+      "spearman": 0.51,
+      "spearman_sem_tempo": 0.774
+    },
+    {
+      "var_a": "ganhadores_quadra",
+      "var_b": "bolo_quadra",
+      "n": 3088,
+      "spearman": 0.431,
+      "spearman_sem_tempo": 0.771
+    },
+    {
+      "var_a": "arrecadacao",
+      "var_b": "ganhadores_quadra",
+      "n": 2019,
+      "spearman": 0.56,
+      "spearman_sem_tempo": 0.766
+    },
+    {
+      "var_a": "arrecadacao",
+      "var_b": "concursos_acumulados_seguidos",
+      "n": 2019,
+      "spearman": 0.766,
+      "spearman_sem_tempo": 0.763
+    },
+    {
+      "var_a": "premio_sena",
+      "var_b": "concursos_acumulados_seguidos",
+      "n": 664,
+      "spearman": 0.667,
+      "spearman_sem_tempo": 0.73
+    },
+    {
+      "var_a": "acumulou",
+      "var_b": "acumulado_proximo",
+      "n": 3088,
+      "spearman": 0.681,
+      "spearman_sem_tempo": 0.722
+    },
+    {
+      "var_a": "acumulado_proximo",
+      "var_b": "ganhadores_sena",
+      "n": 3088,
+      "spearman": -0.678,
+      "spearman_sem_tempo": -0.718
+    },
+    {
+      "var_a": "acumulado_proximo",
+      "var_b": "cidades_com_sena",
+      "n": 3088,
+      "spearman": -0.662,
+      "spearman_sem_tempo": -0.713
+    },
+    {
+      "var_a": "ganhadores_quina",
+      "var_b": "quinas_por_milhao_arrecadado",
+      "n": 2019,
+      "spearman": 0.689,
+      "spearman_sem_tempo": 0.688
+    }
+  ],
+  "a_contexto_x_dezenas": {
+    "testes": 900,
+    "p<0.05": 39,
+    "esperado_por_acaso": 45.0,
+    "significativos_apos_correcao_q<0.05": 1,
+    "maior_|r|": 0.0727,
+    "menores_p": [
+      {
+        "contexto": "concurso_especial",
+        "numero": 33,
+        "r": 0.0727,
+        "p": 0.0001,
+        "q": 0.0475
+      },
+      {
+        "contexto": "tipo_local (qui²)",
+        "numero": 2,
+        "r": NaN,
+        "p": 0.0021,
+        "q": 0.8631
+      },
+      {
+        "contexto": "dias_desde_anterior",
+        "numero": 33,
+        "r": 0.0506,
+        "p": 0.0049,
+        "q": 0.8631
+      },
+      {
+        "contexto": "dias_desde_anterior",
+        "numero": 41,
+        "r": 0.0488,
+        "p": 0.0066,
+        "q": 0.8631
+      },
+      {
+        "contexto": "mes",
+        "numero": 8,
+        "r": 0.0477,
+        "p": 0.008,
+        "q": 0.8631
+      }
+    ]
+  },
+  "b_dezenas_x_premios": {
+    "quadra": {
+      "r2_dentro_da_amostra": 0.714,
+      "correlacao_fora_da_amostra": 0.816,
+      "numeros_que_mais_baixam_o_premio": [
+        [
+          5,
+          -0.246
+        ],
+        [
+          13,
+          -0.245
+        ],
+        [
+          3,
+          -0.194
+        ],
+        [
+          7,
+          -0.189
+        ],
+        [
+          17,
+          -0.165
+        ],
+        [
+          10,
+          -0.131
+        ],
+        [
+          33,
+          -0.122
+        ],
+        [
+          9,
+          -0.12
+        ],
+        [
+          24,
+          -0.118
+        ],
+        [
+          12,
+          -0.116
+        ]
+      ],
+      "numeros_que_mais_sobem_o_premio": [
+        [
+          40,
+          0.221
+        ],
+        [
+          50,
+          0.216
+        ],
+        [
+          41,
+          0.169
+        ],
+        [
+          52,
+          0.151
+        ],
+        [
+          58,
+          0.135
+        ],
+        [
+          30,
+          0.134
+        ],
+        [
+          31,
+          0.132
+        ],
+        [
+          55,
+          0.128
+        ],
+        [
+          59,
+          0.12
+        ],
+        [
+          51,
+          0.108
+        ]
+      ],
+      "correlacao_media_numeros_ate_31": -0.069,
+      "correlacao_media_numeros_acima_31": 0.075,
+      "derivadas_x_log_premio": {
+        "ate_31": -0.57,
+        "soma": 0.67,
+        "menor": 0.393,
+        "maior": 0.386,
+        "consecutivas": 0.097,
+        "pares": 0.182,
+        "primos": -0.23,
+        "multiplos_de_5": 0.123,
+        "max_mesma_linha": -0.003,
+        "max_mesma_coluna": 0.055,
+        "amplitude": -0.005
+      }
+    },
+    "quina": {
+      "r2_dentro_da_amostra": 0.449,
+      "correlacao_fora_da_amostra": 0.618,
+      "numeros_que_mais_baixam_o_premio": [
+        [
+          13,
+          -0.198
+        ],
+        [
+          5,
+          -0.182
+        ],
+        [
+          3,
+          -0.151
+        ],
+        [
+          7,
+          -0.143
+        ],
+        [
+          17,
+          -0.127
+        ],
+        [
+          25,
+          -0.101
+        ],
+        [
+          11,
+          -0.099
+        ],
+        [
+          23,
+          -0.097
+        ],
+        [
+          24,
+          -0.096
+        ],
+        [
+          33,
+          -0.094
+        ]
+      ],
+      "numeros_que_mais_sobem_o_premio": [
+        [
+          40,
+          0.182
+        ],
+        [
+          50,
+          0.168
+        ],
+        [
+          41,
+          0.148
+        ],
+        [
+          52,
+          0.116
+        ],
+        [
+          55,
+          0.113
+        ],
+        [
+          30,
+          0.1
+        ],
+        [
+          59,
+          0.1
+        ],
+        [
+          58,
+          0.095
+        ],
+        [
+          31,
+          0.093
+        ],
+        [
+          60,
+          0.086
+        ]
+      ],
+      "correlacao_media_numeros_ate_31": -0.056,
+      "correlacao_media_numeros_acima_31": 0.06,
+      "derivadas_x_log_premio": {
+        "ate_31": -0.457,
+        "soma": 0.524,
+        "menor": 0.286,
+        "maior": 0.31,
+        "consecutivas": 0.122,
+        "pares": 0.15,
+        "primos": -0.184,
+        "multiplos_de_5": 0.105,
+        "max_mesma_linha": 0.019,
+        "max_mesma_coluna": 0.083,
+        "amplitude": 0.018
+      }
+    },
+    "sena_por_popularidade_das_dezenas": {
+      "impopulares": {
+        "concursos": 1026,
+        "com_ganhador_pct": 16.4,
+        "ganhadores_por_concurso": 0.206
+      },
+      "medianas": {
+        "concursos": 1026,
+        "com_ganhador_pct": 19.8,
+        "ganhadores_por_concurso": 0.263
+      },
+      "populares": {
+        "concursos": 1026,
+        "com_ganhador_pct": 27.6,
+        "ganhadores_por_concurso": 0.404
+      }
+    }
+  },
+  "c_o_que_explica": {
+    "correlacoes_sem_tempo": {
+      "arrecadacao": [
+        [
+          "bolo_quina",
+          0.968
+        ],
+        [
+          "bolo_quadra",
+          0.96
+        ],
+        [
+          "estimativa_recebida",
+          0.911
+        ],
+        [
+          "acumulado_recebido",
+          0.858
+        ],
+        [
+          "premio_sena",
+          0.848
+        ],
+        [
+          "ganhadores_quadra",
+          0.766
+        ],
+        [
+          "concursos_acumulados_seguidos",
+          0.763
+        ],
+        [
+          "ganhadores_quina",
+          0.661
+        ]
+      ],
+      "ganhadores_quadra": [
+        [
+          "ganhadores_quina",
+          0.929
+        ],
+        [
+          "bolo_quina",
+          0.774
+        ],
+        [
+          "bolo_quadra",
+          0.771
+        ],
+        [
+          "arrecadacao",
+          0.766
+        ],
+        [
+          "estimativa_recebida",
+          0.684
+        ],
+        [
+          "acumulado_recebido",
+          0.618
+        ],
+        [
+          "premio_sena",
+          0.578
+        ],
+        [
+          "concursos_acumulados_seguidos",
+          0.547
+        ]
+      ],
+      "ganhadores_quina": [
+        [
+          "ganhadores_quadra",
+          0.929
+        ],
+        [
+          "quinas_por_milhao_arrecadado",
+          0.688
+        ],
+        [
+          "premio_quina",
+          -0.686
+        ],
+        [
+          "bolo_quina",
+          0.664
+        ],
+        [
+          "bolo_quadra",
+          0.661
+        ],
+        [
+          "arrecadacao",
+          0.661
+        ],
+        [
+          "quadras_por_milhao_arrecadado",
+          0.59
+        ],
+        [
+          "estimativa_recebida",
+          0.58
+        ]
+      ],
+      "ganhadores_sena": [
+        [
+          "acumulou",
+          -0.994
+        ],
+        [
+          "cidades_com_sena",
+          0.979
+        ],
+        [
+          "acumulado_proximo",
+          -0.718
+        ],
+        [
+          "estimativa_proximo",
+          -0.626
+        ],
+        [
+          "ganhadores_quina",
+          0.336
+        ],
+        [
+          "ganhadores_quadra",
+          0.304
+        ],
+        [
+          "premio_quina",
+          -0.254
+        ],
+        [
+          "arrecadacao",
+          0.242
+        ]
+      ],
+      "premio_quadra": [
+        [
+          "quadras_por_milhao_arrecadado",
+          -0.951
+        ],
+        [
+          "premio_quina",
+          0.849
+        ],
+        [
+          "quinas_por_milhao_arrecadado",
+          -0.833
+        ],
+        [
+          "soma",
+          0.614
+        ],
+        [
+          "ganhadores_quina",
+          -0.569
+        ],
+        [
+          "ate_31",
+          -0.52
+        ],
+        [
+          "ganhadores_quadra",
+          -0.509
+        ],
+        [
+          "quadrante_1",
+          -0.43
+        ]
+      ],
+      "premio_quina": [
+        [
+          "quinas_por_milhao_arrecadado",
+          -0.957
+        ],
+        [
+          "premio_quadra",
+          0.849
+        ],
+        [
+          "quadras_por_milhao_arrecadado",
+          -0.822
+        ],
+        [
+          "ganhadores_quina",
+          -0.686
+        ],
+        [
+          "soma",
+          0.517
+        ],
+        [
+          "ganhadores_quadra",
+          -0.489
+        ],
+        [
+          "ate_31",
+          -0.445
+        ],
+        [
+          "quadrante_1",
+          -0.368
+        ]
+      ]
+    },
+    "categoricas_eta2": {
+      "tipo_local -> arrecadacao": {
+        "eta2": 0.0129,
+        "p": 0.0
+      },
+      "tipo_local -> ganhadores_quadra": {
+        "eta2": 0.0141,
+        "p": 0.0
+      },
+      "tipo_local -> soma": {
+        "eta2": 0.0012,
+        "p": 0.4571
+      },
+      "dia_semana -> arrecadacao": {
+        "eta2": 0.0453,
+        "p": 0.0
+      },
+      "dia_semana -> ganhadores_quadra": {
+        "eta2": 0.0236,
+        "p": 0.0
+      },
+      "dia_semana -> soma": {
+        "eta2": 0.0022,
+        "p": 0.2403
+      },
+      "uf_sorteio -> arrecadacao": {
+        "eta2": 0.0116,
+        "p": 0.0065
+      },
+      "uf_sorteio -> ganhadores_quadra": {
+        "eta2": 0.0095,
+        "p": 0.0052
+      },
+      "uf_sorteio -> soma": {
+        "eta2": 0.0035,
+        "p": 0.5488
+      }
+    }
+  }
+}

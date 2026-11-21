@@ -141,6 +141,23 @@ Tabela ano a ano em `results/online_acerto_anual_pct.csv`; acumulado em
 `results/online_acerto_acumulado_pct.csv`; acertos de cada concurso em
 `results/online_acertos_por_concurso.csv`.
 
+## Mapa da API e correlações (`mapa_api.py`)
+
+Lê a resposta completa de cada concurso e gera o dicionário dos 32 campos da API
+(`results/mapa_api_campos.csv`), uma tabela única com 77 colunas por concurso
+(`data/megasena_completo.csv`) e as correlações entre todas as variáveis numéricas
+(`results/mapa_api_correlacoes.csv`, resumo em `results/mapa_api_resumo.json`). As correlações
+"sem tempo" descontam a tendência de crescimento ao longo dos anos.
+
+- **Nada se correlaciona com quais dezenas saem.** Em 900 testes de contexto (local, dia, mês,
+  arrecadação, acumulado) contra cada número, 39 deram p < 0,05, contra 45 esperados por acaso.
+- **As dezenas sorteadas explicam o valor do prêmio.** Só com as 60 dezenas dá para prever o prêmio
+  da quadra de concursos futuros com correlação 0,82 (quina: 0,62). Números baixos (5, 13, 3, 7, 17)
+  derrubam o prêmio; números altos (40, 50, 41, 52, 58) aumentam.
+- **Arrecadação segue o prêmio anunciado**: correlação 0,91 com a estimativa divulgada e 0,86 com o
+  valor acumulado.
+- 11 dos 32 campos da API nunca variam e aparecem na matriz como "sem variação".
+
 ## Como rodar
 
 ```bash
@@ -152,6 +169,7 @@ python3 llm.py          # treina o Transformer e faz o backtest (~15 min em CPU)
 python3 prever.py       # palpites para o próximo concurso (~2 min)
 python3 ensemble.py --backtest 20   # comitê multi-modelo, backtest e Top 5 jogos (~10 min)
 python3 online.py        # aprendizado sorteio a sorteio e percentual de acerto por ano (~30 min)
+python3 mapa_api.py      # dicionário dos campos da API, tabela completa e correlações (5 s)
 python3 comite.py        # testes estatísticos do debate (runs, entropia, Monte Carlo, ARIMA, FFT)
 python3 comparar.py --ate 3082 --alvos 3083 3084 3085   # prevê com dados até o 3082 e compara com o real
 ```
