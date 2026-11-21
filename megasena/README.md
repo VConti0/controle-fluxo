@@ -57,6 +57,31 @@ Os modelos probabilísticos confirmam o resultado:
 Qualquer um desses jogos tem a mesma chance de sena: **1 em 50.063.860**. O backtest mostra que
 nenhum deles é melhor que a surpresinha.
 
+## Teste da semana passada (`results/comparacao_ate_3082.json`)
+
+Modelos treinados só com os concursos 1–3082 (até 06/11/2026) e um único palpite por modelo,
+comparado com os três sorteios da semana seguinte:
+
+- 3083 (08/11): 22 25 29 37 46 54
+- 3084 (10/11): 06 14 22 30 31 37
+- 3085 (12/11): 10 27 29 37 39 59
+
+| Estratégia | Palpite | 3083 | 3084 | 3085 |
+|---|---|---|---|---|
+| Mais frequentes (histórico) | 05 10 27 37 38 53 | 1 | 1 | 3 |
+| LLM (jogo mais gerado) | 02 09 29 37 43 47 | 2 | 1 | 2 |
+| Atrasados | 15 21 26 37 46 56 | 2 | 1 | 1 |
+| Exploratório (últimos 1000) | 10 11 27 35 38 46 | 1 | 0 | 2 |
+| LLM (top-6 marginal) | 10 35 38 43 53 54 | 1 | 0 | 1 |
+| Gradient boosting | 02 04 05 14 16 58 | 0 | 1 | 0 |
+| Quentes (últimos 25) | 04 05 10 38 41 57 | 0 | 0 | 1 |
+| Consenso | 04 05 10 35 38 43 | 0 | 0 | 1 |
+| Surpresinha aleatória | 13 17 35 40 51 60 | 0 | 0 | 0 |
+
+Nenhum palpite chegou à quadra (menor faixa premiada). O melhor foi um terno. O 37 saiu nos três
+sorteios da semana, e sozinho responde por 9 dos 22 acertos da tabela. Três sorteios são amostra
+pequena demais para ranquear modelos: o teste que vale é o de 500 concursos acima.
+
 ## Como rodar
 
 ```bash
@@ -66,6 +91,7 @@ python3 analise.py      # testes estatísticos
 python3 classicos.py    # backtest dos modelos clássicos e de ML (~1 min)
 python3 llm.py          # treina o Transformer e faz o backtest (~15 min em CPU)
 python3 prever.py       # palpites para o próximo concurso (~2 min)
+python3 comparar.py --ate 3082 --alvos 3083 3084 3085   # prevê com dados até o 3082 e compara com o real
 ```
 
 Para atualizar depois de cada sorteio (inclusive a Mega da Virada), rode `fetch_data.py` e `prever.py`.
@@ -77,4 +103,5 @@ Para atualizar depois de cada sorteio (inclusive a Mega da Virada), rode `fetch_
 - `analise.py`: testes de aleatoriedade
 - `classicos.py`: heurísticas, regressão logística e gradient boosting com backtest walk-forward
 - `llm.py`: GPT decoder (356 mil parâmetros) com tokens `<SEP> b1..b6` na ordem real do sorteio
-- `prever.py`: re-treina tudo no histórico completo e gera os palpites
+- `prever.py`: re-treina tudo no histórico (ou até `--ate N`) e gera os palpites
+- `comparar.py`: prevê com dados até um concurso de corte e compara com os resultados seguintes

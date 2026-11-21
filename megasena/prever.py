@@ -1,27 +1,30 @@
-"""Gera os palpites para o próximo concurso com todos os modelos, treinados em TODO o histórico."""
+"""Gera os palpites para o concurso seguinte ao histórico informado, com todos os modelos.
+
+Uso:
+    python3 prever.py              # treina em todo o histórico, palpites para o próximo concurso
+    python3 prever.py --ate 3082   # treina só com os concursos 1..3082 (para comparar com o que veio depois)
+"""
+import argparse
 import json
-import sys
 
 import numpy as np
-import torch
+from sklearn.ensemble import HistGradientBoostingClassifier
 
 import llm
 from classicos import build_dataset, features
 from common import RESULTS, draw_order, draws_matrix, load
-from sklearn.ensemble import HistGradientBoostingClassifier
 
 
 def fmt(idx0):
     return sorted(int(i) + 1 for i in idx0)
 
 
-def main():
-    df = load()
+def gerar_palpites(df):
+    """Treina todos os modelos usando apenas os concursos em df e devolve os palpites do concurso seguinte."""
     m = draws_matrix(df)
     order = draw_order(df)
     n = len(m)
     rng = np.random.default_rng(int(df.concurso.iloc[-1]))
-    prox = int(df.concurso.iloc[-1]) + 1
 
     palpites = {
         "surpresinha_aleatoria": fmt(rng.choice(60, 6, replace=False)),
@@ -37,7 +40,8 @@ def main():
     p_gb = gb.predict_proba(features(m, n))[:, 1]
     palpites["gradient_boosting"] = fmt(np.argsort(-p_gb)[:6])
 
-    # LLM: re-treina em todo o histórico pelo nº de épocas que minimizou a validação no backtest
+    # LLM: re-treina no histórico pelo nº de épocas que minimizou a validação no backtest
+    # (validação feita nos concursos 2289–2588, sempre anteriores a qualquer corte usado aqui)
     best_ep = json.loads((RESULTS / "llm.json").read_text())["melhor_epoca_validacao"]
     tokens = llm.to_tokens(order)
     ids = np.arange(llm.CTX_DRAWS, n)
@@ -54,12 +58,28 @@ def main():
     cons = rank(p_gb) + rank(marg) + rank(m.mean(0)) + rank(m[-25:].mean(0))
     palpites["consenso_modelos"] = fmt(np.argsort(-cons)[:6])
 
-    out = {"proximo_concurso": prox, "data_prevista": "22/11/2026",
+    llm_top10 = [(int(i) + 1, round(float(marg[i]), 4)) for i in np.argsort(-marg)[:10]]
+    return palpites, llm_top10
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--ate", type=int, help="usa apenas os concursos 1..ATE no treino")
+    args = ap.parse_args()
+
+    df = load()
+    if args.ate:
+        df = df[df.concurso <= args.ate].reset_index(drop=True)
+    palpites, llm_top10 = gerar_palpites(df)
+    out = {"treinado_ate_concurso": int(df.concurso.iloc[-1]),
+           "treinado_ate_data": df.data.iloc[-1].strftime("%d/%m/%Y"),
+           "proximo_concurso": int(df.concurso.iloc[-1]) + 1,
            "probabilidade_sena_qualquer_jogo": "1 em 50.063.860",
            "palpites": palpites,
-           "llm_prob_marginal_top10": [(int(i) + 1, round(float(marg[i]), 4)) for i in np.argsort(-marg)[:10]],
+           "llm_prob_marginal_top10": llm_top10,
            "llm_prob_marginal_esperada_se_aleatorio": 0.1}
-    (RESULTS / "previsao.json").write_text(json.dumps(out, indent=2, ensure_ascii=False))
+    nome = f"previsao_ate_{args.ate}.json" if args.ate else "previsao.json"
+    (RESULTS / nome).write_text(json.dumps(out, indent=2, ensure_ascii=False))
     print(json.dumps(out, indent=2, ensure_ascii=False))
 
 
