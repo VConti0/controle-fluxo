@@ -14,19 +14,25 @@ Jogo para Android em que uma bolinha quica dentro de um polígono que gira, chei
 
 > **As moedas não podem ser sacadas, trocadas por dinheiro nem transferidas, nunca.** Se isso mudar, o jogo vira aposta com dinheiro real, que exige licença da Lei 14.790/2023 e o programa de jogos de azar da Play Store. Do jeito que está, é um jogo de "azar simulado": classifique como **18+** (veja [Play Console](#4-play-console)).
 
-## Como está organizado
+## Como está organizado (Clean Architecture)
 
-| Pasta | O quê |
-|---|---|
-| `lib/game/` | Física e desenho. `det_math.dart` garante que a mesma semente dá o mesmo resultado em qualquer celular. |
-| `lib/economy/` | Faixas de palpite, catálogo e inventário. |
-| `lib/services/` | Login, Play Store, AdMob e servidor, todos atrás de interfaces com versões falsas para teste. |
-| `lib/screens/` | Telas. |
-| `lib/config.dart` | **Tudo o que você precisa trocar antes de publicar.** |
-| `assets/data/catalog.json` | Preços, IDs de produto e itens. O servidor lê o mesmo arquivo. |
-| `tool/gen_seeds.dart` | Gera as tabelas de sementes do servidor e as chances mostradas no app. |
-| `functions/` | Servidor (Cloud Functions): saldo, apostas, validação de compras, exclusão de conta. |
-| `firestore.rules` | Impede o app de mexer no saldo diretamente. |
+As dependências apontam para dentro: as telas e as integrações dependem do domínio, e o domínio não depende de nada externo.
+
+| Pasta | Camada | O quê |
+|---|---|---|
+| `lib/domain/` | domínio (Dart puro) | física determinística (`game/`), economia e catálogo (`economy/`), falhas tipadas, **portas** (`ports/`, interfaces) e **casos de uso** (`usecases/`) |
+| `lib/data/` | dados | implementações das portas: Firebase, Google Play, AdMob, armazenamento local e as versões offline e de teste |
+| `lib/presentation/` | apresentação | telas, `AppState`, desenho do jogo, textos PT/EN; só conversa com o domínio |
+| `lib/di/` + `main.dart` | composição | o único lugar que escolhe qual implementação atende cada porta |
+| `lib/config.dart` | configuração | **tudo o que você precisa trocar antes de publicar** |
+| `functions/src/domain/` | domínio do servidor | regras de saldo, aposta e compra |
+| `functions/src/adapters/` | adaptadores | Firestore, API do Google Play, Firebase Auth, arquivos de dados |
+| `assets/data/catalog.json` | dados | preços, IDs de produto e itens; o servidor lê o mesmo arquivo |
+| `tool/gen_seeds.dart` | ferramenta | gera as tabelas de sementes do servidor e as chances mostradas no app |
+
+**A regra de dependências é testada automaticamente** em `test/architecture_test.dart` e `functions/test/architecture.test.ts`: se uma tela importar o Firebase ou o domínio importar o Flutter, o teste falha.
+
+**Revisão de código:** a skill `.claude/skills/revisao-clean-architecture/` define as camadas, as checagens, o checklist SOLID e o formato do relatório. No Claude Code, peça "revisa minhas mudanças"; o `CLAUDE.md` indica a skill.
 
 ### Por que o servidor decide a rodada
 
