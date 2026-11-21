@@ -14,12 +14,13 @@ from common import RESULTS, draws_matrix, load
 
 
 @njit(parallel=True, cache=True)
-def roda(W, eh, n_por_fio):
+def roda(W, eh, n_por_fio, semente):
     T = W.shape[0]
     chegou = np.zeros((4, 8), np.int64)          # chegou[f, k] = vezes em que acertou k concursos seguidos
     bolas = np.zeros(4, np.int64)
+    completas = np.zeros(4, np.int64)       # vezes em que acertou TODOS os concursos em sequência
     for f in prange(4):
-        s = np.uint64((f + 1) * 0x9E3779B97F4A7C15 + 0x77777)
+        s = np.uint64((f + 1 + 4 * semente) * 0x9E3779B97F4A7C15 + 0x77777)
         disp = np.empty(60, np.float64)
         t = 0                                    # concurso que está tentando acertar (0 = o primeiro)
         for _ in range(n_por_fio):
@@ -50,10 +51,11 @@ def roda(W, eh, n_por_fio):
                 t += 1
                 chegou[f, min(t, 7)] += 1
                 if t == T:
+                    completas[f] += 1
                     t = 0
             else:
                 t = 0
-    return chegou.sum(0), bolas.sum()
+    return chegou.sum(0), completas.sum()
 
 
 def main():
@@ -62,7 +64,7 @@ def main():
     P = np.load(RESULTS / "historico_probabilidades.npy").astype(np.float64)
     W = P / (1 - P)
     t0 = time.time()
-    chegou, bolas = roda(W, m.astype(np.int64), n // 4)
+    chegou, _ = roda(W, m.astype(np.int64), n // 4, 0)
     dt = time.time() - t0
     vel = n / dt
     out = {"tentativas": int(n), "tempo_s": round(dt), "tentativas_por_segundo": round(vel),
