@@ -4,3 +4,4 @@ results/combinacoes_top.npy
 results/historico_probabilidades.npy
 results/sequencia_sem_teto.log
 data/clima_cache.json
+results/sequencia_sem_teto.json
