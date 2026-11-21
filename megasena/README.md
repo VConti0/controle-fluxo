@@ -82,6 +82,35 @@ Nenhum palpite chegou à quadra (menor faixa premiada). O melhor foi um terno. O
 sorteios da semana, e sozinho responde por 9 dos 22 acertos da tabela. Três sorteios são amostra
 pequena demais para ranquear modelos: o teste que vale é o de 500 concursos acima.
 
+## Ensemble multi-modelo (`ensemble.py`)
+
+Pipeline único com 5 modelos base (hipergeométrica com encolhimento, auditoria em janelas móveis,
+Monte Carlo de máxima entropia com 100.000 sorteios, ARIMA + FFT por número, XGBoost + LSTM), um
+meta-modelo (soft voting + stacking por regressão logística) e um filtro combinatório (soma 150–210,
+2 a 4 pares, no máximo 2 dezenas por linha e por coluna do volante).
+
+Backtest walk-forward nos últimos 20 concursos (3069–3088), 1 jogo por concurso:
+
+| Modelo | Acertos médios | Ternos | Quadras+ |
+|---|---|---|---|
+| Ensemble final | 0,55 | 0 | 0 |
+| Soft voting | 0,70 | 0 | 0 |
+| Stacking | 0,70 | 1 | 0 |
+| M1 hipergeométrica | 0,80 | 1 | 0 |
+| M2 auditoria | 0,50 | 0 | 0 |
+| M3 Monte Carlo | 0,95 | 0 | 0 |
+| M4 ARIMA + FFT | 0,60 | 0 | 0 |
+| M5 XGBoost + LSTM | 0,85 | 0 | 0 |
+| Aleatório (teórico) | 0,60 | | |
+
+Com 20 concursos, a média de um apostador aleatório cai entre 0,30 e 0,90 em 95% dos casos, então
+só o M3 sai dessa faixa, e por pouco. O ensemble final ficou abaixo do acaso. O filtro combinatório
+aprova 30,8% de todas as combinações possíveis e os mesmos 30,8% dos sorteios históricos: ele não
+seleciona nada que saia mais.
+
+Saídas em `results/`: `ensemble_saida.txt` (relatório), `ensemble_matriz.csv` (scores dos 60 números),
+`ensemble_backtest.csv` e `ensemble.json` (pesos do stacking, backtest e os 5 jogos).
+
 ## Como rodar
 
 ```bash
@@ -91,6 +120,9 @@ python3 analise.py      # testes estatísticos
 python3 classicos.py    # backtest dos modelos clássicos e de ML (~1 min)
 python3 llm.py          # treina o Transformer e faz o backtest (~15 min em CPU)
 python3 prever.py       # palpites para o próximo concurso (~2 min)
+python3 ensemble.py --backtest 20   # comitê multi-modelo, backtest e Top 5 jogos (~10 min)
+python3 online.py        # aprendizado sorteio a sorteio e percentual de acerto por ano (~30 min)
+python3 comite.py        # testes estatísticos do debate (runs, entropia, Monte Carlo, ARIMA, FFT)
 python3 comparar.py --ate 3082 --alvos 3083 3084 3085   # prevê com dados até o 3082 e compara com o real
 ```
 
