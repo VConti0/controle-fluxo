@@ -1,29 +1,33 @@
-// Callable Cloud Functions used by the app. Every call requires a signed-in
-// user; the balance can only change through these functions (see
-// firestore.rules).
+// Composition root: wires the domain (src/domain) to its adapters
+// (src/adapters) and exposes it as callable Cloud Functions. Every call
+// requires a signed-in user; the balance only changes through these
+// functions (see firestore.rules).
 import { initializeApp } from 'firebase-admin/app';
 import { getAuth } from 'firebase-admin/auth';
 import { getFirestore } from 'firebase-admin/firestore';
 import { setGlobalOptions } from 'firebase-functions/v2';
 import { HttpsError, onCall, type CallableRequest } from 'firebase-functions/v2/https';
 
-import { Economy, EconomyError } from './core';
-import { loadCatalog, loadSeedTables } from './data';
-import { FirestoreStore } from './firestore_store';
-import { FakeAwareVerifier, GooglePlayVerifier } from './play';
+import { loadData } from './adapters/data_files';
+import { FirebaseAccounts } from './adapters/firebase_accounts';
+import { FirestoreStore } from './adapters/firestore_store';
+import { FakeAwareVerifier, GooglePlayVerifier } from './adapters/google_play';
+import { Economy, EconomyError } from './domain/economy';
 
+// Keep in step with AppConfig.functionsRegion and packageName in lib/config.dart.
 setGlobalOptions({ region: 'southamerica-east1', maxInstances: 10 });
-
 const PACKAGE_NAME = process.env.PACKAGE_NAME ?? 'com.vconti.escapeball';
 const allowFake =
   process.env.FUNCTIONS_EMULATOR === 'true' || process.env.ALLOW_FAKE_PURCHASES === 'true';
 
 initializeApp();
+const { catalog, tables } = loadData();
 const economy = new Economy(
   new FirestoreStore(getFirestore()),
-  loadCatalog(),
-  loadSeedTables(),
+  catalog,
+  tables,
   new FakeAwareVerifier(new GooglePlayVerifier(PACKAGE_NAME), allowFake),
+  new FirebaseAccounts(getAuth()),
 );
 
 function uidOf(req: CallableRequest): string {
@@ -59,11 +63,4 @@ export const buyWithCoins = onCall<Data>((req) =>
   run(() => economy.buyWithCoins(uidOf(req), req.data ?? {})),
 );
 
-export const deleteAccount = onCall((req) =>
-  run(async () => {
-    const uid = uidOf(req);
-    await economy.deleteAccount(uid);
-    await getAuth().deleteUser(uid);
-    return { deleted: true };
-  }),
-);
+export const deleteAccount = onCall((req) => run(() => economy.deleteAccount(uidOf(req))));

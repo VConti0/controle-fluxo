@@ -13,13 +13,13 @@
     { "productId": "coins_800", "coins": 800, "brl": 2000 }
   ],
   "items": [
-    { "id": "ball_white", "kind": "ball", "price": "free" },
+    { "id": "ball_white", "kind": "ball", "price": "free", "default": true },
     { "id": "ball_neon", "kind": "ball", "price": "coins", "coins": 2 },
     { "id": "ball_ice", "kind": "ball", "price": "coins", "coins": 4 },
     { "id": "ball_ghost", "kind": "ball", "price": "coins", "coins": 8 },
     { "id": "ball_fire", "kind": "ball", "price": "paid", "productId": "ball_fire", "brl": 4.90 },
     { "id": "ball_rainbow", "kind": "ball", "price": "paid", "productId": "ball_rainbow", "brl": 6.90 },
-    { "id": "map_pentagon", "kind": "map", "price": "free", "shape": "pentagon" },
+    { "id": "map_pentagon", "kind": "map", "price": "free", "shape": "pentagon", "default": true },
     { "id": "map_square", "kind": "map", "price": "coins", "coins": 4, "shape": "square" },
     { "id": "map_octagon", "kind": "map", "price": "coins", "coins": 8, "shape": "octagon" },
     { "id": "map_hexagon", "kind": "map", "price": "paid", "productId": "map_hexagon", "brl": 6.90, "shape": "hexagon" },

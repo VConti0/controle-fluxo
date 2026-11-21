@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math' as math;
 
-import 'package:escapeball/game/arena.dart';
-import 'package:escapeball/game/det_math.dart';
-import 'package:escapeball/game/physics.dart';
-import 'package:escapeball/game/round.dart';
+import 'package:escapeball/domain/game/arena.dart';
+import 'package:escapeball/domain/game/det_math.dart';
+import 'package:escapeball/domain/game/physics.dart';
+import 'package:escapeball/domain/game/round.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

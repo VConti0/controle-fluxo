@@ -13,9 +13,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:escapeball/economy/bet.dart';
-import 'package:escapeball/game/arena.dart';
-import 'package:escapeball/game/round.dart';
+import 'package:escapeball/domain/economy/bet.dart';
+import 'package:escapeball/domain/game/arena.dart';
+import 'package:escapeball/domain/game/round.dart';
 
 void main(List<String> args) {
   var count = 5000;

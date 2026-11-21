@@ -7,7 +7,7 @@
   },
   "scripts": {
     "copy-data": "node scripts/copy-data.mjs",
-    "build": "npm run copy-data && tsc",
+    "build": "rm -rf lib && npm run copy-data && tsc",
     "test": "npm run copy-data && vitest run",
     "test:rules": "firebase emulators:exec --only firestore --project demo-escape-ball \"vitest run --config vitest.rules.config.mts\"",
     "serve": "npm run build && firebase emulators:start --only functions,auth,firestore --project demo-escape-ball",

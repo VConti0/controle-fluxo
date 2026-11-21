@@ -2,11 +2,12 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math' as math;
 
-import 'package:escapeball/economy/bet.dart';
-import 'package:escapeball/economy/catalog.dart';
-import 'package:escapeball/economy/inventory.dart';
-import 'package:escapeball/game/arena.dart';
-import 'package:escapeball/services/backend.dart';
+import 'package:escapeball/data/local/local_economy_repository.dart';
+import 'package:escapeball/domain/economy/bet.dart';
+import 'package:escapeball/domain/economy/catalog.dart';
+import 'package:escapeball/domain/economy/inventory.dart';
+import 'package:escapeball/domain/failures.dart';
+import 'package:escapeball/domain/game/arena.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 Catalog _catalog() => Catalog.fromJson(
@@ -72,6 +73,15 @@ void main() {
       expect(c.coinPacks.last.brl, 2000);
     });
 
+    test('exactly one default item per kind, and it is free', () {
+      final c = _catalog();
+      for (final kind in ItemKind.values) {
+        final defaults = c.ofKind(kind).where((i) => i.isDefault).toList();
+        expect(defaults, hasLength(1), reason: kind.name);
+        expect(defaults.single.price, PriceType.free);
+      }
+    });
+
     test('every map has a shape and every paid item a product id', () {
       final c = _catalog();
       for (final i in c.items) {
@@ -87,8 +97,7 @@ void main() {
       final inv = Inventory(
         catalog: _catalog(),
         profile: Profile.empty,
-        equippedBall: 'ball_fire',
-        equippedMap: 'map_hexagon',
+        equipped: {ItemKind.ball: 'ball_fire', ItemKind.map: 'map_hexagon'},
       );
       expect(inv.owns('ball_white'), isTrue);
       expect(inv.owns('ball_fire'), isFalse);
@@ -98,7 +107,7 @@ void main() {
   });
 
   group('local backend (same rules as the server)', () {
-    LocalBackend make({int coins = 10}) => LocalBackend(
+    LocalEconomyRepository make({int coins = 10}) => LocalEconomyRepository(
           catalog: _catalog(),
           odds: _odds(),
           initial: Profile(balanceCents: coins * kCentsPerCoin),
@@ -118,11 +127,11 @@ void main() {
     test('rejects bets it cannot cover, and odd amounts', () async {
       final b = make(coins: 1);
       expect(() => b.startRound(shape: ArenaShape.square, band: 0, betCents: 200),
-          throwsA(isA<BackendException>()));
+          throwsA(isA<InsufficientFunds>()));
       expect(() => b.startRound(shape: ArenaShape.square, band: 0, betCents: 150),
-          throwsA(isA<BackendException>()));
+          throwsA(isA<InvalidRequest>()));
       expect(() => b.startRound(shape: ArenaShape.square, band: 9, betCents: 100),
-          throwsA(isA<BackendException>()));
+          throwsA(isA<InvalidRequest>()));
     });
 
     test('a purchase token credits coins only once', () async {
@@ -132,6 +141,14 @@ void main() {
       expect((await b.getProfile()).balanceCents, 10 * kCentsPerCoin);
       await b.verifyPurchase(productId: 'coins_10', purchaseToken: 'tok2');
       expect((await b.getProfile()).balanceCents, 20 * kCentsPerCoin);
+    });
+
+    test('a token cannot be replayed for a different product (same rule as the server)',
+        () async {
+      final b = make(coins: 0);
+      await b.verifyPurchase(productId: 'coins_2', purchaseToken: 'tokX');
+      expect(() => b.verifyPurchase(productId: 'coins_800', purchaseToken: 'tokX'),
+          throwsA(isA<PurchaseRejected>()));
     });
 
     test('remove ads and paid skins unlock', () async {
@@ -147,8 +164,8 @@ void main() {
       final p = await b.buyWithCoins('ball_ice');
       expect(p.owned, contains('ball_ice'));
       expect(p.balanceCents, 100);
-      expect(() => b.buyWithCoins('ball_ghost'), throwsA(isA<BackendException>()));
-      expect(() => b.buyWithCoins('ball_fire'), throwsA(isA<BackendException>()));
+      expect(() => b.buyWithCoins('ball_ghost'), throwsA(isA<InsufficientFunds>()));
+      expect(() => b.buyWithCoins('ball_fire'), throwsA(isA<InvalidRequest>()));
     });
   });
 }
