@@ -1,0 +1,562 @@
+{
+  "concurso": 3089,
+  "sorteios_simulados": 2000000000,
+  "tempo_s": 220,
+  "media_de_vezes_por_combinacao": 39.95,
+  "numeros": [
+    {
+      "numero": 46,
+      "saiu_em_pct_dos_sorteios": 13.6738,
+      "peso_do_modelo_pct": 13.4
+    },
+    {
+      "numero": 32,
+      "saiu_em_pct_dos_sorteios": 12.8925,
+      "peso_do_modelo_pct": 12.69
+    },
+    {
+      "numero": 56,
+      "saiu_em_pct_dos_sorteios": 12.6418,
+      "peso_do_modelo_pct": 12.46
+    },
+    {
+      "numero": 34,
+      "saiu_em_pct_dos_sorteios": 12.5647,
+      "peso_do_modelo_pct": 12.39
+    },
+    {
+      "numero": 45,
+      "saiu_em_pct_dos_sorteios": 11.989,
+      "peso_do_modelo_pct": 11.86
+    },
+    {
+      "numero": 52,
+      "saiu_em_pct_dos_sorteios": 11.7608,
+      "peso_do_modelo_pct": 11.65
+    },
+    {
+      "numero": 53,
+      "saiu_em_pct_dos_sorteios": 11.6624,
+      "peso_do_modelo_pct": 11.56
+    },
+    {
+      "numero": 25,
+      "saiu_em_pct_dos_sorteios": 11.4356,
+      "peso_do_modelo_pct": 11.35
+    },
+    {
+      "numero": 37,
+      "saiu_em_pct_dos_sorteios": 11.3604,
+      "peso_do_modelo_pct": 11.28
+    },
+    {
+      "numero": 12,
+      "saiu_em_pct_dos_sorteios": 11.2305,
+      "peso_do_modelo_pct": 11.16
+    },
+    {
+      "numero": 11,
+      "saiu_em_pct_dos_sorteios": 11.2001,
+      "peso_do_modelo_pct": 11.13
+    },
+    {
+      "numero": 59,
+      "saiu_em_pct_dos_sorteios": 11.1659,
+      "peso_do_modelo_pct": 11.1
+    },
+    {
+      "numero": 44,
+      "saiu_em_pct_dos_sorteios": 11.1237,
+      "peso_do_modelo_pct": 11.06
+    },
+    {
+      "numero": 57,
+      "saiu_em_pct_dos_sorteios": 10.7587,
+      "peso_do_modelo_pct": 10.72
+    },
+    {
+      "numero": 2,
+      "saiu_em_pct_dos_sorteios": 10.7496,
+      "peso_do_modelo_pct": 10.71
+    },
+    {
+      "numero": 38,
+      "saiu_em_pct_dos_sorteios": 10.7058,
+      "peso_do_modelo_pct": 10.67
+    },
+    {
+      "numero": 41,
+      "saiu_em_pct_dos_sorteios": 10.6842,
+      "peso_do_modelo_pct": 10.65
+    },
+    {
+      "numero": 13,
+      "saiu_em_pct_dos_sorteios": 10.6091,
+      "peso_do_modelo_pct": 10.58
+    },
+    {
+      "numero": 50,
+      "saiu_em_pct_dos_sorteios": 10.3956,
+      "peso_do_modelo_pct": 10.38
+    },
+    {
+      "numero": 3,
+      "saiu_em_pct_dos_sorteios": 10.3955,
+      "peso_do_modelo_pct": 10.38
+    },
+    {
+      "numero": 27,
+      "saiu_em_pct_dos_sorteios": 10.3953,
+      "peso_do_modelo_pct": 10.38
+    },
+    {
+      "numero": 20,
+      "saiu_em_pct_dos_sorteios": 10.2359,
+      "peso_do_modelo_pct": 10.23
+    },
+    {
+      "numero": 28,
+      "saiu_em_pct_dos_sorteios": 10.1729,
+      "peso_do_modelo_pct": 10.17
+    },
+    {
+      "numero": 60,
+      "saiu_em_pct_dos_sorteios": 10.1087,
+      "peso_do_modelo_pct": 10.11
+    },
+    {
+      "numero": 51,
+      "saiu_em_pct_dos_sorteios": 10.0551,
+      "peso_do_modelo_pct": 10.06
+    },
+    {
+      "numero": 18,
+      "saiu_em_pct_dos_sorteios": 10.034,
+      "peso_do_modelo_pct": 10.04
+    },
+    {
+      "numero": 31,
+      "saiu_em_pct_dos_sorteios": 10.0326,
+      "peso_do_modelo_pct": 10.04
+    },
+    {
+      "numero": 19,
+      "saiu_em_pct_dos_sorteios": 10.0234,
+      "peso_do_modelo_pct": 10.03
+    },
+    {
+      "numero": 42,
+      "saiu_em_pct_dos_sorteios": 9.8861,
+      "peso_do_modelo_pct": 9.9
+    },
+    {
+      "numero": 54,
+      "saiu_em_pct_dos_sorteios": 9.78,
+      "peso_do_modelo_pct": 9.8
+    },
+    {
+      "numero": 30,
+      "saiu_em_pct_dos_sorteios": 9.7692,
+      "peso_do_modelo_pct": 9.79
+    },
+    {
+      "numero": 5,
+      "saiu_em_pct_dos_sorteios": 9.6523,
+      "peso_do_modelo_pct": 9.68
+    },
+    {
+      "numero": 7,
+      "saiu_em_pct_dos_sorteios": 9.4826,
+      "peso_do_modelo_pct": 9.52
+    },
+    {
+      "numero": 49,
+      "saiu_em_pct_dos_sorteios": 9.4529,
+      "peso_do_modelo_pct": 9.49
+    },
+    {
+      "numero": 1,
+      "saiu_em_pct_dos_sorteios": 9.4412,
+      "peso_do_modelo_pct": 9.48
+    },
+    {
+      "numero": 10,
+      "saiu_em_pct_dos_sorteios": 9.4407,
+      "peso_do_modelo_pct": 9.48
+    },
+    {
+      "numero": 26,
+      "saiu_em_pct_dos_sorteios": 9.4204,
+      "peso_do_modelo_pct": 9.46
+    },
+    {
+      "numero": 8,
+      "saiu_em_pct_dos_sorteios": 9.3477,
+      "peso_do_modelo_pct": 9.39
+    },
+    {
+      "numero": 39,
+      "saiu_em_pct_dos_sorteios": 9.3355,
+      "peso_do_modelo_pct": 9.38
+    },
+    {
+      "numero": 24,
+      "saiu_em_pct_dos_sorteios": 9.305,
+      "peso_do_modelo_pct": 9.35
+    },
+    {
+      "numero": 29,
+      "saiu_em_pct_dos_sorteios": 9.2729,
+      "peso_do_modelo_pct": 9.32
+    },
+    {
+      "numero": 35,
+      "saiu_em_pct_dos_sorteios": 9.1167,
+      "peso_do_modelo_pct": 9.17
+    },
+    {
+      "numero": 43,
+      "saiu_em_pct_dos_sorteios": 9.1143,
+      "peso_do_modelo_pct": 9.17
+    },
+    {
+      "numero": 48,
+      "saiu_em_pct_dos_sorteios": 9.1043,
+      "peso_do_modelo_pct": 9.16
+    },
+    {
+      "numero": 23,
+      "saiu_em_pct_dos_sorteios": 9.0537,
+      "peso_do_modelo_pct": 9.11
+    },
+    {
+      "numero": 36,
+      "saiu_em_pct_dos_sorteios": 9.0527,
+      "peso_do_modelo_pct": 9.11
+    },
+    {
+      "numero": 17,
+      "saiu_em_pct_dos_sorteios": 8.9888,
+      "peso_do_modelo_pct": 9.05
+    },
+    {
+      "numero": 14,
+      "saiu_em_pct_dos_sorteios": 8.9692,
+      "peso_do_modelo_pct": 9.03
+    },
+    {
+      "numero": 15,
+      "saiu_em_pct_dos_sorteios": 8.9474,
+      "peso_do_modelo_pct": 9.01
+    },
+    {
+      "numero": 16,
+      "saiu_em_pct_dos_sorteios": 8.8729,
+      "peso_do_modelo_pct": 8.94
+    },
+    {
+      "numero": 40,
+      "saiu_em_pct_dos_sorteios": 8.8421,
+      "peso_do_modelo_pct": 8.91
+    },
+    {
+      "numero": 47,
+      "saiu_em_pct_dos_sorteios": 8.8421,
+      "peso_do_modelo_pct": 8.91
+    },
+    {
+      "numero": 58,
+      "saiu_em_pct_dos_sorteios": 8.7478,
+      "peso_do_modelo_pct": 8.82
+    },
+    {
+      "numero": 55,
+      "saiu_em_pct_dos_sorteios": 8.7264,
+      "peso_do_modelo_pct": 8.8
+    },
+    {
+      "numero": 4,
+      "saiu_em_pct_dos_sorteios": 8.6553,
+      "peso_do_modelo_pct": 8.73
+    },
+    {
+      "numero": 33,
+      "saiu_em_pct_dos_sorteios": 8.5496,
+      "peso_do_modelo_pct": 8.63
+    },
+    {
+      "numero": 21,
+      "saiu_em_pct_dos_sorteios": 8.3723,
+      "peso_do_modelo_pct": 8.46
+    },
+    {
+      "numero": 9,
+      "saiu_em_pct_dos_sorteios": 8.3616,
+      "peso_do_modelo_pct": 8.45
+    },
+    {
+      "numero": 22,
+      "saiu_em_pct_dos_sorteios": 8.289,
+      "peso_do_modelo_pct": 8.38
+    },
+    {
+      "numero": 6,
+      "saiu_em_pct_dos_sorteios": 7.7498,
+      "peso_do_modelo_pct": 7.86
+    }
+  ],
+  "combinacoes_mais_sorteadas": [
+    {
+      "jogo": [
+        25,
+        32,
+        34,
+        46,
+        52,
+        56
+      ],
+      "vezes": 197,
+      "vezes_sobre_a_media": 4.93
+    },
+    {
+      "jogo": [
+        32,
+        34,
+        45,
+        46,
+        52,
+        56
+      ],
+      "vezes": 195,
+      "vezes_sobre_a_media": 4.88
+    },
+    {
+      "jogo": [
+        32,
+        34,
+        38,
+        46,
+        53,
+        56
+      ],
+      "vezes": 192,
+      "vezes_sobre_a_media": 4.81
+    },
+    {
+      "jogo": [
+        11,
+        32,
+        34,
+        45,
+        46,
+        56
+      ],
+      "vezes": 191,
+      "vezes_sobre_a_media": 4.78
+    },
+    {
+      "jogo": [
+        27,
+        32,
+        34,
+        45,
+        46,
+        56
+      ],
+      "vezes": 189,
+      "vezes_sobre_a_media": 4.73
+    },
+    {
+      "jogo": [
+        32,
+        34,
+        46,
+        52,
+        56,
+        59
+      ],
+      "vezes": 188,
+      "vezes_sobre_a_media": 4.71
+    },
+    {
+      "jogo": [
+        25,
+        32,
+        34,
+        46,
+        53,
+        56
+      ],
+      "vezes": 187,
+      "vezes_sobre_a_media": 4.68
+    },
+    {
+      "jogo": [
+        32,
+        34,
+        46,
+        52,
+        53,
+        56
+      ],
+      "vezes": 186,
+      "vezes_sobre_a_media": 4.66
+    },
+    {
+      "jogo": [
+        32,
+        34,
+        46,
+        53,
+        56,
+        59
+      ],
+      "vezes": 185,
+      "vezes_sobre_a_media": 4.63
+    },
+    {
+      "jogo": [
+        25,
+        32,
+        34,
+        38,
+        45,
+        46
+      ],
+      "vezes": 185,
+      "vezes_sobre_a_media": 4.63
+    },
+    {
+      "jogo": [
+        32,
+        34,
+        37,
+        46,
+        56,
+        59
+      ],
+      "vezes": 182,
+      "vezes_sobre_a_media": 4.56
+    },
+    {
+      "jogo": [
+        32,
+        44,
+        46,
+        53,
+        56,
+        59
+      ],
+      "vezes": 181,
+      "vezes_sobre_a_media": 4.53
+    },
+    {
+      "jogo": [
+        25,
+        28,
+        32,
+        34,
+        46,
+        53
+      ],
+      "vezes": 180,
+      "vezes_sobre_a_media": 4.51
+    },
+    {
+      "jogo": [
+        11,
+        27,
+        32,
+        34,
+        46,
+        56
+      ],
+      "vezes": 180,
+      "vezes_sobre_a_media": 4.51
+    },
+    {
+      "jogo": [
+        32,
+        37,
+        45,
+        46,
+        53,
+        56
+      ],
+      "vezes": 178,
+      "vezes_sobre_a_media": 4.46
+    },
+    {
+      "jogo": [
+        25,
+        32,
+        45,
+        46,
+        53,
+        56
+      ],
+      "vezes": 178,
+      "vezes_sobre_a_media": 4.46
+    },
+    {
+      "jogo": [
+        11,
+        12,
+        32,
+        34,
+        46,
+        56
+      ],
+      "vezes": 177,
+      "vezes_sobre_a_media": 4.43
+    },
+    {
+      "jogo": [
+        25,
+        32,
+        34,
+        37,
+        45,
+        56
+      ],
+      "vezes": 176,
+      "vezes_sobre_a_media": 4.41
+    },
+    {
+      "jogo": [
+        25,
+        32,
+        34,
+        44,
+        46,
+        56
+      ],
+      "vezes": 176,
+      "vezes_sobre_a_media": 4.41
+    },
+    {
+      "jogo": [
+        32,
+        34,
+        37,
+        45,
+        46,
+        56
+      ],
+      "vezes": 176,
+      "vezes_sobre_a_media": 4.41
+    }
+  ],
+  "combinacao_menos_sorteada": {
+    "jogo": [
+      6,
+      29,
+      33,
+      39,
+      43,
+      55
+    ],
+    "vezes": 2
+  },
+  "combinacoes_nunca_sorteadas": 0
+}
