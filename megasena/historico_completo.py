@@ -56,12 +56,18 @@ def main():
                 np.concatenate([X[u] for u in range(ini, t)]), m[ini:t].reshape(-1))
         p = modelo.predict_proba(X[t])[:, 1] if modelo is not None else rng.random(60) * 1e-6 + 0.1
         lg = np.log(p / (1 - p))
-        aposta = np.sort(np.lexsort((rng.random(60), -p))[:6])
+        ordem24 = np.lexsort((rng.random(60), -p))[:24]
+        aposta = np.sort(ordem24[:6])
         real = m[t].astype(bool)
+        jogos4 = [np.sort(ordem24[k * 6:(k + 1) * 6]) for k in range(4)]   # 4 jogos sem dezena repetida
+        ac4 = [int(real[j].sum()) for j in jogos4]
         linhas.append({"concurso": int(df.concurso[t]), "ano": int(df.data[t].year),
                        "aposta": " ".join(f"{x + 1:02d}" for x in aposta),
                        "real": " ".join(f"{x + 1:02d}" for x in np.flatnonzero(real)),
                        "acertos": int(real[aposta].sum()),
+                       **{f"jogo{k + 1}": " ".join(f"{x + 1:02d}" for x in jogos4[k]) for k in range(4)},
+                       **{f"acertos_jogo{k + 1}": ac4[k] for k in range(4)},
+                       "melhor_dos_4": max(ac4), "soma_dos_4": sum(ac4),
                        "percentil_do_real": round(float((lg[amostra].sum(1) < lg[real].sum()).mean() * 100), 2)})
         if t % 250 == 0:
             print(f"concurso {t + 1}", file=sys.stderr, flush=True)
@@ -84,6 +90,27 @@ def main():
            "real_nos_10pct_melhores": k, "pct": round(k / len(d) * 100, 2),
            "percentil_medio_do_real": round(float(d.percentil_do_real.mean()), 2),
            "melhores_concursos": d.nlargest(8, "acertos")[["concurso", "aposta", "real", "acertos"]].to_dict("records")}
+    ano4 = pd.DataFrame({"concursos": g.size(), "jogos": g.size() * 4,
+                         "acertos_por_jogo": (g.soma_dos_4.mean() / 4).round(3),
+                         "pct_acerto": (g.soma_dos_4.mean() / 24 * 100).round(2),
+                         "dezenas_cobertas_por_concurso": g.soma_dos_4.mean().round(2),
+                         "ternos": g.melhor_dos_4.apply(lambda v: int((v == 3).sum())),
+                         "quadras": g.melhor_dos_4.apply(lambda v: int((v == 4).sum())),
+                         "quinas": g.melhor_dos_4.apply(lambda v: int((v == 5).sum())),
+                         "senas": g.melhor_dos_4.apply(lambda v: int((v == 6).sum())),
+                         "melhor_acerto": g.melhor_dos_4.max()})
+    ano4.to_csv(RESULTS / "historico_4_jogos_por_ano.csv")
+    todos = d[[f"acertos_jogo{k}" for k in range(1, 5)]].values.ravel()
+    nj = len(todos)
+    out["quatro_jogos_por_concurso"] = {
+        "jogos": nj, "acertos_por_jogo": round(float(todos.mean()), 4),
+        "dezenas_cobertas_por_concurso": round(float(d.soma_dos_4.mean()), 3), "referencia_cobertas": 2.4,
+        "distribuicao_por_jogo": {str(h): int((todos == h).sum()) for h in range(7)},
+        "esperado_ao_acaso": {"3": round(nj * .00991, 1), "4": round(nj * .000429, 2), "5": round(nj * 6.47e-6, 3)},
+        "por_posicao_do_jogo": {f"jogo{k}": round(float(d[f"acertos_jogo{k}"].mean()), 3) for k in range(1, 5)},
+        "concursos_com_quadra_ou_mais": d[d.melhor_dos_4 >= 4][["concurso", "real", "jogo1", "jogo2", "jogo3", "jogo4",
+                                                                 "melhor_dos_4"]].to_dict("records")}
+    print(ano4.to_string())
     (RESULTS / "historico_completo.json").write_text(json.dumps(out, indent=2, ensure_ascii=False))
     pd.set_option("display.width", 200)
     print(ano.to_string())

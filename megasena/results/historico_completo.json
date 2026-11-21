@@ -71,5 +71,42 @@
       "real": "02 18 29 30 36 60",
       "acertos": 3
     }
-  ]
+  ],
+  "quatro_jogos_por_concurso": {
+    "jogos": 12348,
+    "acertos_por_jogo": 0.6085,
+    "dezenas_cobertas_por_concurso": 2.434,
+    "referencia_cobertas": 2.4,
+    "distribuicao_por_jogo": {
+      "0": 6305,
+      "1": 4688,
+      "2": 1240,
+      "3": 114,
+      "4": 1,
+      "5": 0,
+      "6": 0
+    },
+    "esperado_ao_acaso": {
+      "3": 122.4,
+      "4": 5.3,
+      "5": 0.08
+    },
+    "por_posicao_do_jogo": {
+      "jogo1": 0.611,
+      "jogo2": 0.627,
+      "jogo3": 0.606,
+      "jogo4": 0.59
+    },
+    "concursos_com_quadra_ou_mais": [
+      {
+        "concurso": 2189,
+        "real": "04 11 16 22 29 33",
+        "jogo1": "35 37 38 39 44 58",
+        "jogo2": "06 24 34 36 40 59",
+        "jogo3": "03 42 43 45 49 50",
+        "jogo4": "04 11 22 29 41 48",
+        "melhor_dos_4": 4
+      }
+    ]
+  }
 }
