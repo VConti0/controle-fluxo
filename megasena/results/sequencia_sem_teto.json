@@ -1,0 +1,19 @@
+{
+  "tentativas": 14000000000,
+  "chegou": [
+    0,
+    268,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "blocos": 7,
+  "segundos": 930,
+  "sequencias_completas": 0,
+  "maior_sequencia": 1,
+  "acertou_concurso_1": 268,
+  "acertou_1_e_2": 0
+}
