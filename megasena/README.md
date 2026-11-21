@@ -108,8 +108,38 @@ só o M3 sai dessa faixa, e por pouco. O ensemble final ficou abaixo do acaso. O
 aprova 30,8% de todas as combinações possíveis e os mesmos 30,8% dos sorteios históricos: ele não
 seleciona nada que saia mais.
 
+No backtest de 200 concursos (`--backtest 200`, arquivos com sufixo `_bt200`) todos os modelos ficam
+entre 0,555 e 0,670, dentro da faixa de 95% do acaso (0,51 a 0,70); o M3 cai de 0,95 para 0,555.
+
 Saídas em `results/`: `ensemble_saida.txt` (relatório), `ensemble_matriz.csv` (scores dos 60 números),
 `ensemble_backtest.csv` e `ensemble.json` (pesos do stacking, backtest e os 5 jogos).
+
+## Aprendizado sorteio a sorteio (`online.py`)
+
+Para cada concurso, do 2º ao 3088º: prevê só com os anteriores, compara com o resultado real e ajusta
+os modelos com o erro antes de seguir (regressão logística online, LLM online e ensemble de pesos
+adaptativos). Percentual de acerto = dezenas acertadas / dezenas apostadas; o acaso dá 10%.
+
+| Modelo | Acerto em 3.087 concursos | Quadras |
+|---|---|---|
+| Aleatório (controle) | 10,31% | 5 |
+| Frequentes (últimos 1000) | 10,28% | 0 |
+| Ensemble adaptativo | 10,20% | 2 |
+| Mais frequentes (histórico) | 10,10% | 0 |
+| LLM online | 9,98% | 2 |
+| Quentes (últimos 25) | 9,84% | 1 |
+| Logística online | 9,80% | 1 |
+| Atrasados | 9,71% | 1 |
+
+O erro-padrão do total é 0,21 ponto percentual, então todos empatam com 10%. Por ano, os valores
+oscilam entre 6% e 13%, e só 10 das 248 células ano x modelo saem da faixa de 95% do acaso (seriam
+esperadas 12). O ajuste leva os modelos para "10% para todos": os pesos finais da logística são
+praticamente zero, e o erro do LLM antes de cada ajuste fica sempre acima do acaso (média de 4,154
+contra 4,051 nats por bola).
+
+Tabela ano a ano em `results/online_acerto_anual_pct.csv`; acumulado em
+`results/online_acerto_acumulado_pct.csv`; acertos de cada concurso em
+`results/online_acertos_por_concurso.csv`.
 
 ## Como rodar
 

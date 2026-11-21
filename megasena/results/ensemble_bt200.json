@@ -1,0 +1,357 @@
+{
+  "proximo_concurso": 3089,
+  "concursos_no_historico": 3088,
+  "hipergeometrica": {
+    "0": 0.5158844124284464,
+    "1": 0.3790171193351851,
+    "2": 0.09475427983379629,
+    "3": 0.00990894429634471,
+    "4": 0.00042875239743799226,
+    "5": 6.471734300950826e-06,
+    "6": 1.997448858318156e-08
+  },
+  "pesos_stacking": {
+    "M1_hipergeometrica": 0.5989592515540938,
+    "M2_auditoria": -0.213875164489778,
+    "M3_monte_carlo": -0.3419565052506124,
+    "M4_arima_fft": 0.25775527586361313,
+    "M5_xgboost_lstm": -0.19572377127136828
+  },
+  "filtro_aprova_pct": {
+    "todas_as_combinacoes": 30.76,
+    "sorteios_historicos": 30.76
+  },
+  "backtest": {
+    "ensemble": {
+      "media_acertos": 0.63,
+      "pct_acerto": 10.5,
+      "ternos": 2,
+      "quadras": 0,
+      "quinas": 0,
+      "senas": 0,
+      "pct_aleatorios_com_resultado_igual_ou_melhor": 28.8
+    },
+    "soft_voting": {
+      "media_acertos": 0.61,
+      "pct_acerto": 10.17,
+      "ternos": 0,
+      "quadras": 0,
+      "quinas": 0,
+      "senas": 0,
+      "pct_aleatorios_com_resultado_igual_ou_melhor": 43.3
+    },
+    "stacking": {
+      "media_acertos": 0.67,
+      "pct_acerto": 11.17,
+      "ternos": 0,
+      "quadras": 0,
+      "quinas": 0,
+      "senas": 0,
+      "pct_aleatorios_com_resultado_igual_ou_melhor": 8.8
+    },
+    "M1_hipergeometrica": {
+      "media_acertos": 0.59,
+      "pct_acerto": 9.83,
+      "ternos": 3,
+      "quadras": 0,
+      "quinas": 0,
+      "senas": 0,
+      "pct_aleatorios_com_resultado_igual_ou_melhor": 59.3
+    },
+    "M2_auditoria": {
+      "media_acertos": 0.575,
+      "pct_acerto": 9.58,
+      "ternos": 0,
+      "quadras": 0,
+      "quinas": 0,
+      "senas": 0,
+      "pct_aleatorios_com_resultado_igual_ou_melhor": 70.7
+    },
+    "M3_monte_carlo": {
+      "media_acertos": 0.555,
+      "pct_acerto": 9.25,
+      "ternos": 6,
+      "quadras": 0,
+      "quinas": 0,
+      "senas": 0,
+      "pct_aleatorios_com_resultado_igual_ou_melhor": 82.9
+    },
+    "M4_arima_fft": {
+      "media_acertos": 0.66,
+      "pct_acerto": 11.0,
+      "ternos": 5,
+      "quadras": 0,
+      "quinas": 0,
+      "senas": 0,
+      "pct_aleatorios_com_resultado_igual_ou_melhor": 12.4
+    },
+    "M5_xgboost_lstm": {
+      "media_acertos": 0.61,
+      "pct_acerto": 10.17,
+      "ternos": 4,
+      "quadras": 0,
+      "quinas": 0,
+      "senas": 0,
+      "pct_aleatorios_com_resultado_igual_ou_melhor": 43.3
+    },
+    "aleatorio_teorico": {
+      "media_acertos": 0.6,
+      "pct_acerto": 10.0,
+      "quadras_esperadas": 0.0858,
+      "quinas_esperadas": 0.001294,
+      "senas_esperadas": 3.99e-06,
+      "faixa_95pct_media": [
+        0.51,
+        0.7
+      ]
+    },
+    "cinco_jogos_por_concurso": {
+      "ensemble_media_por_jogo": 0.614,
+      "ensemble_melhor_acerto": 4,
+      "ensemble_quadras_ou_mais": 1,
+      "aleatorio_media_por_jogo": 0.6,
+      "aleatorio_quadras_esperadas": 0.4352,
+      "pct_aleatorios_com_total_igual_ou_melhor": 27.3
+    }
+  },
+  "jogos": [
+    {
+      "jogo": [
+        5,
+        11,
+        32,
+        37,
+        46,
+        53
+      ],
+      "score_conjunto": 4.739,
+      "soma": 184,
+      "pares": 2,
+      "modelos_que_colocam_no_top15": {
+        "5": [
+          "M1",
+          "M2",
+          "M5"
+        ],
+        "11": [
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "32": [
+          "M1",
+          "M4"
+        ],
+        "37": [
+          "M1",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "46": [
+          "M3",
+          "M4"
+        ],
+        "53": [
+          "M1",
+          "M2",
+          "M3",
+          "M5"
+        ]
+      },
+      "rank_final": {
+        "5": 8,
+        "11": 3,
+        "32": 2,
+        "37": 1,
+        "46": 5,
+        "53": 4
+      }
+    },
+    {
+      "jogo": [
+        11,
+        13,
+        28,
+        32,
+        37,
+        56
+      ],
+      "score_conjunto": 4.632,
+      "soma": 177,
+      "pares": 3,
+      "modelos_que_colocam_no_top15": {
+        "11": [
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "13": [
+          "M4"
+        ],
+        "28": [
+          "M4"
+        ],
+        "32": [
+          "M1",
+          "M4"
+        ],
+        "37": [
+          "M1",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "56": [
+          "M4"
+        ]
+      },
+      "rank_final": {
+        "11": 3,
+        "13": 11,
+        "28": 10,
+        "32": 2,
+        "37": 1,
+        "56": 6
+      }
+    },
+    {
+      "jogo": [
+        11,
+        27,
+        32,
+        34,
+        46,
+        56
+      ],
+      "score_conjunto": 4.58,
+      "soma": 206,
+      "pares": 4,
+      "modelos_que_colocam_no_top15": {
+        "11": [
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "27": [
+          "M1",
+          "M3"
+        ],
+        "32": [
+          "M1",
+          "M4"
+        ],
+        "34": [],
+        "46": [
+          "M3",
+          "M4"
+        ],
+        "56": [
+          "M4"
+        ]
+      },
+      "rank_final": {
+        "11": 3,
+        "27": 12,
+        "32": 2,
+        "34": 7,
+        "46": 5,
+        "56": 6
+      }
+    },
+    {
+      "jogo": [
+        11,
+        17,
+        34,
+        37,
+        53,
+        56
+      ],
+      "score_conjunto": 4.565,
+      "soma": 208,
+      "pares": 2,
+      "modelos_que_colocam_no_top15": {
+        "11": [
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "17": [
+          "M1",
+          "M2",
+          "M5"
+        ],
+        "34": [],
+        "37": [
+          "M1",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "53": [
+          "M1",
+          "M2",
+          "M3",
+          "M5"
+        ],
+        "56": [
+          "M4"
+        ]
+      },
+      "rank_final": {
+        "11": 3,
+        "17": 20,
+        "34": 7,
+        "37": 1,
+        "53": 4,
+        "56": 6
+      }
+    },
+    {
+      "jogo": [
+        11,
+        28,
+        34,
+        37,
+        45,
+        46
+      ],
+      "score_conjunto": 4.548,
+      "soma": 201,
+      "pares": 3,
+      "modelos_que_colocam_no_top15": {
+        "11": [
+          "M2",
+          "M3",
+          "M4"
+        ],
+        "28": [
+          "M4"
+        ],
+        "34": [],
+        "37": [
+          "M1",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "45": [
+          "M4"
+        ],
+        "46": [
+          "M3",
+          "M4"
+        ]
+      },
+      "rank_final": {
+        "11": 3,
+        "28": 10,
+        "34": 7,
+        "37": 1,
+        "45": 13,
+        "46": 5
+      }
+    }
+  ]
+}
