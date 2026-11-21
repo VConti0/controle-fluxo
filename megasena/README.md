@@ -168,6 +168,18 @@ Lê a resposta completa de cada concurso e gera o dicionário dos 32 campos da A
   muda o resultado em 20 de 20 casos (o erro dobra a cada 0,03 s). Bolas 10% mais leves saíram 28 vezes
   contra 50 esperadas. Os 100 sorteios simulados estão em `results/simulacao_fisica.json`.
 
+## Emulador de 5.000 sorteios e ranking das combinações (`emulador.py`, `comparar_emulador.py`, `combinacoes.py`)
+
+- `emulador.py`: versão compilada (numba) do simulador físico, com a bola real de 66 g. 5.000 sorteios em
+  3 minutos, em `results/emulador_5000.csv`.
+- `comparar_emulador.py`: emulador x sorteios reais. Soma, pares, consecutivas e linhas/colunas batem; as
+  frequências do emulador são muito mais desiguais (qui² 732 contra 84 do real), efeito da posição em que
+  cada bola é carregada no globo. Resultado em `results/comparar_emulador.json`.
+- `combinacoes.py`: junta os 5 modelos do comitê, o viés dos dados reais e o emulador, pontua as
+  50.063.860 combinações e guarda as 5.006.386 melhores em `results/combinacoes_top.npy` (30 MB, fora do
+  git; as 1.000 primeiras em `results/combinacoes_top1000.csv`). No teste walk-forward de 300 concursos, o
+  sorteio real caiu dentro dos 10% escolhidos em 31 deles (10,3%).
+
 ## Como rodar
 
 ```bash
