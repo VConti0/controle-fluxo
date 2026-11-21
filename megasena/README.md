@@ -160,7 +160,9 @@ Para atualizar depois de cada sorteio (inclusive a Mega da Virada), rode `fetch_
 
 ## Arquivos
 
-- `fetch_data.py`: download pela API `servicebus2.caixa.gov.br/portaldeloterias/api/megasena/{n}`
+- `fetch_data.py`: download pela API `servicebus2.caixa.gov.br/portaldeloterias/api/megasena/{n}`; guarda a
+  resposta completa de cada concurso em `data/megasena_raw.jsonl.gz` e gera `data/megasena.csv` (dezenas) e
+  `data/megasena_premios.csv` (arrecadação, ganhadores e prêmio por faixa, local do sorteio)
 - `common.py`: carga dos dados e métricas (distribuição hipergeométrica de acertos)
 - `analise.py`: testes de aleatoriedade
 - `classicos.py`: heurísticas, regressão logística e gradient boosting com backtest walk-forward
