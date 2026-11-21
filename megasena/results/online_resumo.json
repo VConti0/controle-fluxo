@@ -1,0 +1,125 @@
+{
+  "concursos_previstos": 119,
+  "acaso_pct": 10.0,
+  "distribuicao_acertos": {
+    "mais_frequentes_historico": {
+      "0": 57,
+      "1": 48,
+      "2": 13,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "quentes_ultimos_25": {
+      "0": 74,
+      "1": 32,
+      "2": 13,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "atrasados_maior_jejum": {
+      "0": 64,
+      "1": 46,
+      "2": 9,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "frequentes_ultimos_1000": {
+      "0": 53,
+      "1": 56,
+      "2": 9,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "logistica_online": {
+      "0": 63,
+      "1": 48,
+      "2": 8,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "llm_online": {
+      "0": 62,
+      "1": 42,
+      "2": 14,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "ensemble_adaptativo": {
+      "0": 58,
+      "1": 44,
+      "2": 15,
+      "3": 2,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "aleatorio": {
+      "0": 58,
+      "1": 52,
+      "2": 5,
+      "3": 4,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "llm_erro_antes_do_ajuste_nats_por_bola": {
+    "acaso": 4.0513,
+    "media_geral": 4.2108,
+    "por_ano": {
+      "1996": 4.2241,
+      "1997": 4.2049,
+      "1998": 4.2009
+    }
+  },
+  "pesos_ensemble_fim_de_cada_ano": {
+    "1996": {
+      "mais_frequentes_historico": 0.169,
+      "quentes_ultimos_25": 0.159,
+      "atrasados_maior_jejum": 0.205,
+      "frequentes_ultimos_1000": 0.169,
+      "logistica_online": 0.11,
+      "llm_online": 0.189
+    },
+    "1997": {
+      "mais_frequentes_historico": 0.14,
+      "quentes_ultimos_25": 0.19,
+      "atrasados_maior_jejum": 0.253,
+      "frequentes_ultimos_1000": 0.14,
+      "logistica_online": 0.122,
+      "llm_online": 0.155
+    },
+    "1998": {
+      "mais_frequentes_historico": 0.17,
+      "quentes_ultimos_25": 0.139,
+      "atrasados_maior_jejum": 0.242,
+      "frequentes_ultimos_1000": 0.17,
+      "logistica_online": 0.114,
+      "llm_online": 0.164
+    }
+  },
+  "logistica_pesos_finais": [
+    -0.0031,
+    -0.0016,
+    -0.0017,
+    -0.001,
+    -0.0009,
+    -0.0009,
+    -0.0009,
+    0.0067,
+    -0.0009,
+    -2.2006
+  ]
+}
