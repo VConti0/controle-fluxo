@@ -11,3 +11,4 @@ results/fisica_sequencia.json
 results/fisica_sequencia.log
 results/fisica_cadeia.log
 results/fisica_cadeia_estado.npz
+results/fisica_cadeia.csv

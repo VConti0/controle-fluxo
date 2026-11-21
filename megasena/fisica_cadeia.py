@@ -4,7 +4,7 @@
 do ar, corrente de ar, relógio). A física é a do emulador.py (bola de 66 g, colisões, atrito, pás, ar).
 
 Para cada concurso real, em ordem:
-  * o globo mistura (4 s antes da 1ª bola, 1,2 s entre as seguintes);
+  * o globo mistura (4 s antes da 1ª bola, 2,4 s entre as seguintes);
   * a cada extração, o estado atual é ramificado em N cópias, cada uma com as bolas deslocadas em até
     1 micrômetro; cada ramo é simulado até a extração e sai a bola mais próxima da boca;
   * continua o primeiro ramo em que saiu uma dezena do concurso-alvo que ainda faltava;
@@ -26,9 +26,11 @@ from common import RESULTS, load
 
 R, RB, K, ZETA = E.R, E.RB, E.K, E.ZETA
 MU_BB, MU_BW, GAMMA_T, W_GLOBO, N_PAS, C_PA, CD, DT = E.MU_BB, E.MU_BW, E.GAMMA_T, E.W_GLOBO, E.N_PAS, E.C_PA, E.CD, E.DT
-P0, P1 = int(round(E.T0 / DT)), int(round(E.T1 / DT))
+T1C = 2.4                       # intervalo entre bolas na cadeia (s): mais mistura entre extrações
+P0, P1 = int(round(E.T0 / DT)), int(round(T1C / DT))
 SIGMA = 1e-6
 ULTIMO = 4000
+DEBUG = False
 CSV, NPZ = RESULTS / "fisica_cadeia.csv", RESULTS / "fisica_cadeia_estado.npz"
 VAGAS = np.array([[0.0, 0.12 * np.cos(a), 0.12 + 0.0 * a] for a in np.arange(6) * np.pi / 3]) + \
         np.array([[0.12 * np.sin(a), 0.0, 0.0] for a in np.arange(6) * np.pi / 3])
@@ -171,38 +173,60 @@ def main():
         vel, w, t, prox, linhas = np.zeros((60, 3)), np.zeros((60, 3)), 0.0, 1, []
     fim = time.time() + minutos * 60
     semente = prox * 1000
+    SAIDA = np.array([0.0, 0.0, -(R - RB)])
     while prox <= ULTIMO and time.time() < fim:
         livre = prox > n_real
         alvo = set() if livre else set(int(x) for x in dez[prox - 1])
-        ativo = np.ones(60, np.bool_)
-        saiu, tentados = [], 0
-        for k in range(6):
-            n_passos = P0 if k == 0 else P1
-            falta = alvo - set(saiu)
-            n_ramos = 1 if livre else 4 * int(np.ceil(60 / max(len(falta), 1) * (60 - k) / 60))
-            while True:
-                semente += 1
-                bola, Pn, Vn, Wn = ramos(pos, vel, w, ativo, m, fase, rho, vento, t, n_passos, n_ramos, semente,
-                                         0.0 if livre else SIGMA)
-                tentados += n_ramos
-                ok = np.arange(n_ramos) if livre else np.flatnonzero(np.isin(bola + 1, list(falta)))
-                if len(ok):
-                    b = int(ok[0])
+        ini = (pos.copy(), vel.copy(), w.copy(), t)        # estado no começo deste concurso
+        tentados, reinicios = 0, 0
+        while True:
+            pos, vel, w, t = ini[0].copy(), ini[1].copy(), ini[2].copy(), ini[3]
+            ativo = np.ones(60, np.bool_)
+            saiu, travou = [], False
+            for k in range(6):
+                n_passos = P0 if k == 0 else P1
+                falta = alvo - set(saiu)
+                n_ramos, gastos = (1, 0) if livre else (48, 0)
+                while True:
+                    semente += 1
+                    bola, Pn, Vn, Wn = ramos(pos, vel, w, ativo, m, fase, rho, vento, t, n_passos, n_ramos, semente,
+                                             0.0 if livre else SIGMA)
+                    tentados += n_ramos
+                    gastos += n_ramos
+                    ok = np.arange(n_ramos) if livre else np.flatnonzero(np.isin(bola + 1, list(falta)))
+                    if len(ok) or gastos >= 1440:
+                        break
+                if DEBUG:
+                    print(f'   c{prox} bola{k + 1} falta {sorted(falta)} gastos {gastos} hits {len(ok)} distintas {len(set(bola))}', flush=True)
+                if not len(ok):
+                    travou = True
                     break
-            pos, vel, w = Pn[b].copy(), Vn[b].copy(), Wn[b].copy()
-            j = int(bola[b])
-            saiu.append(j + 1)
-            ativo[j] = False
-            t += n_passos * DT
+                if livre or len(falta) == 1:
+                    b = int(ok[0])
+                else:                                      # ramo em que as dezenas que faltam estão mais perto da saída
+                    custo = []
+                    for c in ok:
+                        resto = [x - 1 for x in falta if x != bola[c] + 1]
+                        custo.append(np.linalg.norm(Pn[c][resto] - SAIDA, axis=1).max())
+                    b = int(ok[int(np.argmin(custo))])
+                pos, vel, w = Pn[b].copy(), Vn[b].copy(), Wn[b].copy()
+                j = int(bola[b])
+                saiu.append(j + 1)
+                ativo[j] = False
+                t += n_passos * DT
+            if not travou:
+                break
+            reinicios += 1
         raio = float(np.linalg.norm(pos[ativo], axis=1).max())
         for q, j in enumerate(saiu):                       # as 6 bolas voltam para o topo do globo
             pos[j - 1], vel[j - 1], w[j - 1] = VAGAS[q], 0.0, 0.0
         linhas.append({"concurso": prox, "tipo": "previsto" if livre else "reproduzido",
                        "ordem_de_saida": " ".join(f"{x:02d}" for x in saiu),
-                       "dezenas": " ".join(f"{x:02d}" for x in sorted(saiu)), "ramos_simulados": tentados,
+                       "dezenas": " ".join(f"{x:02d}" for x in sorted(saiu)), "ramos_simulados": tentados, "reinicios": reinicios,
                        "relogio_s": round(t, 2), "raio_max_m": round(raio, 4),
                        "altura_media_m": round(float(pos[:, 2].mean()), 4)})
         prox += 1
+        print(f"  {prox - 1}: {saiu} ramos {tentados} {time.time() - fim + minutos * 60:.0f}s", flush=True)
         if prox % 20 == 0 or prox > n_real:
             pd.DataFrame(linhas).to_csv(CSV, index=False)
             np.savez(NPZ, pos=pos, vel=vel, w=w, t=t, prox=prox, fase=fase, rho=rho, vento=vento)
