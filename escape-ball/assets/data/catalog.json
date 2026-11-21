@@ -1,0 +1,29 @@
+{
+  "_comment": "Shared by the app and the Cloud Functions (copied into functions/src/data at build). Prices in reais (brl) are what you set in the Play Console; the app shows the Play Store's own price string when it can load it.",
+  "removeAds": { "productId": "remove_ads", "brl": 9.90 },
+  "coinPacks": [
+    { "productId": "coins_2", "coins": 2, "brl": 5 },
+    { "productId": "coins_4", "coins": 4, "brl": 10 },
+    { "productId": "coins_10", "coins": 10, "brl": 25 },
+    { "productId": "coins_20", "coins": 20, "brl": 50 },
+    { "productId": "coins_40", "coins": 40, "brl": 100 },
+    { "productId": "coins_100", "coins": 100, "brl": 250 },
+    { "productId": "coins_200", "coins": 200, "brl": 500 },
+    { "productId": "coins_400", "coins": 400, "brl": 1000 },
+    { "productId": "coins_800", "coins": 800, "brl": 2000 }
+  ],
+  "items": [
+    { "id": "ball_white", "kind": "ball", "price": "free" },
+    { "id": "ball_neon", "kind": "ball", "price": "coins", "coins": 2 },
+    { "id": "ball_ice", "kind": "ball", "price": "coins", "coins": 4 },
+    { "id": "ball_ghost", "kind": "ball", "price": "coins", "coins": 8 },
+    { "id": "ball_fire", "kind": "ball", "price": "paid", "productId": "ball_fire", "brl": 4.90 },
+    { "id": "ball_rainbow", "kind": "ball", "price": "paid", "productId": "ball_rainbow", "brl": 6.90 },
+    { "id": "map_pentagon", "kind": "map", "price": "free", "shape": "pentagon" },
+    { "id": "map_square", "kind": "map", "price": "coins", "coins": 4, "shape": "square" },
+    { "id": "map_octagon", "kind": "map", "price": "coins", "coins": 8, "shape": "octagon" },
+    { "id": "map_hexagon", "kind": "map", "price": "paid", "productId": "map_hexagon", "brl": 6.90, "shape": "hexagon" },
+    { "id": "map_triangle", "kind": "map", "price": "paid", "productId": "map_triangle", "brl": 6.90, "shape": "triangle" }
+  ],
+  "bet": { "minCoins": 1, "maxCoins": 100 }
+}
