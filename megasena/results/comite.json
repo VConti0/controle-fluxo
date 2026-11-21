@@ -100,23 +100,23 @@
     "convergencia": {
       "100": {
         "real_desvio_max_pct": 60.0,
-        "teorico_dp_pct": 28.7
+        "teorico_dp_pct": 30.0
       },
       "500": {
         "real_desvio_max_pct": 42.0,
-        "teorico_dp_pct": 12.8
+        "teorico_dp_pct": 13.4
       },
       "1000": {
         "real_desvio_max_pct": 24.0,
-        "teorico_dp_pct": 9.1
+        "teorico_dp_pct": 9.5
       },
       "2000": {
         "real_desvio_max_pct": 18.0,
-        "teorico_dp_pct": 6.4
+        "teorico_dp_pct": 6.7
       },
       "3088": {
         "real_desvio_max_pct": 19.0,
-        "teorico_dp_pct": 5.2
+        "teorico_dp_pct": 5.4
       }
     }
   },

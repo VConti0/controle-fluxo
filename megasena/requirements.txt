@@ -4,3 +4,5 @@ scikit-learn==1.9.1
 scipy==1.18.1
 torch==2.15.0+cpu
 statsmodels==0.15.0
+xgboost==3.4.1
+openpyxl==3.1.5

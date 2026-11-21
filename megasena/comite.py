@@ -67,7 +67,7 @@ conv = {}
 for k in (100, 500, 1000, 2000, n):
     real = np.abs(m[:k].mean(0) - 0.1).max() / 0.1
     conv[str(k)] = {"real_desvio_max_pct": round(float(real * 100), 1),
-                    "teorico_dp_pct": round(float(np.sqrt(0.1 * 0.9 / k * (54 / 59)) / 0.1 * 100), 1)}
+                    "teorico_dp_pct": round(float(np.sqrt(0.1 * 0.9 / k) / 0.1 * 100), 1)}
 out["monte_carlo"] = {
     "simulacoes": S, "entropia_max_por_sorteio_bits": round(log2(T), 3),
     "qui2_simulado": {"media": round(float(sim_chi.mean()), 2), "p95": round(float(np.percentile(sim_chi, 95)), 2),
