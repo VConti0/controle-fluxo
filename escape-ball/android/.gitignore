@@ -15,3 +15,6 @@ key.properties
 
 # Firebase config for your project (download from the Firebase console)
 app/google-services.json
+
+# Kotlin compiler cache
+.kotlin/
