@@ -7,3 +7,5 @@ data/clima_cache.json
 results/sequencia_sem_teto.json
 results/fisica_concurso*.json
 results/fisica_concurso*.log
+results/fisica_sequencia.json
+results/fisica_sequencia.log
