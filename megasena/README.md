@@ -158,6 +158,16 @@ Lê a resposta completa de cada concurso e gera o dicionário dos 32 campos da A
   valor acumulado.
 - 11 dos 32 campos da API nunca variam e aparecem na matriz como "sem variação".
 
+## Anomalia de frequência e simulação física (`anomalia.py`, `simulacao_fisica.py`)
+
+- **Anomalia:** o desvio de frequência começa por volta do concurso 1851 (ago/2016), não é reproduzido por
+  nenhum de 3.000 históricos honestos simulados, concentra-se em 2013-2020 e some de 2020 em diante. Só o
+  número 10 é individualmente significativo. Detalhes em `results/anomalia.json`.
+- **Simulação física:** 60 bolas em um globo giratório com massa, colisões, atrito, rotação, arrasto e
+  corrente de ar. Os parâmetros são plausíveis, não os do equipamento real. Deslocar uma bola em 1 nm
+  muda o resultado em 20 de 20 casos (o erro dobra a cada 0,03 s). Bolas 10% mais leves saíram 28 vezes
+  contra 50 esperadas. Os 100 sorteios simulados estão em `results/simulacao_fisica.json`.
+
 ## Como rodar
 
 ```bash
