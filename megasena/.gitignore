@@ -9,3 +9,5 @@ results/fisica_concurso*.json
 results/fisica_concurso*.log
 results/fisica_sequencia.json
 results/fisica_sequencia.log
+results/fisica_cadeia.log
+results/fisica_cadeia_estado.npz
