@@ -33,6 +33,7 @@ def main():
     m5 = M5(m, features_ml(m))
     neutro = np.full(60, 0.5)
     X, linhas, modelo, m5_ok = {}, [], None, False
+    probs = np.full((n, 60), 0.1)
 
     for t in range(1, n):
         hist = m[:t]
@@ -55,6 +56,7 @@ def main():
             modelo = LogisticRegression(C=1.0, max_iter=2000).fit(
                 np.concatenate([X[u] for u in range(ini, t)]), m[ini:t].reshape(-1))
         p = modelo.predict_proba(X[t])[:, 1] if modelo is not None else rng.random(60) * 1e-6 + 0.1
+        probs[t] = p
         lg = np.log(p / (1 - p))
         ordem24 = np.lexsort((rng.random(60), -p))[:24]
         aposta = np.sort(ordem24[:6])
@@ -72,6 +74,7 @@ def main():
         if t % 250 == 0:
             print(f"concurso {t + 1}", file=sys.stderr, flush=True)
 
+    np.save(RESULTS / "historico_probabilidades.npy", probs.astype(np.float32))
     d = pd.DataFrame(linhas)
     d.to_csv(RESULTS / "historico_completo.csv", index=False)
     g = d.groupby("ano")
