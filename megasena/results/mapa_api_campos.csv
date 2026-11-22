@@ -1,0 +1,33 @@
+campo,grupo,tipo,preenchidos,cobertura_pct,valores_distintos,varia,exemplo
+acumulado,dinheiro,bool,3088,100.0,2,True,true
+dataApuracao,calendario,str,3088,100.0,3088,True,"""19/11/2026"""
+dataProximoConcurso,calendario,str,2762,89.4,2758,True,"""22/11/2026"""
+dezenasSorteadasOrdemSorteio,sorteio,list,3088,100.0,3088,True,"[""34"", ""44"", ""21"", ""10"", ""28"", ""24""]"
+exibirDetalhamentoPorCidade,constante_ou_vazio,bool,3088,100.0,1,False,false
+id,constante_ou_vazio,null,0,0.0,1,False,
+indicadorConcursoEspecial,calendario,int,3088,100.0,2,True,1
+listaDezenas,sorteio,list,3088,100.0,3088,True,"[""10"", ""21"", ""24"", ""28"", ""34"", ""44""]"
+listaDezenasSegundoSorteio,constante_ou_vazio,null,0,0.0,1,False,
+listaMunicipioUFGanhadores,onde_saiu_a_sena,list,641,20.8,360,True,"[{""ganhadores"": 1, ""municipio"": ""ITURAMA"", ""nomeFatansiaUL"": """", ""posicao"": 1, """
+listaRateioPremio,ganhadores_e_premios,list,3088,100.0,3088,True,"[{""descricaoFaixa"": ""6 acertos"", ""faixa"": 1, ""numeroDeGanhadores"": 0, ""valorPrem"
+listaResultadoEquipeEsportiva,constante_ou_vazio,null,0,0.0,1,False,
+localSorteio,local_do_sorteio,str,2935,95.0,25,True,"""ESPAÇO DA SORTE"""
+nomeMunicipioUFSorteio,local_do_sorteio,str,2999,97.1,805,True,"""SÃO PAULO, SP"""
+nomeTimeCoracaoMesSorte,constante_ou_vazio,str,0,0.0,2,True,
+numero,calendario,int,3088,100.0,3088,True,3088
+numeroConcursoAnterior,calendario,int,3088,100.0,3088,True,3087
+numeroConcursoFinal_0_5,calendario,int,3088,100.0,618,True,3090
+numeroConcursoProximo,calendario,int,3088,100.0,3088,True,3089
+numeroJogo,constante_ou_vazio,int,3088,100.0,1,False,2
+observacao,texto_livre,str,896,29.0,719,True,"""O sorteio da Mega-Sena 30 Anos será realizado no dia 24/05/2026 (domingo), às 1"
+premiacaoContingencia,constante_ou_vazio,null,0,0.0,1,False,
+tipoJogo,constante_ou_vazio,str,3088,100.0,1,False,"""MEGA_SENA"""
+tipoPublicacao,constante_ou_vazio,int,3088,100.0,1,False,3
+ultimoConcurso,constante_ou_vazio,bool,3088,100.0,1,False,true
+valorArrecadado,dinheiro,float,3088,100.0,2020,True,45871326.0
+valorAcumuladoConcurso_0_5,dinheiro,float,3088,100.0,3040,True,13193806.02
+valorAcumuladoConcursoEspecial,dinheiro,float,3088,100.0,2078,True,157732562.38
+valorAcumuladoProximoConcurso,dinheiro,float,3088,100.0,2451,True,37750121.7
+valorEstimadoProximoConcurso,dinheiro,float,3088,100.0,194,True,45000000.0
+valorSaldoReservaGarantidora,constante_ou_vazio,float,3088,100.0,1,False,0.0
+valorTotalPremioFaixaUm,constante_ou_vazio,float,3088,100.0,1,False,0.0

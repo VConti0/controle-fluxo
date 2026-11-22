@@ -1,0 +1,182 @@
+{
+  "real": {
+    "sorteios": 3088,
+    "qui2_frequencias": 83.7,
+    "p_qui2": 0.00433,
+    "freq_max_pct": [
+      10,
+      11.79
+    ],
+    "freq_min_pct": [
+      26,
+      8.1
+    ],
+    "soma_media": 183.0,
+    "soma_dp": 39.9,
+    "pares_media": 3.016,
+    "ate_31_media": 3.069,
+    "consecutivas_media": 0.493,
+    "max_mesma_linha_media": 2.323,
+    "max_mesma_coluna_media": 1.918,
+    "repeticao_do_sorteio_anterior": 0.581,
+    "primeira_bola_p_uniforme": 0.09274,
+    "sexta_bola_p_uniforme": 0.43304
+  },
+  "emulador": {
+    "sorteios": 5000,
+    "qui2_frequencias": 732.0,
+    "p_qui2": 0.0,
+    "freq_max_pct": [
+      43,
+      12.86
+    ],
+    "freq_min_pct": [
+      55,
+      7.02
+    ],
+    "soma_media": 184.7,
+    "soma_dp": 39.4,
+    "pares_media": 3.035,
+    "ate_31_media": 3.001,
+    "consecutivas_media": 0.492,
+    "max_mesma_linha_media": 2.299,
+    "max_mesma_coluna_media": 1.924,
+    "repeticao_do_sorteio_anterior": 0.622,
+    "primeira_bola_p_uniforme": 0.0,
+    "sexta_bola_p_uniforme": 0.0
+  },
+  "teorico_sorteio_uniforme": {
+    "qui2_frequencias": 54,
+    "soma_media": 183.0,
+    "soma_dp": 40.6,
+    "pares_media": 3.0,
+    "ate_31_media": 3.1,
+    "repeticao_do_sorteio_anterior": 0.6
+  },
+  "frequencia_emulador_x_real": {
+    "correlacao_historico_inteiro": 0.235,
+    "p": 0.071,
+    "correlacao_periodo_2016_em_diante": 0.085,
+    "p_": 0.518
+  },
+  "vies_do_emulador": {
+    "massa_x_frequencia": {
+      "correlacao": 0.146,
+      "p": 0.2656,
+      "massa_min_max_g": [
+        65.624,
+        66.624
+      ]
+    },
+    "numero_(posicao_de_carga)_x_frequencia": {
+      "correlacao": 0.105,
+      "p": 0.4236
+    },
+    "mais_sorteados": [
+      [
+        43,
+        12.86
+      ],
+      [
+        39,
+        12.42
+      ],
+      [
+        42,
+        12.42
+      ],
+      [
+        38,
+        12.22
+      ],
+      [
+        37,
+        12.18
+      ],
+      [
+        44,
+        12.16
+      ],
+      [
+        59,
+        12.1
+      ],
+      [
+        58,
+        12.02
+      ]
+    ],
+    "menos_sorteados": [
+      [
+        55,
+        7.02
+      ],
+      [
+        14,
+        7.08
+      ],
+      [
+        53,
+        7.2
+      ],
+      [
+        54,
+        7.72
+      ],
+      [
+        9,
+        7.78
+      ],
+      [
+        48,
+        7.86
+      ],
+      [
+        15,
+        7.9
+      ],
+      [
+        21,
+        7.96
+      ]
+    ],
+    "frequencia_por_dezena_do_volante_pct": {
+      "01-10": 9.81,
+      "11-20": 9.39,
+      "21-30": 9.82,
+      "31-40": 11.0,
+      "41-50": 10.43,
+      "51-60": 9.55
+    },
+    "metade_1_x_metade_2": 0.852
+  },
+  "emulador_primeira_bola": {
+    "mais_frequentes_pct": [
+      [
+        44,
+        4.86
+      ],
+      [
+        43,
+        4.6
+      ],
+      [
+        42,
+        4.18
+      ],
+      [
+        58,
+        4.02
+      ],
+      [
+        51,
+        4.0
+      ],
+      [
+        50,
+        3.86
+      ]
+    ],
+    "esperado_pct": 1.67
+  }
+}

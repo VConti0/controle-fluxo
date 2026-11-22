@@ -1,0 +1,1541 @@
+var_a,var_b,n,spearman,spearman_sem_tempo,p_sem_tempo,obs,q_sem_tempo
+concurso_especial,acumulou,3088,-0.1089,-0.1133,0.0,,0.0
+concurso_especial,arrecadacao,2019,0.1215,0.1098,0.0,,0.0
+concurso_especial,acumulado_proximo,3088,-0.0787,-0.1125,0.0,,0.0
+concurso_especial,estimativa_proximo,2228,-0.0906,-0.1211,0.0,,0.0
+concurso_especial,acumulado_final_0_5,3088,-0.0972,-0.1358,0.0,,0.0
+concurso_especial,acumulado_especial,3088,-0.0676,-0.1989,0.0,,0.0
+concurso_especial,ganhadores_sena,3088,0.1346,0.1393,0.0,,0.0
+concurso_especial,premio_sena,664,0.1489,0.0786,0.0429,,0.0925
+concurso_especial,ganhadores_quina,3088,0.0981,0.109,0.0,,0.0
+concurso_especial,premio_quina,3088,0.0133,-0.0465,0.0098,,0.0227
+concurso_especial,ganhadores_quadra,3088,0.0982,0.1124,0.0,,0.0
+concurso_especial,premio_quadra,3088,0.0264,-0.0645,0.0003,,0.0009
+concurso_especial,cidades_com_sena,3088,0.1365,0.1409,0.0,,0.0
+concurso_especial,tem_observacao,3088,-0.0239,0.0234,0.1934,,0.349
+concurso_especial,time_coracao_preenchido,3088,0.0641,0.0148,0.4119,,0.6078
+concurso_especial,soma,3088,-0.0153,-0.0151,0.4003,,0.5955
+concurso_especial,pares,3088,-0.0221,-0.0227,0.2069,,0.3621
+concurso_especial,primos,3088,0.0059,0.0078,0.6632,,0.7903
+concurso_especial,ate_31,3088,-0.0031,-0.0024,0.8961,,0.9368
+concurso_especial,consecutivas,3088,0.0098,0.0099,0.581,,0.7353
+concurso_especial,amplitude,3088,-0.0087,-0.008,0.6565,,0.7842
+concurso_especial,menor,3088,-0.0078,-0.0081,0.6514,,0.7798
+concurso_especial,maior,3088,-0.013,-0.012,0.5042,,0.6785
+concurso_especial,max_mesma_linha,3088,-0.0008,-0.0021,0.905,,0.9431
+concurso_especial,max_mesma_coluna,3088,0.0106,0.0111,0.5383,,0.707
+concurso_especial,linhas_distintas,3088,-0.0166,-0.0149,0.4076,,0.6025
+concurso_especial,multiplos_de_5,3088,0.0178,0.0163,0.3663,,0.561
+concurso_especial,quadrante_1,3088,0.0142,0.0152,0.3997,,0.5955
+concurso_especial,quadrante_2,3088,-0.0117,-0.0124,0.4916,,0.666
+concurso_especial,quadrante_3,3088,0.005,0.0064,0.7226,,0.8346
+concurso_especial,quadrante_4,3088,-0.0084,-0.01,0.5772,,0.734
+concurso_especial,concursos_acumulados_seguidos,3088,0.0214,0.0144,0.4248,,0.6112
+concurso_especial,ano,3088,0.0593,-0.0677,0.0002,,0.0005
+concurso_especial,mes,3088,0.0615,0.062,0.0006,,0.0015
+concurso_especial,dia_semana,3088,0.0042,0.0134,0.4581,,0.6407
+concurso_especial,dias_desde_anterior,3087,0.1039,0.1665,0.0,,0.0
+concurso_especial,mega_da_virada,3088,0.9485,0.9485,0.0,,0.0
+concurso_especial,final_0_ou_5,3088,0.1141,0.1143,0.0,,0.0
+concurso_especial,bolo_quadra,3088,0.0981,0.0834,0.0,,0.0
+concurso_especial,bolo_quina,3088,0.0981,0.081,0.0,,0.0
+concurso_especial,quadras_por_milhao_arrecadado,2019,-0.0268,0.0236,0.2896,,0.4765
+concurso_especial,quinas_por_milhao_arrecadado,2019,-0.0257,0.0105,0.6366,,0.7659
+concurso_especial,estimativa_recebida,2227,0.1157,0.1024,0.0,,0.0
+concurso_especial,acumulado_recebido,3087,0.0968,0.0785,0.0,,0.0
+concurso_especial,api_id_cod,3088,,,,sem variação,
+concurso_especial,api_tipoJogo_cod,3088,,,,sem variação,
+concurso_especial,api_numeroJogo_cod,3088,,,,sem variação,
+concurso_especial,api_tipoPublicacao_cod,3088,,,,sem variação,
+concurso_especial,api_ultimoConcurso_cod,3088,,,,sem variação,
+concurso_especial,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+concurso_especial,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+concurso_especial,api_premiacaoContingencia_cod,3088,,,,sem variação,
+concurso_especial,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+concurso_especial,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+concurso_especial,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+acumulou,arrecadacao,2019,-0.1678,-0.2276,0.0,,0.0
+acumulou,acumulado_proximo,3088,0.6812,0.7219,0.0,,0.0
+acumulou,estimativa_proximo,2228,0.6158,0.6283,0.0,,0.0
+acumulou,acumulado_final_0_5,3088,0.0177,0.0062,0.7315,,0.84
+acumulou,acumulado_especial,3088,0.0172,-0.003,0.8693,,0.9258
+acumulou,ganhadores_sena,3088,-0.9945,-0.9945,0.0,,0.0
+acumulou,premio_sena,664,,,,sem variação,
+acumulou,ganhadores_quina,3088,-0.3307,-0.322,0.0,,0.0
+acumulou,premio_quina,3088,0.1944,0.2431,0.0,,0.0
+acumulou,ganhadores_quadra,3088,-0.3014,-0.2914,0.0,,0.0
+acumulou,premio_quadra,3088,0.1202,0.2017,0.0,,0.0
+acumulou,cidades_com_sena,3088,-0.9732,-0.9741,0.0,,0.0
+acumulou,tem_observacao,3088,-0.0926,-0.1189,0.0,,0.0
+acumulou,time_coracao_preenchido,3088,0.0651,0.0065,0.7181,,0.8306
+acumulou,soma,3088,0.1142,0.1137,0.0,,0.0
+acumulou,pares,3088,0.0268,0.0275,0.1265,,0.2449
+acumulou,primos,3088,-0.0099,-0.0097,0.5908,,0.7406
+acumulou,ate_31,3088,-0.0808,-0.0801,0.0,,0.0
+acumulou,consecutivas,3088,0.0386,0.0393,0.029,,0.0643
+acumulou,amplitude,3088,0.0096,0.0094,0.6018,,0.7447
+acumulou,menor,3088,0.0655,0.0647,0.0003,,0.0009
+acumulou,maior,3088,0.0627,0.062,0.0006,,0.0015
+acumulou,max_mesma_linha,3088,0.0115,0.0095,0.5963,,0.7424
+acumulou,max_mesma_coluna,3088,0.0535,0.0522,0.0037,,0.009
+acumulou,linhas_distintas,3088,-0.0074,-0.0072,0.6894,,0.8069
+acumulou,multiplos_de_5,3088,0.0342,0.033,0.0668,,0.1371
+acumulou,quadrante_1,3088,-0.0818,-0.0829,0.0,,0.0
+acumulou,quadrante_2,3088,-0.0293,-0.0277,0.1241,,0.2407
+acumulou,quadrante_3,3088,0.0481,0.0493,0.0062,,0.0147
+acumulou,quadrante_4,3088,0.0533,0.0518,0.004,,0.0097
+acumulou,concursos_acumulados_seguidos,3088,-0.1258,-0.1414,0.0,,0.0
+acumulou,ano,3088,0.0384,0.0182,0.3131,,0.5084
+acumulou,mes,3088,-0.0137,-0.0147,0.4155,,0.608
+acumulou,dia_semana,3088,-0.014,-0.0143,0.4255,,0.6112
+acumulou,dias_desde_anterior,3087,-0.0726,-0.0679,0.0002,,0.0004
+acumulou,mega_da_virada,3088,-0.1033,-0.1065,0.0,,0.0
+acumulou,final_0_ou_5,3088,-0.0558,-0.056,0.0019,,0.0047
+acumulou,bolo_quadra,3088,-0.1374,-0.2281,0.0,,0.0
+acumulou,bolo_quina,3088,-0.1604,-0.2288,0.0,,0.0
+acumulou,quadras_por_milhao_arrecadado,2019,-0.2121,-0.1934,0.0,,0.0
+acumulou,quinas_por_milhao_arrecadado,2019,-0.2518,-0.231,0.0,,0.0
+acumulou,estimativa_recebida,2227,-0.1422,-0.1974,0.0,,0.0
+acumulou,acumulado_recebido,3087,-0.1327,-0.1658,0.0,,0.0
+acumulou,api_id_cod,3088,,,,sem variação,
+acumulou,api_tipoJogo_cod,3088,,,,sem variação,
+acumulou,api_numeroJogo_cod,3088,,,,sem variação,
+acumulou,api_tipoPublicacao_cod,3088,,,,sem variação,
+acumulou,api_ultimoConcurso_cod,3088,,,,sem variação,
+acumulou,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+acumulou,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+acumulou,api_premiacaoContingencia_cod,3088,,,,sem variação,
+acumulou,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+acumulou,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+acumulou,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+arrecadacao,acumulado_proximo,2019,0.4336,0.2855,0.0,,0.0
+arrecadacao,estimativa_proximo,2019,0.4685,0.3837,0.0,,0.0
+arrecadacao,acumulado_final_0_5,2019,0.1907,0.1146,0.0,,0.0
+arrecadacao,acumulado_especial,2019,0.2063,0.0591,0.0079,,0.0186
+arrecadacao,ganhadores_sena,2019,0.1797,0.2417,0.0,,0.0
+arrecadacao,premio_sena,442,0.8646,0.8479,0.0,,0.0
+arrecadacao,ganhadores_quina,2019,0.4956,0.6611,0.0,,0.0
+arrecadacao,premio_quina,2019,0.1941,-0.0112,0.6137,,0.7484
+arrecadacao,ganhadores_quadra,2019,0.5603,0.7658,0.0,,0.0
+arrecadacao,premio_quadra,2019,0.2707,-0.0002,0.9945,,0.9956
+arrecadacao,cidades_com_sena,2019,0.1797,0.2413,0.0,,0.0
+arrecadacao,tem_observacao,2019,-0.0468,0.0307,0.1683,,0.3094
+arrecadacao,time_coracao_preenchido,2019,0.3265,0.0324,0.1458,,0.2747
+arrecadacao,soma,2019,0.0048,-0.0042,0.85,,0.9154
+arrecadacao,pares,2019,0.004,0.0145,0.5143,,0.6874
+arrecadacao,primos,2019,-0.0188,-0.017,0.4449,,0.6303
+arrecadacao,ate_31,2019,-0.013,-0.0022,0.9213,,0.9551
+arrecadacao,consecutivas,2019,0.0023,0.0031,0.8904,,0.9328
+arrecadacao,amplitude,2019,0.0079,0.009,0.6847,,0.8052
+arrecadacao,menor,2019,-0.0,-0.0121,0.5878,,0.7386
+arrecadacao,maior,2019,0.0041,-0.0031,0.8887,,0.9328
+arrecadacao,max_mesma_linha,2019,0.0088,-0.0031,0.8896,,0.9328
+arrecadacao,max_mesma_coluna,2019,-0.0158,-0.0156,0.4832,,0.6601
+arrecadacao,linhas_distintas,2019,-0.0057,0.0015,0.9478,,0.9684
+arrecadacao,multiplos_de_5,2019,-0.0122,-0.0128,0.5658,,0.7277
+arrecadacao,quadrante_1,2019,-0.0171,-0.0178,0.4236,,0.6107
+arrecadacao,quadrante_2,2019,0.0016,0.0115,0.6063,,0.7462
+arrecadacao,quadrante_3,2019,0.0088,0.012,0.5888,,0.739
+arrecadacao,quadrante_4,2019,0.0168,0.0046,0.8352,,0.9037
+arrecadacao,concursos_acumulados_seguidos,2019,0.7663,0.7632,0.0,,0.0
+arrecadacao,ano,2019,0.3655,-0.0607,0.0064,,0.0151
+arrecadacao,mes,2019,0.053,0.0619,0.0054,,0.0129
+arrecadacao,dia_semana,2019,0.1063,0.1474,0.0,,0.0
+arrecadacao,dias_desde_anterior,2019,-0.0669,0.0889,0.0001,,0.0002
+arrecadacao,mega_da_virada,2019,0.1154,0.1057,0.0,,0.0
+arrecadacao,final_0_ou_5,2019,0.1907,0.2037,0.0,,0.0
+arrecadacao,bolo_quadra,2019,0.9841,0.9605,0.0,,0.0
+arrecadacao,bolo_quina,2019,0.9671,0.9677,0.0,,0.0
+arrecadacao,quadras_por_milhao_arrecadado,2019,-0.2836,0.0086,0.6978,,0.8129
+arrecadacao,quinas_por_milhao_arrecadado,2019,-0.2202,0.0208,0.3509,,0.5495
+arrecadacao,estimativa_recebida,2017,0.9201,0.911,0.0,,0.0
+arrecadacao,acumulado_recebido,2019,0.8873,0.858,0.0,,0.0
+arrecadacao,api_id_cod,2019,,,,sem variação,
+arrecadacao,api_tipoJogo_cod,2019,,,,sem variação,
+arrecadacao,api_numeroJogo_cod,2019,,,,sem variação,
+arrecadacao,api_tipoPublicacao_cod,2019,,,,sem variação,
+arrecadacao,api_ultimoConcurso_cod,2019,,,,sem variação,
+arrecadacao,api_listaDezenasSegundoSorteio_cod,2019,,,,sem variação,
+arrecadacao,api_listaResultadoEquipeEsportiva_cod,2019,,,,sem variação,
+arrecadacao,api_premiacaoContingencia_cod,2019,,,,sem variação,
+arrecadacao,api_valorSaldoReservaGarantidora_cod,2019,,,,sem variação,
+arrecadacao,api_valorTotalPremioFaixaUm_cod,2019,,,,sem variação,
+arrecadacao,api_exibirDetalhamentoPorCidade_cod,2019,,,,sem variação,
+acumulado_proximo,estimativa_proximo,2228,0.9687,0.9561,0.0,,0.0
+acumulado_proximo,acumulado_final_0_5,3088,0.2529,0.1165,0.0,,0.0
+acumulado_proximo,acumulado_especial,3088,0.3284,0.0588,0.0011,,0.0028
+acumulado_proximo,ganhadores_sena,3088,-0.678,-0.7178,0.0,,0.0
+acumulado_proximo,premio_sena,664,0.1353,0.0031,0.9357,,0.9645
+acumulado_proximo,ganhadores_quina,3088,-0.0081,0.0465,0.0098,,0.0226
+acumulado_proximo,premio_quina,3088,0.4091,0.2212,0.0,,0.0
+acumulado_proximo,ganhadores_quadra,3088,0.052,0.1288,0.0,,0.0
+acumulado_proximo,premio_quadra,3088,0.4088,0.1845,0.0,,0.0
+acumulado_proximo,cidades_com_sena,3088,-0.6622,-0.7128,0.0,,0.0
+acumulado_proximo,tem_observacao,3088,-0.2714,-0.0531,0.0032,,0.0077
+acumulado_proximo,time_coracao_preenchido,3088,0.3357,0.0189,0.2947,,0.4817
+acumulado_proximo,soma,3088,0.0821,0.0935,0.0,,0.0
+acumulado_proximo,pares,3088,0.0356,0.0344,0.0559,,0.1171
+acumulado_proximo,primos,3088,-0.0333,-0.0232,0.1981,,0.3542
+acumulado_proximo,ate_31,3088,-0.063,-0.0676,0.0002,,0.0005
+acumulado_proximo,consecutivas,3088,0.0201,0.0252,0.1613,,0.2977
+acumulado_proximo,amplitude,3088,-0.0008,0.0001,0.9946,,0.9956
+acumulado_proximo,menor,3088,0.0441,0.0502,0.0053,,0.0126
+acumulado_proximo,maior,3088,0.0353,0.0432,0.0164,,0.0371
+acumulado_proximo,max_mesma_linha,3088,0.0027,-0.0031,0.8623,,0.924
+acumulado_proximo,max_mesma_coluna,3088,0.0163,0.0229,0.2034,,0.3593
+acumulado_proximo,linhas_distintas,3088,-0.0133,-0.0067,0.7114,,0.8238
+acumulado_proximo,multiplos_de_5,3088,0.0559,0.0509,0.0047,,0.0112
+acumulado_proximo,quadrante_1,3088,-0.0794,-0.0806,0.0,,0.0
+acumulado_proximo,quadrante_2,3088,-0.0064,-0.0149,0.4068,,0.6023
+acumulado_proximo,quadrante_3,3088,0.04,0.0558,0.0019,,0.0048
+acumulado_proximo,quadrante_4,3088,0.0431,0.0358,0.0465,,0.0994
+acumulado_proximo,concursos_acumulados_seguidos,3088,0.3631,0.3541,0.0,,0.0
+acumulado_proximo,ano,3088,0.3844,-0.0386,0.032,,0.0702
+acumulado_proximo,mes,3088,0.0355,0.0388,0.0312,,0.0687
+acumulado_proximo,dia_semana,3088,-0.0698,0.0064,0.7238,,0.8346
+acumulado_proximo,dias_desde_anterior,3087,-0.2696,-0.0781,0.0,,0.0
+acumulado_proximo,mega_da_virada,3088,-0.0746,-0.1044,0.0,,0.0
+acumulado_proximo,final_0_ou_5,3088,0.0367,0.0399,0.0268,,0.0594
+acumulado_proximo,bolo_quadra,3088,0.4182,0.2605,0.0,,0.0
+acumulado_proximo,bolo_quina,3088,0.4119,0.2724,0.0,,0.0
+acumulado_proximo,quadras_por_milhao_arrecadado,2019,-0.3518,-0.1698,0.0,,0.0
+acumulado_proximo,quinas_por_milhao_arrecadado,2019,-0.3466,-0.199,0.0,,0.0
+acumulado_proximo,estimativa_recebida,2227,0.4824,0.3488,0.0,,0.0
+acumulado_proximo,acumulado_recebido,3087,0.4707,0.3752,0.0,,0.0
+acumulado_proximo,api_id_cod,3088,,,,sem variação,
+acumulado_proximo,api_tipoJogo_cod,3088,,,,sem variação,
+acumulado_proximo,api_numeroJogo_cod,3088,,,,sem variação,
+acumulado_proximo,api_tipoPublicacao_cod,3088,,,,sem variação,
+acumulado_proximo,api_ultimoConcurso_cod,3088,,,,sem variação,
+acumulado_proximo,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+acumulado_proximo,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+acumulado_proximo,api_premiacaoContingencia_cod,3088,,,,sem variação,
+acumulado_proximo,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+acumulado_proximo,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+acumulado_proximo,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+estimativa_proximo,acumulado_final_0_5,2228,0.321,0.2296,0.0,,0.0
+estimativa_proximo,acumulado_especial,2228,0.2852,0.1137,0.0,,0.0
+estimativa_proximo,ganhadores_sena,2228,-0.6139,-0.6256,0.0,,0.0
+estimativa_proximo,premio_sena,492,0.2222,-0.0099,0.8271,,0.8999
+estimativa_proximo,ganhadores_quina,2228,0.0248,0.1261,0.0,,0.0
+estimativa_proximo,premio_quina,2228,0.3473,0.1839,0.0,,0.0
+estimativa_proximo,ganhadores_quadra,2228,0.0812,0.2117,0.0,,0.0
+estimativa_proximo,premio_quadra,2228,0.3784,0.1607,0.0,,0.0
+estimativa_proximo,cidades_com_sena,2228,-0.614,-0.6263,0.0,,0.0
+estimativa_proximo,tem_observacao,2228,-0.1838,-0.0828,0.0001,,0.0003
+estimativa_proximo,time_coracao_preenchido,2228,0.3194,-0.0119,0.5732,,0.734
+estimativa_proximo,soma,2228,0.0771,0.0754,0.0004,,0.001
+estimativa_proximo,pares,2228,0.0261,0.0285,0.1788,,0.3263
+estimativa_proximo,primos,2228,-0.0318,-0.0309,0.1446,,0.2733
+estimativa_proximo,ate_31,2228,-0.0645,-0.0603,0.0044,,0.0107
+estimativa_proximo,consecutivas,2228,0.0177,0.0205,0.3324,,0.5294
+estimativa_proximo,amplitude,2228,0.0009,0.0039,0.855,,0.9192
+estimativa_proximo,menor,2228,0.0403,0.0323,0.127,,0.2452
+estimativa_proximo,maior,2228,0.0273,0.0274,0.1961,,0.3514
+estimativa_proximo,max_mesma_linha,2228,-0.0184,-0.0262,0.2156,,0.3746
+estimativa_proximo,max_mesma_coluna,2228,0.0248,0.0185,0.384,,0.5808
+estimativa_proximo,linhas_distintas,2228,0.007,0.0109,0.6076,,0.7462
+estimativa_proximo,multiplos_de_5,2228,0.0328,0.0312,0.1414,,0.2679
+estimativa_proximo,quadrante_1,2228,-0.079,-0.081,0.0001,,0.0004
+estimativa_proximo,quadrante_2,2228,-0.0083,-0.005,0.8153,,0.896
+estimativa_proximo,quadrante_3,2228,0.0545,0.0672,0.0015,,0.0038
+estimativa_proximo,quadrante_4,2228,0.0348,0.0198,0.3501,,0.5495
+estimativa_proximo,concursos_acumulados_seguidos,2228,0.4657,0.4324,0.0,,0.0
+estimativa_proximo,ano,2228,0.3789,-0.0432,0.0415,,0.0898
+estimativa_proximo,mes,2228,0.0345,0.0402,0.0579,,0.1204
+estimativa_proximo,dia_semana,2228,-0.0165,0.0153,0.4708,,0.6503
+estimativa_proximo,dias_desde_anterior,2228,-0.2165,-0.0768,0.0003,,0.0008
+estimativa_proximo,mega_da_virada,2228,-0.0878,-0.1144,0.0,,0.0
+estimativa_proximo,final_0_ou_5,2228,0.0185,0.0196,0.3556,,0.5529
+estimativa_proximo,bolo_quadra,2228,0.4614,0.3666,0.0,,0.0
+estimativa_proximo,bolo_quina,2228,0.4429,0.3687,0.0,,0.0
+estimativa_proximo,quadras_por_milhao_arrecadado,2019,-0.3513,-0.1458,0.0,,0.0
+estimativa_proximo,quinas_por_milhao_arrecadado,2019,-0.3388,-0.1691,0.0,,0.0
+estimativa_proximo,estimativa_recebida,2220,0.5158,0.4332,0.0,,0.0
+estimativa_proximo,acumulado_recebido,2228,0.5152,0.442,0.0,,0.0
+estimativa_proximo,api_id_cod,2228,,,,sem variação,
+estimativa_proximo,api_tipoJogo_cod,2228,,,,sem variação,
+estimativa_proximo,api_numeroJogo_cod,2228,,,,sem variação,
+estimativa_proximo,api_tipoPublicacao_cod,2228,,,,sem variação,
+estimativa_proximo,api_ultimoConcurso_cod,2228,,,,sem variação,
+estimativa_proximo,api_listaDezenasSegundoSorteio_cod,2228,,,,sem variação,
+estimativa_proximo,api_listaResultadoEquipeEsportiva_cod,2228,,,,sem variação,
+estimativa_proximo,api_premiacaoContingencia_cod,2228,,,,sem variação,
+estimativa_proximo,api_valorSaldoReservaGarantidora_cod,2228,,,,sem variação,
+estimativa_proximo,api_valorTotalPremioFaixaUm_cod,2228,,,,sem variação,
+estimativa_proximo,api_exibirDetalhamentoPorCidade_cod,2228,,,,sem variação,
+acumulado_final_0_5,acumulado_especial,3088,0.436,0.1806,0.0,,0.0
+acumulado_final_0_5,ganhadores_sena,3088,-0.0221,-0.0105,0.561,,0.724
+acumulado_final_0_5,premio_sena,664,0.239,0.0653,0.0926,,0.185
+acumulado_final_0_5,ganhadores_quina,3088,0.0641,0.1123,0.0,,0.0
+acumulado_final_0_5,premio_quina,3088,0.2973,-0.0035,0.847,,0.9135
+acumulado_final_0_5,ganhadores_quadra,3088,0.0624,0.1254,0.0,,0.0
+acumulado_final_0_5,premio_quadra,3088,0.3798,0.0147,0.4139,,0.608
+acumulado_final_0_5,cidades_com_sena,3088,-0.0175,-0.018,0.3164,,0.5131
+acumulado_final_0_5,tem_observacao,3088,-0.2833,0.0137,0.4476,,0.6326
+acumulado_final_0_5,time_coracao_preenchido,3088,0.3025,-0.0173,0.3371,,0.5359
+acumulado_final_0_5,soma,3088,-0.0058,-0.0009,0.9594,,0.975
+acumulado_final_0_5,pares,3088,0.0215,0.0172,0.3404,,0.5395
+acumulado_final_0_5,primos,3088,-0.0261,-0.0127,0.4801,,0.6577
+acumulado_final_0_5,ate_31,3088,0.0127,0.0155,0.3885,,0.5866
+acumulado_final_0_5,consecutivas,3088,-0.027,-0.0285,0.1135,,0.2227
+acumulado_final_0_5,amplitude,3088,-0.017,-0.0142,0.4287,,0.6145
+acumulado_final_0_5,menor,3088,0.0096,0.0131,0.4659,,0.6474
+acumulado_final_0_5,maior,3088,-0.0069,0.0021,0.9073,,0.9445
+acumulado_final_0_5,max_mesma_linha,3088,0.0041,-0.001,0.9559,,0.9746
+acumulado_final_0_5,max_mesma_coluna,3088,-0.0147,-0.0075,0.6775,,0.8005
+acumulado_final_0_5,linhas_distintas,3088,-0.0199,-0.0099,0.5825,,0.7353
+acumulado_final_0_5,multiplos_de_5,3088,0.0362,0.0297,0.0988,,0.1954
+acumulado_final_0_5,quadrante_1,3088,-0.0061,0.0026,0.8834,,0.9317
+acumulado_final_0_5,quadrante_2,3088,0.03,0.0213,0.2375,,0.4058
+acumulado_final_0_5,quadrante_3,3088,0.0038,0.016,0.3755,,0.5713
+acumulado_final_0_5,quadrante_4,3088,-0.0256,-0.0385,0.0326,,0.0713
+acumulado_final_0_5,concursos_acumulados_seguidos,3088,0.1874,0.1783,0.0,,0.0
+acumulado_final_0_5,ano,3088,0.4108,-0.066,0.0002,,0.0007
+acumulado_final_0_5,mes,3088,0.0587,0.0683,0.0001,,0.0004
+acumulado_final_0_5,dia_semana,3088,-0.0332,0.0555,0.002,,0.005
+acumulado_final_0_5,dias_desde_anterior,3087,-0.1846,0.0336,0.0621,,0.1282
+acumulado_final_0_5,mega_da_virada,3088,-0.0922,-0.1286,0.0,,0.0
+acumulado_final_0_5,final_0_ou_5,3088,-0.5254,-0.5792,0.0,,0.0
+acumulado_final_0_5,bolo_quadra,3088,0.408,0.1603,0.0,,0.0
+acumulado_final_0_5,bolo_quina,3088,0.3733,0.1458,0.0,,0.0
+acumulado_final_0_5,quadras_por_milhao_arrecadado,2019,-0.1634,-0.0042,0.8506,,0.9154
+acumulado_final_0_5,quinas_por_milhao_arrecadado,2019,-0.128,0.0054,0.8094,,0.8934
+acumulado_final_0_5,estimativa_recebida,2227,0.1248,0.0116,0.5855,,0.7367
+acumulado_final_0_5,acumulado_recebido,3087,0.1805,0.0302,0.0937,,0.1866
+acumulado_final_0_5,api_id_cod,3088,,,,sem variação,
+acumulado_final_0_5,api_tipoJogo_cod,3088,,,,sem variação,
+acumulado_final_0_5,api_numeroJogo_cod,3088,,,,sem variação,
+acumulado_final_0_5,api_tipoPublicacao_cod,3088,,,,sem variação,
+acumulado_final_0_5,api_ultimoConcurso_cod,3088,,,,sem variação,
+acumulado_final_0_5,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+acumulado_final_0_5,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+acumulado_final_0_5,api_premiacaoContingencia_cod,3088,,,,sem variação,
+acumulado_final_0_5,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+acumulado_final_0_5,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+acumulado_final_0_5,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+acumulado_especial,ganhadores_sena,3088,-0.0239,-0.0069,0.7028,,0.8158
+acumulado_especial,premio_sena,664,0.368,-0.01,0.7967,,0.8863
+acumulado_especial,ganhadores_quina,3088,-0.0191,0.0752,0.0,,0.0001
+acumulado_especial,premio_quina,3088,0.5656,-0.0152,0.3976,,0.5955
+acumulado_especial,ganhadores_quadra,3088,-0.0299,0.097,0.0,,0.0
+acumulado_especial,premio_quadra,3088,0.7321,0.0571,0.0015,,0.0038
+acumulado_especial,cidades_com_sena,3088,-0.002,-0.0115,0.5222,,0.6932
+acumulado_especial,tem_observacao,3088,-0.6348,-0.1685,0.0,,0.0
+acumulado_especial,time_coracao_preenchido,3088,0.5421,-0.1051,0.0,,0.0
+acumulado_especial,soma,3088,-0.0183,-0.0123,0.4934,,0.6676
+acumulado_especial,pares,3088,0.0225,0.0178,0.3238,,0.5191
+acumulado_especial,primos,3088,-0.0348,-0.0106,0.5545,,0.7207
+acumulado_especial,ate_31,3088,0.0047,0.0099,0.5829,,0.7353
+acumulado_especial,consecutivas,3088,-0.0072,-0.0074,0.68,,0.8016
+acumulado_especial,amplitude,3088,-0.0076,-0.0012,0.9457,,0.9675
+acumulado_especial,menor,3088,-0.003,0.0058,0.7465,,0.8506
+acumulado_especial,maior,3088,-0.0128,0.0076,0.6716,,0.7974
+acumulado_especial,max_mesma_linha,3088,-0.007,-0.0257,0.1532,,0.287
+acumulado_especial,max_mesma_coluna,3088,-0.0093,0.0131,0.4678,,0.6474
+acumulado_especial,linhas_distintas,3088,0.0005,0.0357,0.0473,,0.1009
+acumulado_especial,multiplos_de_5,3088,0.0259,0.0148,0.4124,,0.6078
+acumulado_especial,quadrante_1,3088,-0.0266,-0.0167,0.3538,,0.5526
+acumulado_especial,quadrante_2,3088,0.047,0.0411,0.0224,,0.0501
+acumulado_especial,quadrante_3,3088,-0.0293,-0.0135,0.4549,,0.6399
+acumulado_especial,quadrante_4,3088,0.0198,0.004,0.8252,,0.8989
+acumulado_especial,concursos_acumulados_seguidos,3088,0.0353,-0.0199,0.268,,0.4493
+acumulado_especial,ano,3088,0.7818,-0.6655,0.0,,0.0
+acumulado_especial,mes,3088,0.3533,0.6177,0.0,,0.0
+acumulado_especial,dia_semana,3088,-0.1587,0.0167,0.3544,,0.5526
+acumulado_especial,dias_desde_anterior,3087,-0.4388,-0.051,0.0046,,0.011
+acumulado_especial,mega_da_virada,3088,-0.0641,-0.1883,0.0,,0.0
+acumulado_especial,final_0_ou_5,3088,-0.0187,-0.0327,0.0695,,0.1424
+acumulado_especial,bolo_quadra,3088,0.6663,0.1581,0.0,,0.0
+acumulado_especial,bolo_quina,3088,0.579,0.1066,0.0,,0.0
+acumulado_especial,quadras_por_milhao_arrecadado,2019,-0.3092,-0.0232,0.2982,,0.4866
+acumulado_especial,quinas_por_milhao_arrecadado,2019,-0.2524,-0.0147,0.5104,,0.6855
+acumulado_especial,estimativa_recebida,2227,0.2533,0.0568,0.0073,,0.0172
+acumulado_especial,acumulado_recebido,3087,0.3102,0.0255,0.1573,,0.293
+acumulado_especial,api_id_cod,3088,,,,sem variação,
+acumulado_especial,api_tipoJogo_cod,3088,,,,sem variação,
+acumulado_especial,api_numeroJogo_cod,3088,,,,sem variação,
+acumulado_especial,api_tipoPublicacao_cod,3088,,,,sem variação,
+acumulado_especial,api_ultimoConcurso_cod,3088,,,,sem variação,
+acumulado_especial,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+acumulado_especial,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+acumulado_especial,api_premiacaoContingencia_cod,3088,,,,sem variação,
+acumulado_especial,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+acumulado_especial,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+acumulado_especial,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+ganhadores_sena,premio_sena,664,-0.1011,-0.0882,0.023,,0.0513
+ganhadores_sena,ganhadores_quina,3088,0.3452,0.3364,0.0,,0.0
+ganhadores_sena,premio_quina,3088,-0.2031,-0.254,0.0,,0.0
+ganhadores_sena,ganhadores_quadra,3088,0.3142,0.3041,0.0,,0.0
+ganhadores_sena,premio_quadra,3088,-0.1251,-0.2095,0.0,,0.0
+ganhadores_sena,cidades_com_sena,3088,0.9784,0.9793,0.0,,0.0
+ganhadores_sena,tem_observacao,3088,0.0929,0.1182,0.0,,0.0
+ganhadores_sena,time_coracao_preenchido,3088,-0.0664,-0.0046,0.7993,,0.8868
+ganhadores_sena,soma,3088,-0.1188,-0.1183,0.0,,0.0
+ganhadores_sena,pares,3088,-0.0294,-0.0301,0.0941,,0.1868
+ganhadores_sena,primos,3088,0.0136,0.0133,0.4588,,0.6407
+ganhadores_sena,ate_31,3088,0.0848,0.0841,0.0,,0.0
+ganhadores_sena,consecutivas,3088,-0.0423,-0.043,0.0169,,0.0381
+ganhadores_sena,amplitude,3088,-0.0091,-0.0089,0.6215,,0.754
+ganhadores_sena,menor,3088,-0.0699,-0.069,0.0001,,0.0003
+ganhadores_sena,maior,3088,-0.0647,-0.064,0.0004,,0.001
+ganhadores_sena,max_mesma_linha,3088,-0.0115,-0.0095,0.5995,,0.7433
+ganhadores_sena,max_mesma_coluna,3088,-0.054,-0.0528,0.0034,,0.0082
+ganhadores_sena,linhas_distintas,3088,0.0078,0.0075,0.6765,,0.8003
+ganhadores_sena,multiplos_de_5,3088,-0.0356,-0.0343,0.0564,,0.1177
+ganhadores_sena,quadrante_1,3088,0.0856,0.0867,0.0,,0.0
+ganhadores_sena,quadrante_2,3088,0.03,0.0283,0.116,,0.2267
+ganhadores_sena,quadrante_3,3088,-0.046,-0.0472,0.0087,,0.0204
+ganhadores_sena,quadrante_4,3088,-0.0602,-0.0586,0.0011,,0.0029
+ganhadores_sena,concursos_acumulados_seguidos,3088,0.1306,0.1467,0.0,,0.0
+ganhadores_sena,ano,3088,-0.04,-0.021,0.2426,,0.4137
+ganhadores_sena,mes,3088,0.0166,0.0176,0.3288,,0.5254
+ganhadores_sena,dia_semana,3088,0.0172,0.0177,0.3243,,0.5191
+ganhadores_sena,dias_desde_anterior,3087,0.0754,0.0709,0.0001,,0.0002
+ganhadores_sena,mega_da_virada,3088,0.1283,0.1319,0.0,,0.0
+ganhadores_sena,final_0_ou_5,3088,0.0652,0.0654,0.0003,,0.0008
+ganhadores_sena,bolo_quadra,3088,0.1444,0.2401,0.0,,0.0
+ganhadores_sena,bolo_quina,3088,0.1682,0.2405,0.0,,0.0
+ganhadores_sena,quadras_por_milhao_arrecadado,2019,0.218,0.1989,0.0,,0.0
+ganhadores_sena,quinas_por_milhao_arrecadado,2019,0.2593,0.2382,0.0,,0.0
+ganhadores_sena,estimativa_recebida,2227,0.1528,0.2098,0.0,,0.0
+ganhadores_sena,acumulado_recebido,3087,0.1391,0.1736,0.0,,0.0
+ganhadores_sena,api_id_cod,3088,,,,sem variação,
+ganhadores_sena,api_tipoJogo_cod,3088,,,,sem variação,
+ganhadores_sena,api_numeroJogo_cod,3088,,,,sem variação,
+ganhadores_sena,api_tipoPublicacao_cod,3088,,,,sem variação,
+ganhadores_sena,api_ultimoConcurso_cod,3088,,,,sem variação,
+ganhadores_sena,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+ganhadores_sena,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+ganhadores_sena,api_premiacaoContingencia_cod,3088,,,,sem variação,
+ganhadores_sena,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+ganhadores_sena,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+ganhadores_sena,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+premio_sena,ganhadores_quina,664,0.3585,0.4433,0.0,,0.0
+premio_sena,premio_quina,664,0.4654,0.1966,0.0,,0.0
+premio_sena,ganhadores_quadra,664,0.4613,0.5776,0.0,,0.0
+premio_sena,premio_quadra,664,0.5144,0.1975,0.0,,0.0
+premio_sena,cidades_com_sena,664,-0.0293,-0.0816,0.0355,,0.0774
+premio_sena,tem_observacao,664,-0.3545,0.0029,0.9405,,0.9654
+premio_sena,time_coracao_preenchido,664,0.4183,0.0367,0.3453,,0.5456
+premio_sena,soma,664,0.0844,0.1217,0.0017,,0.0042
+premio_sena,pares,664,0.0392,0.0122,0.7529,,0.8552
+premio_sena,primos,664,-0.0066,-0.0098,0.8011,,0.8872
+premio_sena,ate_31,664,-0.0576,-0.1125,0.0037,,0.009
+premio_sena,consecutivas,664,0.0425,0.0276,0.4773,,0.6565
+premio_sena,amplitude,664,0.0461,0.0573,0.1404,,0.2672
+premio_sena,menor,664,0.0396,0.0509,0.1906,,0.3459
+premio_sena,maior,664,0.0682,0.0742,0.0561,,0.1173
+premio_sena,max_mesma_linha,664,0.0363,-0.0067,0.8624,,0.924
+premio_sena,max_mesma_coluna,664,0.005,0.0137,0.7241,,0.8346
+premio_sena,linhas_distintas,664,-0.0427,-0.0219,0.5737,,0.734
+premio_sena,multiplos_de_5,664,-0.0166,-0.019,0.6255,,0.754
+premio_sena,quadrante_1,664,-0.0682,-0.0892,0.0215,,0.0484
+premio_sena,quadrante_2,664,0.0072,-0.0315,0.4184,,0.6098
+premio_sena,quadrante_3,664,-0.0298,0.0057,0.8827,,0.9317
+premio_sena,quadrante_4,664,0.0949,0.1173,0.0025,,0.0061
+premio_sena,concursos_acumulados_seguidos,664,0.6667,0.7304,0.0,,0.0
+premio_sena,ano,664,0.4979,-0.1081,0.0053,,0.0126
+premio_sena,mes,664,0.1218,0.1144,0.0032,,0.0077
+premio_sena,dia_semana,664,-0.0999,-0.0048,0.901,,0.941
+premio_sena,dias_desde_anterior,664,-0.1186,0.1224,0.0016,,0.004
+premio_sena,mega_da_virada,664,0.1348,0.0726,0.0614,,0.127
+premio_sena,final_0_ou_5,664,0.2088,0.2047,0.0,,0.0
+premio_sena,bolo_quadra,664,0.8136,0.7817,0.0,,0.0
+premio_sena,bolo_quina,664,0.8391,0.8046,0.0,,0.0
+premio_sena,quadras_por_milhao_arrecadado,442,-0.4607,-0.2361,0.0,,0.0
+premio_sena,quinas_por_milhao_arrecadado,442,-0.4298,-0.212,0.0,,0.0
+premio_sena,estimativa_recebida,493,0.9242,0.9147,0.0,,0.0
+premio_sena,acumulado_recebido,664,0.8922,0.8552,0.0,,0.0
+premio_sena,api_id_cod,664,,,,sem variação,
+premio_sena,api_tipoJogo_cod,664,,,,sem variação,
+premio_sena,api_numeroJogo_cod,664,,,,sem variação,
+premio_sena,api_tipoPublicacao_cod,664,,,,sem variação,
+premio_sena,api_ultimoConcurso_cod,664,,,,sem variação,
+premio_sena,api_listaDezenasSegundoSorteio_cod,664,,,,sem variação,
+premio_sena,api_listaResultadoEquipeEsportiva_cod,664,,,,sem variação,
+premio_sena,api_premiacaoContingencia_cod,664,,,,sem variação,
+premio_sena,api_valorSaldoReservaGarantidora_cod,664,,,,sem variação,
+premio_sena,api_valorTotalPremioFaixaUm_cod,664,,,,sem variação,
+premio_sena,api_exibirDetalhamentoPorCidade_cod,664,,,,sem variação,
+ganhadores_quina,premio_quina,3088,-0.5405,-0.6862,0.0,,0.0
+ganhadores_quina,ganhadores_quadra,3088,0.9306,0.9286,0.0,,0.0
+ganhadores_quina,premio_quadra,3088,-0.3368,-0.569,0.0,,0.0
+ganhadores_quina,cidades_com_sena,3088,0.3354,0.3266,0.0,,0.0
+ganhadores_quina,tem_observacao,3088,0.0352,-0.0028,0.8747,,0.9282
+ganhadores_quina,time_coracao_preenchido,3088,-0.1631,-0.045,0.0124,,0.0285
+ganhadores_quina,soma,3088,-0.3556,-0.3607,0.0,,0.0
+ganhadores_quina,pares,3088,-0.1003,-0.1027,0.0,,0.0
+ganhadores_quina,primos,3088,0.1339,0.1346,0.0,,0.0
+ganhadores_quina,ate_31,3088,0.3054,0.3091,0.0,,0.0
+ganhadores_quina,consecutivas,3088,-0.1123,-0.1159,0.0,,0.0
+ganhadores_quina,amplitude,3088,0.0085,0.0096,0.5945,,0.7424
+ganhadores_quina,menor,3088,-0.1902,-0.1921,0.0,,0.0
+ganhadores_quina,maior,3088,-0.1746,-0.1758,0.0,,0.0
+ganhadores_quina,max_mesma_linha,3088,-0.0288,-0.0254,0.1579,,0.2935
+ganhadores_quina,max_mesma_coluna,3088,-0.0731,-0.0722,0.0001,,0.0002
+ganhadores_quina,linhas_distintas,3088,0.0231,0.0229,0.2042,,0.3599
+ganhadores_quina,multiplos_de_5,3088,-0.0733,-0.0713,0.0001,,0.0002
+ganhadores_quina,quadrante_1,3088,0.247,0.2523,0.0,,0.0
+ganhadores_quina,quadrante_2,3088,0.1372,0.1374,0.0,,0.0
+ganhadores_quina,quadrante_3,3088,-0.14,-0.1457,0.0,,0.0
+ganhadores_quina,quadrante_4,3088,-0.2208,-0.2202,0.0,,0.0
+ganhadores_quina,concursos_acumulados_seguidos,3088,0.4178,0.4595,0.0,,0.0
+ganhadores_quina,ano,3088,-0.1079,-0.0468,0.0092,,0.0214
+ganhadores_quina,mes,3088,0.0503,0.0531,0.0032,,0.0077
+ganhadores_quina,dia_semana,3088,0.0986,0.0933,0.0,,0.0
+ganhadores_quina,dias_desde_anterior,3087,0.1404,0.1028,0.0,,0.0
+ganhadores_quina,mega_da_virada,3088,0.0932,0.1014,0.0,,0.0
+ganhadores_quina,final_0_ou_5,3088,0.0937,0.0951,0.0,,0.0
+ganhadores_quina,bolo_quadra,3088,0.3835,0.6614,0.0,,0.0
+ganhadores_quina,bolo_quina,3088,0.4499,0.6636,0.0,,0.0
+ganhadores_quina,quadras_por_milhao_arrecadado,2019,0.5729,0.5903,0.0,,0.0
+ganhadores_quina,quinas_por_milhao_arrecadado,2019,0.6893,0.688,0.0,,0.0
+ganhadores_quina,estimativa_recebida,2227,0.4372,0.58,0.0,,0.0
+ganhadores_quina,acumulado_recebido,3087,0.4234,0.5233,0.0,,0.0
+ganhadores_quina,api_id_cod,3088,,,,sem variação,
+ganhadores_quina,api_tipoJogo_cod,3088,,,,sem variação,
+ganhadores_quina,api_numeroJogo_cod,3088,,,,sem variação,
+ganhadores_quina,api_tipoPublicacao_cod,3088,,,,sem variação,
+ganhadores_quina,api_ultimoConcurso_cod,3088,,,,sem variação,
+ganhadores_quina,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+ganhadores_quina,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+ganhadores_quina,api_premiacaoContingencia_cod,3088,,,,sem variação,
+ganhadores_quina,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+ganhadores_quina,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+ganhadores_quina,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+premio_quina,ganhadores_quadra,3088,-0.4254,-0.4888,0.0,,0.0
+premio_quina,premio_quadra,3088,0.9068,0.8493,0.0,,0.0
+premio_quina,cidades_com_sena,3088,-0.1841,-0.2507,0.0,,0.0
+premio_quina,tem_observacao,3088,-0.5025,-0.0234,0.1927,,0.349
+premio_quina,time_coracao_preenchido,3088,0.5806,0.0822,0.0,,0.0
+premio_quina,soma,3088,0.354,0.5173,0.0,,0.0
+premio_quina,pares,3088,0.1126,0.1482,0.0,,0.0
+premio_quina,primos,3088,-0.1523,-0.1839,0.0,,0.0
+premio_quina,ate_31,3088,-0.3148,-0.4454,0.0,,0.0
+premio_quina,consecutivas,3088,0.0989,0.1435,0.0,,0.0
+premio_quina,amplitude,3088,-0.0061,0.0025,0.8877,,0.9328
+premio_quina,menor,3088,0.182,0.2634,0.0,,0.0
+premio_quina,maior,3088,0.1624,0.254,0.0,,0.0
+premio_quina,max_mesma_linha,3088,0.0357,0.0361,0.0449,,0.0963
+premio_quina,max_mesma_coluna,3088,0.0512,0.09,0.0,,0.0
+premio_quina,linhas_distintas,3088,-0.043,-0.0338,0.0603,,0.125
+premio_quina,multiplos_de_5,3088,0.095,0.113,0.0,,0.0
+premio_quina,quadrante_1,3088,-0.2703,-0.368,0.0,,0.0
+premio_quina,quadrante_2,3088,-0.1157,-0.1881,0.0,,0.0
+premio_quina,quadrante_3,3088,0.1401,0.2256,0.0,,0.0
+premio_quina,quadrante_4,3088,0.2289,0.3048,0.0,,0.0
+premio_quina,concursos_acumulados_seguidos,3088,0.0693,0.0218,0.225,,0.3856
+premio_quina,ano,3088,0.7,-0.0018,0.9207,,0.9551
+premio_quina,mes,3088,-0.0024,0.0041,0.8183,,0.8968
+premio_quina,dia_semana,3088,-0.1139,0.0194,0.2807,,0.4674
+premio_quina,dias_desde_anterior,3087,-0.3778,-0.0632,0.0004,,0.0011
+premio_quina,mega_da_virada,3088,0.0203,-0.0325,0.0708,,0.1447
+premio_quina,final_0_ou_5,3088,0.0083,0.0118,0.5128,,0.6872
+premio_quina,bolo_quadra,3088,0.5137,-0.0226,0.2098,,0.3666
+premio_quina,bolo_quina,3088,0.4546,-0.0134,0.4555,,0.6399
+premio_quina,quadras_por_milhao_arrecadado,2019,-0.8673,-0.8218,0.0,,0.0
+premio_quina,quinas_por_milhao_arrecadado,2019,-0.9739,-0.9572,0.0,,0.0
+premio_quina,estimativa_recebida,2227,0.2232,0.0108,0.6099,,0.7472
+premio_quina,acumulado_recebido,3087,0.2797,0.0197,0.2729,,0.4567
+premio_quina,api_id_cod,3088,,,,sem variação,
+premio_quina,api_tipoJogo_cod,3088,,,,sem variação,
+premio_quina,api_numeroJogo_cod,3088,,,,sem variação,
+premio_quina,api_tipoPublicacao_cod,3088,,,,sem variação,
+premio_quina,api_ultimoConcurso_cod,3088,,,,sem variação,
+premio_quina,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+premio_quina,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+premio_quina,api_premiacaoContingencia_cod,3088,,,,sem variação,
+premio_quina,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+premio_quina,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+premio_quina,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+ganhadores_quadra,premio_quadra,3088,-0.3359,-0.5092,0.0,,0.0
+ganhadores_quadra,cidades_com_sena,3088,0.3039,0.2939,0.0,,0.0
+ganhadores_quadra,tem_observacao,3088,0.039,-0.0233,0.195,,0.3513
+ganhadores_quadra,time_coracao_preenchido,3088,-0.1977,-0.0462,0.0102,,0.0235
+ganhadores_quadra,soma,3088,-0.342,-0.3493,0.0,,0.0
+ganhadores_quadra,pares,3088,-0.0855,-0.0882,0.0,,0.0
+ganhadores_quadra,primos,3088,0.1233,0.1238,0.0,,0.0
+ganhadores_quadra,ate_31,3088,0.2913,0.2964,0.0,,0.0
+ganhadores_quadra,consecutivas,3088,-0.0696,-0.0732,0.0,,0.0001
+ganhadores_quadra,amplitude,3088,0.015,0.0161,0.3698,,0.5636
+ganhadores_quadra,menor,3088,-0.1904,-0.1934,0.0,,0.0
+ganhadores_quadra,maior,3088,-0.1704,-0.173,0.0,,0.0
+ganhadores_quadra,max_mesma_linha,3088,-0.0175,-0.0131,0.4677,,0.6474
+ganhadores_quadra,max_mesma_coluna,3088,-0.0452,-0.0441,0.0143,,0.0325
+ganhadores_quadra,linhas_distintas,3088,0.0173,0.0164,0.3626,,0.5594
+ganhadores_quadra,multiplos_de_5,3088,-0.0671,-0.0646,0.0003,,0.0009
+ganhadores_quadra,quadrante_1,3088,0.2315,0.238,0.0,,0.0
+ganhadores_quadra,quadrante_2,3088,0.1288,0.1298,0.0,,0.0
+ganhadores_quadra,quadrante_3,3088,-0.1276,-0.1349,0.0,,0.0
+ganhadores_quadra,quadrante_4,3088,-0.2141,-0.2139,0.0,,0.0
+ganhadores_quadra,concursos_acumulados_seguidos,3088,0.4934,0.5468,0.0,,0.0
+ganhadores_quadra,ano,3088,-0.14,-0.0512,0.0044,,0.0107
+ganhadores_quadra,mes,3088,0.0533,0.0567,0.0016,,0.0041
+ganhadores_quadra,dia_semana,3088,0.1273,0.1202,0.0,,0.0
+ganhadores_quadra,dias_desde_anterior,3087,0.1575,0.1056,0.0,,0.0
+ganhadores_quadra,mega_da_virada,3088,0.0933,0.1043,0.0,,0.0
+ganhadores_quadra,final_0_ou_5,3088,0.1159,0.1186,0.0,,0.0
+ganhadores_quadra,bolo_quadra,3088,0.4312,0.7709,0.0,,0.0
+ganhadores_quadra,bolo_quina,3088,0.5099,0.7741,0.0,,0.0
+ganhadores_quadra,quadras_por_milhao_arrecadado,2019,0.5824,0.5425,0.0,,0.0
+ganhadores_quadra,quinas_por_milhao_arrecadado,2019,0.5714,0.491,0.0,,0.0
+ganhadores_quadra,estimativa_recebida,2227,0.5046,0.6841,0.0,,0.0
+ganhadores_quadra,acumulado_recebido,3087,0.4915,0.618,0.0,,0.0
+ganhadores_quadra,api_id_cod,3088,,,,sem variação,
+ganhadores_quadra,api_tipoJogo_cod,3088,,,,sem variação,
+ganhadores_quadra,api_numeroJogo_cod,3088,,,,sem variação,
+ganhadores_quadra,api_tipoPublicacao_cod,3088,,,,sem variação,
+ganhadores_quadra,api_ultimoConcurso_cod,3088,,,,sem variação,
+ganhadores_quadra,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+ganhadores_quadra,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+ganhadores_quadra,api_premiacaoContingencia_cod,3088,,,,sem variação,
+ganhadores_quadra,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+ganhadores_quadra,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+ganhadores_quadra,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+premio_quadra,cidades_com_sena,3088,-0.1019,-0.208,0.0,,0.0
+premio_quadra,tem_observacao,3088,-0.6365,-0.068,0.0002,,0.0004
+premio_quadra,time_coracao_preenchido,3088,0.6879,0.0684,0.0001,,0.0004
+premio_quadra,soma,3088,0.2703,0.6145,0.0,,0.0
+premio_quadra,pares,3088,0.09,0.1714,0.0,,0.0
+premio_quadra,primos,3088,-0.1257,-0.2093,0.0,,0.0
+premio_quadra,ate_31,3088,-0.2411,-0.5205,0.0,,0.0
+premio_quadra,consecutivas,3088,0.043,0.0986,0.0,,0.0
+premio_quadra,amplitude,3088,-0.0136,-0.0099,0.582,,0.7353
+premio_quadra,menor,3088,0.143,0.3218,0.0,,0.0
+premio_quadra,maior,3088,0.1204,0.3049,0.0,,0.0
+premio_quadra,max_mesma_linha,3088,0.0144,0.0056,0.757,,0.8576
+premio_quadra,max_mesma_coluna,3088,0.0134,0.0637,0.0004,,0.001
+premio_quadra,linhas_distintas,3088,-0.0351,-0.0253,0.1603,,0.2964
+premio_quadra,multiplos_de_5,3088,0.0793,0.1305,0.0,,0.0
+premio_quadra,quadrante_1,3088,-0.2134,-0.4303,0.0,,0.0
+premio_quadra,quadrante_2,3088,-0.0763,-0.2137,0.0,,0.0
+premio_quadra,quadrante_3,3088,0.0942,0.2554,0.0,,0.0
+premio_quadra,quadrante_4,3088,0.1861,0.3646,0.0,,0.0
+premio_quadra,concursos_acumulados_seguidos,3088,0.0713,0.0178,0.3218,,0.5189
+premio_quadra,ano,3088,0.8738,-0.0009,0.9587,,0.975
+premio_quadra,mes,3088,-0.0046,0.0043,0.8105,,0.8937
+premio_quadra,dia_semana,3088,-0.1587,0.017,0.3451,,0.5456
+premio_quadra,dias_desde_anterior,3087,-0.4537,-0.0486,0.0069,,0.0164
+premio_quadra,mega_da_virada,3088,0.031,-0.0472,0.0087,,0.0204
+premio_quadra,final_0_ou_5,3088,0.0055,0.0115,0.5215,,0.6932
+premio_quadra,bolo_quadra,3088,0.6688,0.0401,0.026,,0.0578
+premio_quadra,bolo_quina,3088,0.5866,0.025,0.1643,,0.3025
+premio_quadra,quadras_por_milhao_arrecadado,2019,-0.979,-0.9513,0.0,,0.0
+premio_quadra,quinas_por_milhao_arrecadado,2019,-0.9021,-0.8332,0.0,,0.0
+premio_quadra,estimativa_recebida,2227,0.3035,0.027,0.2033,,0.3593
+premio_quadra,acumulado_recebido,3087,0.3407,0.0228,0.2057,,0.3607
+premio_quadra,api_id_cod,3088,,,,sem variação,
+premio_quadra,api_tipoJogo_cod,3088,,,,sem variação,
+premio_quadra,api_numeroJogo_cod,3088,,,,sem variação,
+premio_quadra,api_tipoPublicacao_cod,3088,,,,sem variação,
+premio_quadra,api_ultimoConcurso_cod,3088,,,,sem variação,
+premio_quadra,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+premio_quadra,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+premio_quadra,api_premiacaoContingencia_cod,3088,,,,sem variação,
+premio_quadra,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+premio_quadra,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+premio_quadra,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+cidades_com_sena,tem_observacao,3088,0.0666,0.1079,0.0,,0.0
+cidades_com_sena,time_coracao_preenchido,3088,-0.055,0.0014,0.9399,,0.9654
+cidades_com_sena,soma,3088,-0.1175,-0.1161,0.0,,0.0
+cidades_com_sena,pares,3088,-0.0286,-0.0302,0.0938,,0.1866
+cidades_com_sena,primos,3088,0.0127,0.0136,0.4486,,0.6329
+cidades_com_sena,ate_31,3088,0.0875,0.086,0.0,,0.0
+cidades_com_sena,consecutivas,3088,-0.0436,-0.0437,0.0152,,0.0346
+cidades_com_sena,amplitude,3088,-0.0087,-0.009,0.6161,,0.7504
+cidades_com_sena,menor,3088,-0.0674,-0.0653,0.0003,,0.0008
+cidades_com_sena,maior,3088,-0.0602,-0.0592,0.001,,0.0025
+cidades_com_sena,max_mesma_linha,3088,-0.0104,-0.0078,0.6657,,0.7922
+cidades_com_sena,max_mesma_coluna,3088,-0.0556,-0.0532,0.0031,,0.0077
+cidades_com_sena,linhas_distintas,3088,0.0064,0.0061,0.7337,,0.84
+cidades_com_sena,multiplos_de_5,3088,-0.0309,-0.0301,0.0946,,0.1875
+cidades_com_sena,quadrante_1,3088,0.0881,0.0901,0.0,,0.0
+cidades_com_sena,quadrante_2,3088,0.0281,0.0244,0.1749,,0.3198
+cidades_com_sena,quadrante_3,3088,-0.0533,-0.0532,0.0031,,0.0076
+cidades_com_sena,quadrante_4,3088,-0.0546,-0.0536,0.0029,,0.0072
+cidades_com_sena,concursos_acumulados_seguidos,3088,0.1278,0.1448,0.0,,0.0
+cidades_com_sena,ano,3088,-0.0115,-0.0209,0.2445,,0.4163
+cidades_com_sena,mes,3088,0.0191,0.0201,0.2637,,0.4435
+cidades_com_sena,dia_semana,3088,0.001,0.0133,0.459,,0.6407
+cidades_com_sena,dias_desde_anterior,3087,0.0471,0.0648,0.0003,,0.0008
+cidades_com_sena,mega_da_virada,3088,0.1301,0.1334,0.0,,0.0
+cidades_com_sena,final_0_ou_5,3088,0.0679,0.0682,0.0001,,0.0004
+cidades_com_sena,bolo_quadra,3088,0.1561,0.2259,0.0,,0.0
+cidades_com_sena,bolo_quina,3088,0.1758,0.2266,0.0,,0.0
+cidades_com_sena,quadras_por_milhao_arrecadado,2019,0.2172,0.1982,0.0,,0.0
+cidades_com_sena,quinas_por_milhao_arrecadado,2019,0.2583,0.2371,0.0,,0.0
+cidades_com_sena,estimativa_recebida,2227,0.1529,0.2095,0.0,,0.0
+cidades_com_sena,acumulado_recebido,3087,0.1438,0.1685,0.0,,0.0
+cidades_com_sena,api_id_cod,3088,,,,sem variação,
+cidades_com_sena,api_tipoJogo_cod,3088,,,,sem variação,
+cidades_com_sena,api_numeroJogo_cod,3088,,,,sem variação,
+cidades_com_sena,api_tipoPublicacao_cod,3088,,,,sem variação,
+cidades_com_sena,api_ultimoConcurso_cod,3088,,,,sem variação,
+cidades_com_sena,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+cidades_com_sena,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+cidades_com_sena,api_premiacaoContingencia_cod,3088,,,,sem variação,
+cidades_com_sena,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+cidades_com_sena,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+cidades_com_sena,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+tem_observacao,time_coracao_preenchido,3088,-0.4037,0.1281,0.0,,0.0
+tem_observacao,soma,3088,0.0053,-0.0048,0.7916,,0.8827
+tem_observacao,pares,3088,-0.0063,0.0072,0.6891,,0.8069
+tem_observacao,primos,3088,0.0192,-0.0084,0.6425,,0.7712
+tem_observacao,ate_31,3088,0.0018,-0.0017,0.925,,0.9559
+tem_observacao,consecutivas,3088,-0.0171,-0.0229,0.2025,,0.3593
+tem_observacao,amplitude,3088,0.0027,-0.0106,0.5556,,0.7211
+tem_observacao,menor,3088,0.0069,0.005,0.7831,,0.8751
+tem_observacao,maior,3088,0.0063,-0.0178,0.3225,,0.5189
+tem_observacao,max_mesma_linha,3088,-0.0239,-0.024,0.1819,,0.3307
+tem_observacao,max_mesma_coluna,3088,0.0022,-0.0192,0.2849,,0.4713
+tem_observacao,linhas_distintas,3088,0.0304,0.0129,0.4726,,0.6517
+tem_observacao,multiplos_de_5,3088,-0.0146,-0.0008,0.9665,,0.9773
+tem_observacao,quadrante_1,3088,0.0097,-0.0101,0.5747,,0.734
+tem_observacao,quadrante_2,3088,-0.0097,0.0149,0.4068,,0.6023
+tem_observacao,quadrante_3,3088,0.018,0.0041,0.8188,,0.8968
+tem_observacao,quadrante_4,3088,-0.0126,0.0005,0.977,,0.983
+tem_observacao,concursos_acumulados_seguidos,3088,0.0204,0.0654,0.0003,,0.0007
+tem_observacao,ano,3088,-0.6533,0.0266,0.1395,,0.2664
+tem_observacao,mes,3088,-0.0098,-0.0262,0.1453,,0.2742
+tem_observacao,dia_semana,3088,0.0612,-0.1011,0.0,,0.0
+tem_observacao,dias_desde_anterior,3087,0.3084,-0.0024,0.8953,,0.9368
+tem_observacao,mega_da_virada,3088,-0.0213,0.0274,0.1278,,0.2464
+tem_observacao,final_0_ou_5,3088,0.0035,0.0054,0.7629,,0.862
+tem_observacao,bolo_quadra,3088,-0.5529,-0.0413,0.0217,,0.0486
+tem_observacao,bolo_quina,3088,-0.4721,0.0051,0.7771,,0.8714
+tem_observacao,quadras_por_milhao_arrecadado,2019,0.2278,0.0765,0.0006,,0.0015
+tem_observacao,quinas_por_milhao_arrecadado,2019,0.1992,0.0663,0.0029,,0.0071
+tem_observacao,estimativa_recebida,2227,-0.0696,0.0283,0.1819,,0.3307
+tem_observacao,acumulado_recebido,3087,-0.2081,0.0451,0.0123,,0.0282
+tem_observacao,api_id_cod,3088,,,,sem variação,
+tem_observacao,api_tipoJogo_cod,3088,,,,sem variação,
+tem_observacao,api_numeroJogo_cod,3088,,,,sem variação,
+tem_observacao,api_tipoPublicacao_cod,3088,,,,sem variação,
+tem_observacao,api_ultimoConcurso_cod,3088,,,,sem variação,
+tem_observacao,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+tem_observacao,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+tem_observacao,api_premiacaoContingencia_cod,3088,,,,sem variação,
+tem_observacao,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+tem_observacao,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+tem_observacao,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+time_coracao_preenchido,soma,3088,0.009,0.0231,0.2002,,0.3574
+time_coracao_preenchido,pares,3088,-0.0114,-0.0342,0.0574,,0.1195
+time_coracao_preenchido,primos,3088,-0.0128,0.0187,0.299,,0.4872
+time_coracao_preenchido,ate_31,3088,-0.0218,-0.0306,0.0893,,0.1799
+time_coracao_preenchido,consecutivas,3088,-0.005,0.0002,0.993,,0.9956
+time_coracao_preenchido,amplitude,3088,0.0042,0.0168,0.3504,,0.5495
+time_coracao_preenchido,menor,3088,0.0061,0.0056,0.7564,,0.8576
+time_coracao_preenchido,maior,3088,0.0041,0.0209,0.2461,,0.4179
+time_coracao_preenchido,max_mesma_linha,3088,0.0149,-0.0088,0.6259,,0.754
+time_coracao_preenchido,max_mesma_coluna,3088,-0.0171,-0.0355,0.0488,,0.1039
+time_coracao_preenchido,linhas_distintas,3088,-0.002,0.0304,0.0911,,0.1825
+time_coracao_preenchido,multiplos_de_5,3088,0.0256,0.0113,0.53,,0.6998
+time_coracao_preenchido,quadrante_1,3088,-0.0199,-0.0304,0.091,,0.1825
+time_coracao_preenchido,quadrante_2,3088,0.0007,-0.0057,0.7531,,0.8552
+time_coracao_preenchido,quadrante_3,3088,-0.0107,0.0219,0.2232,,0.3838
+time_coracao_preenchido,quadrante_4,3088,0.0309,0.0162,0.3669,,0.561
+time_coracao_preenchido,concursos_acumulados_seguidos,3088,0.1204,-0.0004,0.982,,0.987
+time_coracao_preenchido,ano,3088,0.7854,0.0225,0.2116,,0.3692
+time_coracao_preenchido,mes,3088,-0.0034,-0.0115,0.5219,,0.6932
+time_coracao_preenchido,dia_semana,3088,-0.1214,-0.0233,0.196,,0.3514
+time_coracao_preenchido,dias_desde_anterior,3087,-0.3931,0.0123,0.4946,,0.6683
+time_coracao_preenchido,mega_da_virada,3088,0.0581,0.0219,0.2231,,0.3838
+time_coracao_preenchido,final_0_ou_5,3088,0.0003,0.0013,0.9437,,0.9671
+time_coracao_preenchido,bolo_quadra,3088,0.4812,-0.0297,0.0993,,0.196
+time_coracao_preenchido,bolo_quina,3088,0.4259,0.0133,0.4606,,0.6416
+time_coracao_preenchido,quadras_por_milhao_arrecadado,2019,-0.6915,-0.066,0.003,,0.0075
+time_coracao_preenchido,quinas_por_milhao_arrecadado,2019,-0.5628,-0.0431,0.0526,,0.1112
+time_coracao_preenchido,estimativa_recebida,2227,0.3178,-0.0147,0.4878,,0.6618
+time_coracao_preenchido,acumulado_recebido,3087,0.3341,0.0163,0.3662,,0.561
+time_coracao_preenchido,api_id_cod,3088,,,,sem variação,
+time_coracao_preenchido,api_tipoJogo_cod,3088,,,,sem variação,
+time_coracao_preenchido,api_numeroJogo_cod,3088,,,,sem variação,
+time_coracao_preenchido,api_tipoPublicacao_cod,3088,,,,sem variação,
+time_coracao_preenchido,api_ultimoConcurso_cod,3088,,,,sem variação,
+time_coracao_preenchido,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+time_coracao_preenchido,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+time_coracao_preenchido,api_premiacaoContingencia_cod,3088,,,,sem variação,
+time_coracao_preenchido,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+time_coracao_preenchido,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+time_coracao_preenchido,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+soma,pares,3088,0.0328,0.0333,0.0646,,0.1332
+soma,primos,3088,-0.1489,-0.1496,0.0,,0.0
+soma,ate_31,3088,-0.8478,-0.8479,0.0,,0.0
+soma,consecutivas,3088,0.0015,0.0012,0.9489,,0.9684
+soma,amplitude,3088,0.0217,0.022,0.2214,,0.3827
+soma,menor,3088,0.545,0.5447,0.0,,0.0
+soma,maior,3088,0.5746,0.5749,0.0,,0.0
+soma,max_mesma_linha,3088,0.0056,0.0052,0.7735,,0.8683
+soma,max_mesma_coluna,3088,0.0112,0.0105,0.5585,,0.7229
+soma,linhas_distintas,3088,0.0039,0.004,0.8239,,0.8989
+soma,multiplos_de_5,3088,0.0351,0.0352,0.0503,,0.1065
+soma,quadrante_1,3088,-0.5862,-0.587,0.0,,0.0
+soma,quadrante_2,3088,-0.3673,-0.3667,0.0,,0.0
+soma,quadrante_3,3088,0.381,0.3807,0.0,,0.0
+soma,quadrante_4,3088,0.566,0.5665,0.0,,0.0
+soma,concursos_acumulados_seguidos,3088,0.0003,-0.0006,0.9716,,0.9794
+soma,ano,3088,-0.0121,0.0052,0.7713,,0.8669
+soma,mes,3088,-0.0071,-0.0071,0.6923,,0.809
+soma,dia_semana,3088,0.0202,0.0147,0.4154,,0.608
+soma,dias_desde_anterior,3087,-0.0095,-0.0262,0.1461,,0.2748
+soma,mega_da_virada,3088,-0.0181,-0.018,0.3171,,0.5133
+soma,final_0_ou_5,3088,0.0095,0.0095,0.5966,,0.7424
+soma,bolo_quadra,3088,-0.0132,-0.0054,0.7635,,0.862
+soma,bolo_quina,3088,-0.0119,-0.0048,0.7903,,0.8821
+soma,quadras_por_milhao_arrecadado,2019,-0.4012,-0.609,0.0,,0.0
+soma,quinas_por_milhao_arrecadado,2019,-0.4123,-0.5147,0.0,,0.0
+soma,estimativa_recebida,2227,0.0013,-0.0072,0.7338,,0.84
+soma,acumulado_recebido,3087,-0.0057,-0.0019,0.918,,0.9537
+soma,api_id_cod,3088,,,,sem variação,
+soma,api_tipoJogo_cod,3088,,,,sem variação,
+soma,api_numeroJogo_cod,3088,,,,sem variação,
+soma,api_tipoPublicacao_cod,3088,,,,sem variação,
+soma,api_ultimoConcurso_cod,3088,,,,sem variação,
+soma,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+soma,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+soma,api_premiacaoContingencia_cod,3088,,,,sem variação,
+soma,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+soma,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+soma,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+pares,primos,3088,-0.5688,-0.5686,0.0,,0.0
+pares,ate_31,3088,-0.0308,-0.031,0.0854,,0.1724
+pares,consecutivas,3088,-0.0344,-0.0344,0.0558,,0.1171
+pares,amplitude,3088,-0.0052,-0.0051,0.7786,,0.8714
+pares,menor,3088,0.0384,0.0387,0.0315,,0.0692
+pares,maior,3088,0.0276,0.0282,0.1176,,0.229
+pares,max_mesma_linha,3088,-0.0155,-0.0154,0.391,,0.5895
+pares,max_mesma_coluna,3088,0.0312,0.0318,0.0774,,0.1575
+pares,linhas_distintas,3088,0.0088,0.0092,0.6105,,0.7472
+pares,multiplos_de_5,3088,0.0103,0.0101,0.5759,,0.734
+pares,quadrante_1,3088,-0.1014,-0.101,0.0,,0.0
+pares,quadrante_2,3088,0.106,0.1054,0.0,,0.0
+pares,quadrante_3,3088,-0.0857,-0.0854,0.0,,0.0
+pares,quadrante_4,3088,0.0916,0.0915,0.0,,0.0
+pares,concursos_acumulados_seguidos,3088,0.018,0.0191,0.2888,,0.476
+pares,ano,3088,0.0128,0.006,0.7408,,0.8456
+pares,mes,3088,-0.0102,-0.0099,0.5812,,0.7353
+pares,dia_semana,3088,0.0069,0.0111,0.5364,,0.7064
+pares,dias_desde_anterior,3087,-0.0287,-0.0274,0.1286,,0.247
+pares,mega_da_virada,3088,-0.0138,-0.0145,0.4212,,0.6099
+pares,final_0_ou_5,3088,-0.0127,-0.0127,0.4792,,0.6574
+pares,bolo_quadra,3088,0.0219,0.0153,0.3961,,0.5944
+pares,bolo_quina,3088,0.0192,0.0116,0.518,,0.6913
+pares,quadras_por_milhao_arrecadado,2019,-0.093,-0.1788,0.0,,0.0
+pares,quinas_por_milhao_arrecadado,2019,-0.1064,-0.1582,0.0,,0.0
+pares,estimativa_recebida,2227,0.0203,0.021,0.3227,,0.5189
+pares,acumulado_recebido,3087,0.0179,0.0152,0.3994,,0.5955
+pares,api_id_cod,3088,,,,sem variação,
+pares,api_tipoJogo_cod,3088,,,,sem variação,
+pares,api_numeroJogo_cod,3088,,,,sem variação,
+pares,api_tipoPublicacao_cod,3088,,,,sem variação,
+pares,api_ultimoConcurso_cod,3088,,,,sem variação,
+pares,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+pares,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+pares,api_premiacaoContingencia_cod,3088,,,,sem variação,
+pares,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+pares,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+pares,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+primos,ate_31,3088,0.1529,0.1531,0.0,,0.0
+primos,consecutivas,3088,0.0449,0.0448,0.0127,,0.0291
+primos,amplitude,3088,0.0789,0.0787,0.0,,0.0
+primos,menor,3088,-0.1417,-0.1422,0.0,,0.0
+primos,maior,3088,-0.0307,-0.0316,0.0787,,0.1598
+primos,max_mesma_linha,3088,0.0033,0.0036,0.8432,,0.9103
+primos,max_mesma_coluna,3088,-0.0353,-0.0362,0.0442,,0.095
+primos,linhas_distintas,3088,-0.0021,-0.003,0.8663,,0.9253
+primos,multiplos_de_5,3088,-0.2058,-0.2053,0.0,,0.0
+primos,quadrante_1,3088,0.1413,0.1406,0.0,,0.0
+primos,quadrante_2,3088,-0.0212,-0.0201,0.2643,,0.4438
+primos,quadrante_3,3088,-0.0322,-0.0331,0.0657,,0.1352
+primos,quadrante_4,3088,-0.0861,-0.0856,0.0,,0.0
+primos,concursos_acumulados_seguidos,3088,-0.0213,-0.0205,0.2547,,0.4306
+primos,ano,3088,-0.033,0.0095,0.5988,,0.7433
+primos,mes,3088,-0.0051,-0.0055,0.7602,,0.8602
+primos,dia_semana,3088,0.0085,0.0009,0.9581,,0.975
+primos,dias_desde_anterior,3087,0.0301,0.0163,0.3648,,0.561
+primos,mega_da_virada,3088,0.0038,0.0057,0.7508,,0.8545
+primos,final_0_ou_5,3088,0.0273,0.0274,0.1282,,0.2466
+primos,bolo_quadra,3088,-0.0328,-0.0094,0.6034,,0.745
+primos,bolo_quina,3088,-0.0288,-0.007,0.6992,,0.8135
+primos,quadras_por_milhao_arrecadado,2019,0.1538,0.2328,0.0,,0.0
+primos,quinas_por_milhao_arrecadado,2019,0.1642,0.2049,0.0,,0.0
+primos,estimativa_recebida,2227,-0.018,-0.0152,0.4731,,0.6517
+primos,acumulado_recebido,3087,-0.0243,-0.0134,0.4572,,0.6407
+primos,api_id_cod,3088,,,,sem variação,
+primos,api_tipoJogo_cod,3088,,,,sem variação,
+primos,api_numeroJogo_cod,3088,,,,sem variação,
+primos,api_tipoPublicacao_cod,3088,,,,sem variação,
+primos,api_ultimoConcurso_cod,3088,,,,sem variação,
+primos,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+primos,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+primos,api_premiacaoContingencia_cod,3088,,,,sem variação,
+primos,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+primos,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+primos,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+ate_31,consecutivas,3088,0.0031,0.0036,0.8425,,0.9103
+ate_31,amplitude,3088,-0.0416,-0.0423,0.0188,,0.0423
+ate_31,menor,3088,-0.3406,-0.3401,0.0,,0.0
+ate_31,maior,3088,-0.3952,-0.3959,0.0,,0.0
+ate_31,max_mesma_linha,3088,-0.006,-0.0054,0.7649,,0.8626
+ate_31,max_mesma_coluna,3088,0.0043,0.0047,0.7933,,0.8835
+ate_31,linhas_distintas,3088,0.0015,0.0008,0.963,,0.9758
+ate_31,multiplos_de_5,3088,-0.0133,-0.0131,0.4664,,0.6474
+ate_31,quadrante_1,3088,0.5557,0.5561,0.0,,0.0
+ate_31,quadrante_2,3088,0.522,0.522,0.0,,0.0
+ate_31,quadrante_3,3088,-0.4963,-0.4963,0.0,,0.0
+ate_31,quadrante_4,3088,-0.5759,-0.5762,0.0,,0.0
+ate_31,concursos_acumulados_seguidos,3088,0.0096,0.011,0.5427,,0.7117
+ate_31,ano,3088,-0.0008,0.0114,0.5271,,0.697
+ate_31,mes,3088,-0.0092,-0.0094,0.5998,,0.7433
+ate_31,dia_semana,3088,-0.0225,-0.0191,0.2876,,0.4749
+ate_31,dias_desde_anterior,3087,0.0073,0.0168,0.3511,,0.5495
+ate_31,mega_da_virada,3088,0.0033,0.0042,0.8154,,0.896
+ate_31,final_0_ou_5,3088,-0.0061,-0.0062,0.7323,,0.84
+ate_31,bolo_quadra,3088,-0.0009,0.0019,0.9143,,0.9508
+ate_31,bolo_quina,3088,-0.0031,-0.0009,0.9611,,0.975
+ate_31,quadras_por_milhao_arrecadado,2019,0.354,0.5224,0.0,,0.0
+ate_31,quinas_por_milhao_arrecadado,2019,0.368,0.4498,0.0,,0.0
+ate_31,estimativa_recebida,2227,-0.0045,0.0062,0.7684,,0.8649
+ate_31,acumulado_recebido,3087,0.0027,0.0039,0.8304,,0.9022
+ate_31,api_id_cod,3088,,,,sem variação,
+ate_31,api_tipoJogo_cod,3088,,,,sem variação,
+ate_31,api_numeroJogo_cod,3088,,,,sem variação,
+ate_31,api_tipoPublicacao_cod,3088,,,,sem variação,
+ate_31,api_ultimoConcurso_cod,3088,,,,sem variação,
+ate_31,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+ate_31,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+ate_31,api_premiacaoContingencia_cod,3088,,,,sem variação,
+ate_31,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+ate_31,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+ate_31,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+consecutivas,amplitude,3088,-0.1897,-0.1891,0.0,,0.0
+consecutivas,menor,3088,0.1306,0.1302,0.0,,0.0
+consecutivas,maior,3088,-0.0996,-0.0992,0.0,,0.0
+consecutivas,max_mesma_linha,3088,0.3123,0.3123,0.0,,0.0
+consecutivas,max_mesma_coluna,3088,-0.0365,-0.0366,0.0417,,0.0901
+consecutivas,linhas_distintas,3088,-0.3448,-0.3445,0.0,,0.0
+consecutivas,multiplos_de_5,3088,0.0087,0.0088,0.6245,,0.754
+consecutivas,quadrante_1,3088,-0.0175,-0.0173,0.3376,,0.5359
+consecutivas,quadrante_2,3088,-0.0197,-0.0194,0.28,,0.467
+consecutivas,quadrante_3,3088,-0.0031,-0.0038,0.8339,,0.9033
+consecutivas,quadrante_4,3088,-0.0347,-0.0345,0.0554,,0.1169
+consecutivas,concursos_acumulados_seguidos,3088,0.0044,0.006,0.7388,,0.8447
+consecutivas,ano,3088,-0.0061,0.014,0.4378,,0.6236
+consecutivas,mes,3088,-0.013,-0.0125,0.4871,,0.6618
+consecutivas,dia_semana,3088,-0.0119,-0.0164,0.3635,,0.56
+consecutivas,dias_desde_anterior,3087,-0.0001,-0.0115,0.5241,,0.6939
+consecutivas,mega_da_virada,3088,0.0154,0.0151,0.4004,,0.5955
+consecutivas,final_0_ou_5,3088,0.004,0.004,0.825,,0.8989
+consecutivas,bolo_quadra,3088,-0.0144,-0.0213,0.2369,,0.4054
+consecutivas,bolo_quina,3088,-0.0208,-0.0285,0.1133,,0.2227
+consecutivas,quadras_por_milhao_arrecadado,2019,-0.0589,-0.0969,0.0,,0.0
+consecutivas,quinas_por_milhao_arrecadado,2019,-0.1075,-0.1411,0.0,,0.0
+consecutivas,estimativa_recebida,2227,0.0136,0.0161,0.4478,,0.6326
+consecutivas,acumulado_recebido,3087,0.0086,0.0125,0.4872,,0.6618
+consecutivas,api_id_cod,3088,,,,sem variação,
+consecutivas,api_tipoJogo_cod,3088,,,,sem variação,
+consecutivas,api_numeroJogo_cod,3088,,,,sem variação,
+consecutivas,api_tipoPublicacao_cod,3088,,,,sem variação,
+consecutivas,api_ultimoConcurso_cod,3088,,,,sem variação,
+consecutivas,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+consecutivas,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+consecutivas,api_premiacaoContingencia_cod,3088,,,,sem variação,
+consecutivas,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+consecutivas,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+consecutivas,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+amplitude,menor,3088,-0.6174,-0.6174,0.0,,0.0
+amplitude,maior,3088,0.6181,0.6179,0.0,,0.0
+amplitude,max_mesma_linha,3088,-0.2496,-0.2494,0.0,,0.0
+amplitude,max_mesma_coluna,3088,0.0093,0.0091,0.6116,,0.7476
+amplitude,linhas_distintas,3088,0.3356,0.3349,0.0,,0.0
+amplitude,multiplos_de_5,3088,-0.0204,-0.0203,0.2594,,0.437
+amplitude,quadrante_1,3088,0.1443,0.1439,0.0,,0.0
+amplitude,quadrante_2,3088,-0.1512,-0.1515,0.0,,0.0
+amplitude,quadrante_3,3088,-0.117,-0.1166,0.0,,0.0
+amplitude,quadrante_4,3088,0.1639,0.164,0.0,,0.0
+amplitude,concursos_acumulados_seguidos,3088,0.0198,0.0189,0.2926,,0.4799
+amplitude,ano,3088,-0.0043,0.0072,0.6883,,0.8069
+amplitude,mes,3088,-0.0075,-0.0081,0.6521,,0.7798
+amplitude,dia_semana,3088,-0.0035,-0.0013,0.941,,0.9654
+amplitude,dias_desde_anterior,3087,-0.0098,-0.0053,0.7687,,0.8649
+amplitude,mega_da_virada,3088,-0.0084,-0.0074,0.6829,,0.804
+amplitude,final_0_ou_5,3088,-0.0027,-0.0027,0.8793,,0.931
+amplitude,bolo_quadra,3088,-0.0033,0.0088,0.6234,,0.754
+amplitude,bolo_quina,3088,0.0001,0.0122,0.4983,,0.6714
+amplitude,quadras_por_milhao_arrecadado,2019,0.0242,0.0387,0.0823,,0.1668
+amplitude,quinas_por_milhao_arrecadado,2019,0.0215,0.0284,0.2029,,0.3593
+amplitude,estimativa_recebida,2227,0.0013,0.003,0.8875,,0.9328
+amplitude,acumulado_recebido,3087,0.0107,0.0125,0.4863,,0.6618
+amplitude,api_id_cod,3088,,,,sem variação,
+amplitude,api_tipoJogo_cod,3088,,,,sem variação,
+amplitude,api_numeroJogo_cod,3088,,,,sem variação,
+amplitude,api_tipoPublicacao_cod,3088,,,,sem variação,
+amplitude,api_ultimoConcurso_cod,3088,,,,sem variação,
+amplitude,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+amplitude,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+amplitude,api_premiacaoContingencia_cod,3088,,,,sem variação,
+amplitude,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+amplitude,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+amplitude,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+menor,maior,3088,0.1334,0.1337,0.0,,0.0
+menor,max_mesma_linha,3088,0.1274,0.1268,0.0,,0.0
+menor,max_mesma_coluna,3088,0.0034,0.0028,0.8779,,0.9305
+menor,linhas_distintas,3088,-0.1499,-0.1496,0.0,,0.0
+menor,multiplos_de_5,3088,0.0729,0.073,0.0,,0.0001
+menor,quadrante_1,3088,-0.4592,-0.4597,0.0,,0.0
+menor,quadrante_2,3088,0.0448,0.046,0.0106,,0.0244
+menor,quadrante_3,3088,0.209,0.2084,0.0,,0.0
+menor,quadrante_4,3088,0.1907,0.191,0.0,,0.0
+menor,concursos_acumulados_seguidos,3088,-0.0155,-0.0168,0.3501,,0.5495
+menor,ano,3088,-0.0077,-0.0118,0.5108,,0.6855
+menor,mes,3088,0.0123,0.0125,0.4866,,0.6618
+menor,dia_semana,3088,0.0204,0.0145,0.4197,,0.6098
+menor,dias_desde_anterior,3087,-0.0027,-0.0178,0.3242,,0.5191
+menor,mega_da_virada,3088,-0.0025,-0.003,0.8693,,0.9258
+menor,final_0_ou_5,3088,-0.0022,-0.0022,0.9025,,0.9416
+menor,bolo_quadra,3088,-0.015,-0.0158,0.3804,,0.577
+menor,bolo_quina,3088,-0.0156,-0.0162,0.3681,,0.5618
+menor,quadras_por_milhao_arrecadado,2019,-0.2321,-0.3355,0.0,,0.0
+menor,quinas_por_milhao_arrecadado,2019,-0.2304,-0.2763,0.0,,0.0
+menor,estimativa_recebida,2227,-0.0043,-0.015,0.4791,,0.6574
+menor,acumulado_recebido,3087,-0.0156,-0.0145,0.4199,,0.6098
+menor,api_id_cod,3088,,,,sem variação,
+menor,api_tipoJogo_cod,3088,,,,sem variação,
+menor,api_numeroJogo_cod,3088,,,,sem variação,
+menor,api_tipoPublicacao_cod,3088,,,,sem variação,
+menor,api_ultimoConcurso_cod,3088,,,,sem variação,
+menor,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+menor,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+menor,api_premiacaoContingencia_cod,3088,,,,sem variação,
+menor,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+menor,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+menor,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+maior,max_mesma_linha,3088,-0.1354,-0.1354,0.0,,0.0
+maior,max_mesma_coluna,3088,0.0147,0.014,0.4375,,0.6236
+maior,linhas_distintas,3088,0.1869,0.186,0.0,,0.0
+maior,multiplos_de_5,3088,0.065,0.0653,0.0003,,0.0008
+maior,quadrante_1,3088,-0.224,-0.2251,0.0,,0.0
+maior,quadrante_2,3088,-0.2119,-0.2114,0.0,,0.0
+maior,quadrante_3,3088,-0.0009,-0.0009,0.9612,,0.975
+maior,quadrante_4,3088,0.4451,0.4456,0.0,,0.0
+maior,concursos_acumulados_seguidos,3088,0.0132,0.0115,0.5236,,0.6939
+maior,ano,3088,-0.016,-0.0112,0.5356,,0.7063
+maior,mes,3088,0.0101,0.0093,0.6046,,0.7456
+maior,dia_semana,3088,0.0138,0.0118,0.5135,,0.6872
+maior,dias_desde_anterior,3087,-0.0202,-0.0295,0.101,,0.199
+maior,mega_da_virada,3088,-0.0073,-0.0059,0.7413,,0.8456
+maior,final_0_ou_5,3088,-0.0076,-0.0076,0.6725,,0.7975
+maior,bolo_quadra,3088,-0.0234,-0.0075,0.6786,,0.8009
+maior,bolo_quina,3088,-0.0203,-0.0042,0.8168,,0.8966
+maior,quadras_por_milhao_arrecadado,2019,-0.1896,-0.2778,0.0,,0.0
+maior,quinas_por_milhao_arrecadado,2019,-0.1842,-0.2223,0.0,,0.0
+maior,estimativa_recebida,2227,-0.0063,-0.009,0.6697,,0.796
+maior,acumulado_recebido,3087,-0.0018,0.0029,0.872,,0.9273
+maior,api_id_cod,3088,,,,sem variação,
+maior,api_tipoJogo_cod,3088,,,,sem variação,
+maior,api_numeroJogo_cod,3088,,,,sem variação,
+maior,api_tipoPublicacao_cod,3088,,,,sem variação,
+maior,api_ultimoConcurso_cod,3088,,,,sem variação,
+maior,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+maior,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+maior,api_premiacaoContingencia_cod,3088,,,,sem variação,
+maior,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+maior,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+maior,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+max_mesma_linha,max_mesma_coluna,3088,-0.0907,-0.0911,0.0,,0.0
+max_mesma_linha,linhas_distintas,3088,-0.6218,-0.6219,0.0,,0.0
+max_mesma_linha,multiplos_de_5,3088,0.0326,0.0322,0.0736,,0.1501
+max_mesma_linha,quadrante_1,3088,-0.0159,-0.0159,0.3766,,0.5722
+max_mesma_linha,quadrante_2,3088,-0.0117,-0.0111,0.5378,,0.707
+max_mesma_linha,quadrante_3,3088,0.0133,0.0133,0.4593,,0.6407
+max_mesma_linha,quadrante_4,3088,-0.0354,-0.0359,0.046,,0.0985
+max_mesma_linha,concursos_acumulados_seguidos,3088,0.0093,0.0062,0.7312,,0.84
+max_mesma_linha,ano,3088,0.0122,0.0046,0.7998,,0.8868
+max_mesma_linha,mes,3088,-0.0018,-0.0017,0.9227,,0.9553
+max_mesma_linha,dia_semana,3088,0.0154,0.0144,0.4229,,0.6106
+max_mesma_linha,dias_desde_anterior,3087,-0.0218,-0.0255,0.1564,,0.2919
+max_mesma_linha,mega_da_virada,3088,0.0029,0.0016,0.928,,0.958
+max_mesma_linha,final_0_ou_5,3088,-0.0101,-0.01,0.5774,,0.734
+max_mesma_linha,bolo_quadra,3088,0.0052,-0.0032,0.8578,,0.9211
+max_mesma_linha,bolo_quina,3088,0.0056,-0.0012,0.9459,,0.9675
+max_mesma_linha,quadras_por_milhao_arrecadado,2019,-0.0324,-0.0113,0.6123,,0.7477
+max_mesma_linha,quinas_por_milhao_arrecadado,2019,-0.0448,-0.0313,0.1601,,0.2964
+max_mesma_linha,estimativa_recebida,2227,0.0021,-0.0054,0.7976,,0.8863
+max_mesma_linha,acumulado_recebido,3087,0.0014,-0.0044,0.8062,,0.8909
+max_mesma_linha,api_id_cod,3088,,,,sem variação,
+max_mesma_linha,api_tipoJogo_cod,3088,,,,sem variação,
+max_mesma_linha,api_numeroJogo_cod,3088,,,,sem variação,
+max_mesma_linha,api_tipoPublicacao_cod,3088,,,,sem variação,
+max_mesma_linha,api_ultimoConcurso_cod,3088,,,,sem variação,
+max_mesma_linha,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+max_mesma_linha,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+max_mesma_linha,api_premiacaoContingencia_cod,3088,,,,sem variação,
+max_mesma_linha,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+max_mesma_linha,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+max_mesma_linha,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+max_mesma_coluna,linhas_distintas,3088,0.0938,0.0935,0.0,,0.0
+max_mesma_coluna,multiplos_de_5,3088,-0.0572,-0.0571,0.0015,,0.0038
+max_mesma_coluna,quadrante_1,3088,-0.0131,-0.0139,0.44,,0.6253
+max_mesma_coluna,quadrante_2,3088,0.0016,0.003,0.8697,,0.9258
+max_mesma_coluna,quadrante_3,3088,0.0114,0.0108,0.5482,,0.7172
+max_mesma_coluna,quadrante_4,3088,-0.0373,-0.0372,0.0386,,0.0838
+max_mesma_coluna,concursos_acumulados_seguidos,3088,-0.0233,-0.0257,0.1528,,0.2868
+max_mesma_coluna,ano,3088,-0.0168,-0.0073,0.687,,0.8069
+max_mesma_coluna,mes,3088,0.0048,0.0045,0.8037,,0.8891
+max_mesma_coluna,dia_semana,3088,0.0397,0.0344,0.0557,,0.1171
+max_mesma_coluna,dias_desde_anterior,3087,-0.0018,-0.0166,0.3564,,0.5534
+max_mesma_coluna,mega_da_virada,3088,0.01,0.0107,0.5521,,0.7207
+max_mesma_coluna,final_0_ou_5,3088,0.0082,0.0082,0.6483,,0.7771
+max_mesma_coluna,bolo_quadra,3088,-0.0223,-0.0089,0.6221,,0.754
+max_mesma_coluna,bolo_quina,3088,-0.025,-0.0138,0.4442,,0.6303
+max_mesma_coluna,quadras_por_milhao_arrecadado,2019,-0.0336,-0.0587,0.0083,,0.0196
+max_mesma_coluna,quinas_por_milhao_arrecadado,2019,-0.0644,-0.0865,0.0001,,0.0003
+max_mesma_coluna,estimativa_recebida,2227,-0.0054,-0.0137,0.5194,,0.6923
+max_mesma_coluna,acumulado_recebido,3087,-0.0253,-0.022,0.2217,,0.3827
+max_mesma_coluna,api_id_cod,3088,,,,sem variação,
+max_mesma_coluna,api_tipoJogo_cod,3088,,,,sem variação,
+max_mesma_coluna,api_numeroJogo_cod,3088,,,,sem variação,
+max_mesma_coluna,api_tipoPublicacao_cod,3088,,,,sem variação,
+max_mesma_coluna,api_ultimoConcurso_cod,3088,,,,sem variação,
+max_mesma_coluna,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+max_mesma_coluna,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+max_mesma_coluna,api_premiacaoContingencia_cod,3088,,,,sem variação,
+max_mesma_coluna,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+max_mesma_coluna,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+max_mesma_coluna,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+linhas_distintas,multiplos_de_5,3088,-0.0443,-0.0439,0.0148,,0.0336
+linhas_distintas,quadrante_1,3088,0.0077,0.0069,0.701,,0.8147
+linhas_distintas,quadrante_2,3088,0.0224,0.0228,0.2055,,0.3607
+linhas_distintas,quadrante_3,3088,0.0098,0.0098,0.5847,,0.7366
+linhas_distintas,quadrante_4,3088,0.0269,0.0272,0.1306,,0.2499
+linhas_distintas,concursos_acumulados_seguidos,3088,-0.0095,-0.0095,0.5968,,0.7424
+linhas_distintas,ano,3088,-0.0219,-0.0247,0.1697,,0.3108
+linhas_distintas,mes,3088,0.02,0.0193,0.2831,,0.4698
+linhas_distintas,dia_semana,3088,-0.0088,-0.0104,0.5622,,0.724
+linhas_distintas,dias_desde_anterior,3087,0.0085,0.0071,0.6949,,0.8105
+linhas_distintas,mega_da_virada,3088,-0.0163,-0.0143,0.4258,,0.6112
+linhas_distintas,final_0_ou_5,3088,0.0189,0.019,0.2923,,0.4799
+linhas_distintas,bolo_quadra,3088,-0.0232,-0.003,0.8657,,0.9253
+linhas_distintas,bolo_quina,3088,-0.0225,-0.004,0.8231,,0.8989
+linhas_distintas,quadras_por_milhao_arrecadado,2019,0.0253,0.0222,0.3184,,0.5145
+linhas_distintas,quinas_por_milhao_arrecadado,2019,0.0247,0.0204,0.3604,,0.5569
+linhas_distintas,estimativa_recebida,2227,-0.0067,-0.0034,0.8732,,0.9276
+linhas_distintas,acumulado_recebido,3087,-0.017,-0.0109,0.5433,,0.7117
+linhas_distintas,api_id_cod,3088,,,,sem variação,
+linhas_distintas,api_tipoJogo_cod,3088,,,,sem variação,
+linhas_distintas,api_numeroJogo_cod,3088,,,,sem variação,
+linhas_distintas,api_tipoPublicacao_cod,3088,,,,sem variação,
+linhas_distintas,api_ultimoConcurso_cod,3088,,,,sem variação,
+linhas_distintas,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+linhas_distintas,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+linhas_distintas,api_premiacaoContingencia_cod,3088,,,,sem variação,
+linhas_distintas,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+linhas_distintas,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+linhas_distintas,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+multiplos_de_5,quadrante_1,3088,-0.0102,-0.0099,0.5828,,0.7353
+multiplos_de_5,quadrante_2,3088,0.0156,0.0153,0.394,,0.5923
+multiplos_de_5,quadrante_3,3088,-0.0181,-0.0175,0.3299,,0.5263
+multiplos_de_5,quadrante_4,3088,0.0012,0.0006,0.9719,,0.9794
+multiplos_de_5,concursos_acumulados_seguidos,3088,0.0231,0.0207,0.2494,,0.4223
+multiplos_de_5,ano,3088,0.0218,-0.0229,0.2025,,0.3593
+multiplos_de_5,mes,3088,0.0234,0.0234,0.1931,,0.349
+multiplos_de_5,dia_semana,3088,0.0011,0.0051,0.7789,,0.8714
+multiplos_de_5,dias_desde_anterior,3087,-0.0178,-0.0071,0.6929,,0.809
+multiplos_de_5,mega_da_virada,3088,0.0089,0.0075,0.6758,,0.8003
+multiplos_de_5,final_0_ou_5,3088,-0.0228,-0.0228,0.2054,,0.3607
+multiplos_de_5,bolo_quadra,3088,0.0245,0.014,0.4383,,0.6236
+multiplos_de_5,bolo_quina,3088,0.0256,0.0165,0.3596,,0.5566
+multiplos_de_5,quadras_por_milhao_arrecadado,2019,-0.0943,-0.1438,0.0,,0.0
+multiplos_de_5,quinas_por_milhao_arrecadado,2019,-0.1113,-0.14,0.0,,0.0
+multiplos_de_5,estimativa_recebida,2227,-0.0009,-0.0074,0.7264,,0.8363
+multiplos_de_5,acumulado_recebido,3087,0.0191,0.0107,0.5527,,0.7207
+multiplos_de_5,api_id_cod,3088,,,,sem variação,
+multiplos_de_5,api_tipoJogo_cod,3088,,,,sem variação,
+multiplos_de_5,api_numeroJogo_cod,3088,,,,sem variação,
+multiplos_de_5,api_tipoPublicacao_cod,3088,,,,sem variação,
+multiplos_de_5,api_ultimoConcurso_cod,3088,,,,sem variação,
+multiplos_de_5,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+multiplos_de_5,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+multiplos_de_5,api_premiacaoContingencia_cod,3088,,,,sem variação,
+multiplos_de_5,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+multiplos_de_5,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+multiplos_de_5,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+quadrante_1,quadrante_2,3088,-0.3345,-0.3341,0.0,,0.0
+quadrante_1,quadrante_3,3088,-0.3315,-0.3322,0.0,,0.0
+quadrante_1,quadrante_4,3088,-0.3152,-0.3153,0.0,,0.0
+quadrante_1,concursos_acumulados_seguidos,3088,-0.0136,-0.015,0.4036,,0.5994
+quadrante_1,ano,3088,-0.0159,0.0253,0.1602,,0.2964
+quadrante_1,mes,3088,-0.0278,-0.0283,0.1159,,0.2267
+quadrante_1,dia_semana,3088,0.0041,0.0003,0.9872,,0.9912
+quadrante_1,dias_desde_anterior,3087,0.0138,0.0094,0.6024,,0.7447
+quadrante_1,mega_da_virada,3088,0.0181,0.0193,0.2839,,0.4702
+quadrante_1,final_0_ou_5,3088,-0.0127,-0.0127,0.4811,,0.6581
+quadrante_1,bolo_quadra,3088,-0.0264,-0.0141,0.4327,,0.6184
+quadrante_1,bolo_quina,3088,-0.0253,-0.0131,0.468,,0.6474
+quadrante_1,quadras_por_milhao_arrecadado,2019,0.2794,0.4417,0.0,,0.0
+quadrante_1,quinas_por_milhao_arrecadado,2019,0.3004,0.387,0.0,,0.0
+quadrante_1,estimativa_recebida,2227,-0.0135,-0.0105,0.6197,,0.7539
+quadrante_1,acumulado_recebido,3087,-0.0143,-0.0101,0.5763,,0.734
+quadrante_1,api_id_cod,3088,,,,sem variação,
+quadrante_1,api_tipoJogo_cod,3088,,,,sem variação,
+quadrante_1,api_numeroJogo_cod,3088,,,,sem variação,
+quadrante_1,api_tipoPublicacao_cod,3088,,,,sem variação,
+quadrante_1,api_ultimoConcurso_cod,3088,,,,sem variação,
+quadrante_1,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+quadrante_1,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+quadrante_1,api_premiacaoContingencia_cod,3088,,,,sem variação,
+quadrante_1,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+quadrante_1,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+quadrante_1,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+quadrante_2,quadrante_3,3088,-0.2959,-0.2954,0.0,,0.0
+quadrante_2,quadrante_4,3088,-0.3075,-0.3081,0.0,,0.0
+quadrante_2,concursos_acumulados_seguidos,3088,0.0239,0.0265,0.1412,,0.2679
+quadrante_2,ano,3088,0.023,-0.0273,0.1298,,0.2489
+quadrante_2,mes,3088,0.0302,0.0306,0.0896,,0.18
+quadrante_2,dia_semana,3088,-0.0345,-0.0255,0.1559,,0.2915
+quadrante_2,dias_desde_anterior,3087,-0.0049,0.0151,0.4002,,0.5955
+quadrante_2,mega_da_virada,3088,-0.0088,-0.0096,0.5956,,0.7424
+quadrante_2,final_0_ou_5,3088,-0.0038,-0.0038,0.832,,0.9022
+quadrante_2,bolo_quadra,3088,0.0311,0.0145,0.422,,0.6102
+quadrante_2,bolo_quina,3088,0.0281,0.0122,0.4982,,0.6714
+quadrante_2,quadras_por_milhao_arrecadado,2019,0.1585,0.2178,0.0,,0.0
+quadrante_2,quinas_por_milhao_arrecadado,2019,0.1599,0.1848,0.0,,0.0
+quadrante_2,estimativa_recebida,2227,0.0105,0.0171,0.4187,,0.6098
+quadrante_2,acumulado_recebido,3087,0.0205,0.0145,0.4211,,0.6099
+quadrante_2,api_id_cod,3088,,,,sem variação,
+quadrante_2,api_tipoJogo_cod,3088,,,,sem variação,
+quadrante_2,api_numeroJogo_cod,3088,,,,sem variação,
+quadrante_2,api_tipoPublicacao_cod,3088,,,,sem variação,
+quadrante_2,api_ultimoConcurso_cod,3088,,,,sem variação,
+quadrante_2,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+quadrante_2,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+quadrante_2,api_premiacaoContingencia_cod,3088,,,,sem variação,
+quadrante_2,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+quadrante_2,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+quadrante_2,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+quadrante_3,quadrante_4,3088,-0.338,-0.3376,0.0,,0.0
+quadrante_3,concursos_acumulados_seguidos,3088,-0.0041,-0.0014,0.9362,,0.9645
+quadrante_3,ano,3088,-0.0284,0.0096,0.5932,,0.7424
+quadrante_3,mes,3088,-0.0086,-0.0084,0.6416,,0.771
+quadrante_3,dia_semana,3088,0.0187,0.0105,0.5607,,0.724
+quadrante_3,dias_desde_anterior,3087,0.0319,0.0147,0.4151,,0.608
+quadrante_3,mega_da_virada,3088,-0.0035,-0.0026,0.8873,,0.9328
+quadrante_3,final_0_ou_5,3088,-0.0101,-0.0101,0.5757,,0.734
+quadrante_3,bolo_quadra,3088,-0.0064,0.0168,0.3501,,0.5495
+quadrante_3,bolo_quina,3088,-0.0006,0.0189,0.2931,,0.4799
+quadrante_3,quadras_por_milhao_arrecadado,2019,-0.1613,-0.2639,0.0,,0.0
+quadrante_3,quinas_por_milhao_arrecadado,2019,-0.189,-0.2498,0.0,,0.0
+quadrante_3,estimativa_recebida,2227,-0.0069,0.0031,0.8837,,0.9317
+quadrante_3,acumulado_recebido,3087,-0.0103,0.0008,0.9654,,0.9773
+quadrante_3,api_id_cod,3088,,,,sem variação,
+quadrante_3,api_tipoJogo_cod,3088,,,,sem variação,
+quadrante_3,api_numeroJogo_cod,3088,,,,sem variação,
+quadrante_3,api_tipoPublicacao_cod,3088,,,,sem variação,
+quadrante_3,api_ultimoConcurso_cod,3088,,,,sem variação,
+quadrante_3,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+quadrante_3,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+quadrante_3,api_premiacaoContingencia_cod,3088,,,,sem variação,
+quadrante_3,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+quadrante_3,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+quadrante_3,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+quadrante_4,concursos_acumulados_seguidos,3088,-0.0064,-0.0101,0.574,,0.734
+quadrante_4,ano,3088,0.0238,-0.0157,0.3831,,0.5802
+quadrante_4,mes,3088,0.0107,0.0106,0.5575,,0.7226
+quadrante_4,dia_semana,3088,0.0097,0.0146,0.4164,,0.6083
+quadrante_4,dias_desde_anterior,3087,-0.0427,-0.0372,0.0389,,0.0844
+quadrante_4,mega_da_virada,3088,-0.0054,-0.0068,0.7064,,0.8191
+quadrante_4,final_0_ou_5,3088,0.0277,0.0277,0.1236,,0.2402
+quadrante_4,bolo_quadra,3088,0.0076,-0.0106,0.5544,,0.7207
+quadrante_4,bolo_quina,3088,0.0046,-0.0105,0.5615,,0.724
+quadrante_4,quadras_por_milhao_arrecadado,2019,-0.2581,-0.3652,0.0,,0.0
+quadrante_4,quinas_por_milhao_arrecadado,2019,-0.2546,-0.2996,0.0,,0.0
+quadrante_4,estimativa_recebida,2227,0.019,-0.0007,0.9724,,0.9794
+quadrante_4,acumulado_recebido,3087,0.0112,0.0014,0.938,,0.9653
+quadrante_4,api_id_cod,3088,,,,sem variação,
+quadrante_4,api_tipoJogo_cod,3088,,,,sem variação,
+quadrante_4,api_numeroJogo_cod,3088,,,,sem variação,
+quadrante_4,api_tipoPublicacao_cod,3088,,,,sem variação,
+quadrante_4,api_ultimoConcurso_cod,3088,,,,sem variação,
+quadrante_4,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+quadrante_4,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+quadrante_4,api_premiacaoContingencia_cod,3088,,,,sem variação,
+quadrante_4,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+quadrante_4,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+quadrante_4,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,ano,3088,0.0838,-0.0391,0.0297,,0.0655
+concursos_acumulados_seguidos,mes,3088,0.0395,0.0381,0.0343,,0.0749
+concursos_acumulados_seguidos,dia_semana,3088,-0.0151,-0.0079,0.6605,,0.788
+concursos_acumulados_seguidos,dias_desde_anterior,3087,-0.076,-0.0352,0.0502,,0.1065
+concursos_acumulados_seguidos,mega_da_virada,3088,0.014,0.0092,0.6079,,0.7462
+concursos_acumulados_seguidos,final_0_ou_5,3088,0.0151,0.0154,0.3932,,0.5919
+concursos_acumulados_seguidos,bolo_quadra,3088,0.4633,0.662,0.0,,0.0
+concursos_acumulados_seguidos,bolo_quina,3088,0.5287,0.6845,0.0,,0.0
+concursos_acumulados_seguidos,quadras_por_milhao_arrecadado,2019,-0.1773,-0.0285,0.2007,,0.3577
+concursos_acumulados_seguidos,quinas_por_milhao_arrecadado,2019,-0.1388,-0.0114,0.6081,,0.7462
+concursos_acumulados_seguidos,estimativa_recebida,2227,0.8485,0.8559,0.0,,0.0
+concursos_acumulados_seguidos,acumulado_recebido,3087,0.8379,0.8768,0.0,,0.0
+concursos_acumulados_seguidos,api_id_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,api_tipoJogo_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,api_numeroJogo_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,api_tipoPublicacao_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,api_ultimoConcurso_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,api_premiacaoContingencia_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+concursos_acumulados_seguidos,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+ano,mes,3088,-0.0374,-0.9748,0.0,,0.0
+ano,dia_semana,3088,-0.2058,-0.0001,0.9961,,0.9961
+ano,dias_desde_anterior,3087,-0.5432,0.0166,0.3573,,0.5538
+ano,mega_da_virada,3088,0.0526,-0.0748,0.0,,0.0001
+ano,final_0_ou_5,3088,-0.0005,-0.0223,0.2159,,0.3746
+ano,bolo_quadra,3088,0.7085,-0.0649,0.0003,,0.0008
+ano,bolo_quina,3088,0.617,-0.0601,0.0008,,0.0022
+ano,quadras_por_milhao_arrecadado,2019,-0.7682,0.024,0.2813,,0.4676
+ano,quinas_por_milhao_arrecadado,2019,-0.6251,0.0274,0.2186,,0.3786
+ano,estimativa_recebida,2227,0.3768,-0.076,0.0003,,0.0009
+ano,acumulado_recebido,3087,0.383,-0.0691,0.0001,,0.0003
+ano,api_id_cod,3088,,,,sem variação,
+ano,api_tipoJogo_cod,3088,,,,sem variação,
+ano,api_numeroJogo_cod,3088,,,,sem variação,
+ano,api_tipoPublicacao_cod,3088,,,,sem variação,
+ano,api_ultimoConcurso_cod,3088,,,,sem variação,
+ano,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+ano,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+ano,api_premiacaoContingencia_cod,3088,,,,sem variação,
+ano,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+ano,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+ano,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+mes,dia_semana,3088,-0.0042,-0.004,0.8222,,0.8989
+mes,dias_desde_anterior,3087,-0.0187,-0.0209,0.2463,,0.4179
+mes,mega_da_virada,3088,0.0677,0.0684,0.0001,,0.0004
+mes,final_0_ou_5,3088,0.0224,0.0224,0.2133,,0.3714
+mes,bolo_quadra,3088,0.0424,0.0762,0.0,,0.0001
+mes,bolo_quina,3088,0.0469,0.0732,0.0,,0.0001
+mes,quadras_por_milhao_arrecadado,2019,-0.0025,-0.0182,0.4142,,0.608
+mes,quinas_por_milhao_arrecadado,2019,-0.012,-0.0244,0.2738,,0.4574
+mes,estimativa_recebida,2227,0.0635,0.0717,0.0007,,0.0018
+mes,acumulado_recebido,3087,0.0612,0.067,0.0002,,0.0005
+mes,api_id_cod,3088,,,,sem variação,
+mes,api_tipoJogo_cod,3088,,,,sem variação,
+mes,api_numeroJogo_cod,3088,,,,sem variação,
+mes,api_tipoPublicacao_cod,3088,,,,sem variação,
+mes,api_ultimoConcurso_cod,3088,,,,sem variação,
+mes,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+mes,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+mes,api_premiacaoContingencia_cod,3088,,,,sem variação,
+mes,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+mes,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+mes,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+dia_semana,dias_desde_anterior,3087,-0.2561,-0.5268,0.0,,0.0
+dia_semana,mega_da_virada,3088,-0.0064,0.0007,0.9683,,0.9782
+dia_semana,final_0_ou_5,3088,0.0134,0.0141,0.4323,,0.6184
+dia_semana,bolo_quadra,3088,-0.0519,0.1465,0.0,,0.0
+dia_semana,bolo_quina,3088,-0.0216,0.1429,0.0,,0.0
+dia_semana,quadras_por_milhao_arrecadado,2019,0.0461,-0.0226,0.3102,,0.5046
+dia_semana,quinas_por_milhao_arrecadado,2019,0.0239,-0.0328,0.1405,,0.2672
+dia_semana,estimativa_recebida,2227,-0.0327,-0.002,0.9234,,0.9553
+dia_semana,acumulado_recebido,3087,-0.0836,-0.0089,0.6224,,0.754
+dia_semana,api_id_cod,3088,,,,sem variação,
+dia_semana,api_tipoJogo_cod,3088,,,,sem variação,
+dia_semana,api_numeroJogo_cod,3088,,,,sem variação,
+dia_semana,api_tipoPublicacao_cod,3088,,,,sem variação,
+dia_semana,api_ultimoConcurso_cod,3088,,,,sem variação,
+dia_semana,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+dia_semana,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+dia_semana,api_premiacaoContingencia_cod,3088,,,,sem variação,
+dia_semana,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+dia_semana,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+dia_semana,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+dias_desde_anterior,mega_da_virada,3087,0.0986,0.152,0.0,,0.0
+dias_desde_anterior,final_0_ou_5,3087,0.0108,0.0136,0.4512,,0.6357
+dias_desde_anterior,bolo_quadra,3087,-0.3024,0.0897,0.0,,0.0
+dias_desde_anterior,bolo_quina,3087,-0.2494,0.0798,0.0,,0.0
+dias_desde_anterior,quadras_por_milhao_arrecadado,2019,0.3212,0.0494,0.0266,,0.0591
+dias_desde_anterior,quinas_por_milhao_arrecadado,2019,0.2802,0.0583,0.0088,,0.0206
+dias_desde_anterior,estimativa_recebida,2227,-0.1297,0.0368,0.0827,,0.1673
+dias_desde_anterior,acumulado_recebido,3087,-0.2103,0.0027,0.8825,,0.9317
+dias_desde_anterior,api_id_cod,3087,,,,sem variação,
+dias_desde_anterior,api_tipoJogo_cod,3087,,,,sem variação,
+dias_desde_anterior,api_numeroJogo_cod,3087,,,,sem variação,
+dias_desde_anterior,api_tipoPublicacao_cod,3087,,,,sem variação,
+dias_desde_anterior,api_ultimoConcurso_cod,3087,,,,sem variação,
+dias_desde_anterior,api_listaDezenasSegundoSorteio_cod,3087,,,,sem variação,
+dias_desde_anterior,api_listaResultadoEquipeEsportiva_cod,3087,,,,sem variação,
+dias_desde_anterior,api_premiacaoContingencia_cod,3087,,,,sem variação,
+dias_desde_anterior,api_valorSaldoReservaGarantidora_cod,3087,,,,sem variação,
+dias_desde_anterior,api_valorTotalPremioFaixaUm_cod,3087,,,,sem variação,
+dias_desde_anterior,api_exibirDetalhamentoPorCidade_cod,3087,,,,sem variação,
+mega_da_virada,final_0_ou_5,3088,0.1082,0.1084,0.0,,0.0
+mega_da_virada,bolo_quadra,3088,0.0934,0.0772,0.0,,0.0001
+mega_da_virada,bolo_quina,3088,0.0934,0.0747,0.0,,0.0001
+mega_da_virada,quadras_por_milhao_arrecadado,2019,-0.019,0.0271,0.2235,,0.3838
+mega_da_virada,quinas_por_milhao_arrecadado,2019,-0.0209,0.0109,0.6252,,0.754
+mega_da_virada,estimativa_recebida,2227,0.1097,0.0995,0.0,,0.0
+mega_da_virada,acumulado_recebido,3087,0.0916,0.0766,0.0,,0.0001
+mega_da_virada,api_id_cod,3088,,,,sem variação,
+mega_da_virada,api_tipoJogo_cod,3088,,,,sem variação,
+mega_da_virada,api_numeroJogo_cod,3088,,,,sem variação,
+mega_da_virada,api_tipoPublicacao_cod,3088,,,,sem variação,
+mega_da_virada,api_ultimoConcurso_cod,3088,,,,sem variação,
+mega_da_virada,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+mega_da_virada,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+mega_da_virada,api_premiacaoContingencia_cod,3088,,,,sem variação,
+mega_da_virada,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+mega_da_virada,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+mega_da_virada,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+final_0_ou_5,bolo_quadra,3088,0.1064,0.1608,0.0,,0.0
+final_0_ou_5,bolo_quina,3088,0.1226,0.1641,0.0,,0.0
+final_0_ou_5,quadras_por_milhao_arrecadado,2019,-0.0048,-0.0038,0.8635,,0.9242
+final_0_ou_5,quinas_por_milhao_arrecadado,2019,-0.0056,-0.0047,0.8315,,0.9022
+final_0_ou_5,estimativa_recebida,2227,0.2497,0.269,0.0,,0.0
+final_0_ou_5,acumulado_recebido,3087,0.1421,0.1544,0.0,,0.0
+final_0_ou_5,api_id_cod,3088,,,,sem variação,
+final_0_ou_5,api_tipoJogo_cod,3088,,,,sem variação,
+final_0_ou_5,api_numeroJogo_cod,3088,,,,sem variação,
+final_0_ou_5,api_tipoPublicacao_cod,3088,,,,sem variação,
+final_0_ou_5,api_ultimoConcurso_cod,3088,,,,sem variação,
+final_0_ou_5,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+final_0_ou_5,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+final_0_ou_5,api_premiacaoContingencia_cod,3088,,,,sem variação,
+final_0_ou_5,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+final_0_ou_5,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+final_0_ou_5,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+bolo_quadra,bolo_quina,3088,0.9832,0.982,0.0,,0.0
+bolo_quadra,quadras_por_milhao_arrecadado,2019,-0.2189,0.0201,0.367,,0.561
+bolo_quadra,quinas_por_milhao_arrecadado,2019,-0.1666,0.0306,0.1697,,0.3108
+bolo_quadra,estimativa_recebida,2227,0.8638,0.8615,0.0,,0.0
+bolo_quadra,acumulado_recebido,3087,0.7334,0.7797,0.0,,0.0
+bolo_quadra,api_id_cod,3088,,,,sem variação,
+bolo_quadra,api_tipoJogo_cod,3088,,,,sem variação,
+bolo_quadra,api_numeroJogo_cod,3088,,,,sem variação,
+bolo_quadra,api_tipoPublicacao_cod,3088,,,,sem variação,
+bolo_quadra,api_ultimoConcurso_cod,3088,,,,sem variação,
+bolo_quadra,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+bolo_quadra,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+bolo_quadra,api_premiacaoContingencia_cod,3088,,,,sem variação,
+bolo_quadra,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+bolo_quadra,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+bolo_quadra,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+bolo_quina,quadras_por_milhao_arrecadado,2019,-0.1865,0.0251,0.259,,0.437
+bolo_quina,quinas_por_milhao_arrecadado,2019,-0.1396,0.035,0.1163,,0.227
+bolo_quina,estimativa_recebida,2227,0.8631,0.8699,0.0,,0.0
+bolo_quina,acumulado_recebido,3087,0.7682,0.7919,0.0,,0.0
+bolo_quina,api_id_cod,3088,,,,sem variação,
+bolo_quina,api_tipoJogo_cod,3088,,,,sem variação,
+bolo_quina,api_numeroJogo_cod,3088,,,,sem variação,
+bolo_quina,api_tipoPublicacao_cod,3088,,,,sem variação,
+bolo_quina,api_ultimoConcurso_cod,3088,,,,sem variação,
+bolo_quina,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+bolo_quina,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+bolo_quina,api_premiacaoContingencia_cod,3088,,,,sem variação,
+bolo_quina,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+bolo_quina,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+bolo_quina,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+quadras_por_milhao_arrecadado,quinas_por_milhao_arrecadado,2019,0.9138,0.8663,0.0,,0.0
+quadras_por_milhao_arrecadado,estimativa_recebida,2017,-0.2737,-0.0206,0.3548,,0.5526
+quadras_por_milhao_arrecadado,acumulado_recebido,2019,-0.2683,-0.0288,0.1959,,0.3514
+quadras_por_milhao_arrecadado,api_id_cod,2019,,,,sem variação,
+quadras_por_milhao_arrecadado,api_tipoJogo_cod,2019,,,,sem variação,
+quadras_por_milhao_arrecadado,api_numeroJogo_cod,2019,,,,sem variação,
+quadras_por_milhao_arrecadado,api_tipoPublicacao_cod,2019,,,,sem variação,
+quadras_por_milhao_arrecadado,api_ultimoConcurso_cod,2019,,,,sem variação,
+quadras_por_milhao_arrecadado,api_listaDezenasSegundoSorteio_cod,2019,,,,sem variação,
+quadras_por_milhao_arrecadado,api_listaResultadoEquipeEsportiva_cod,2019,,,,sem variação,
+quadras_por_milhao_arrecadado,api_premiacaoContingencia_cod,2019,,,,sem variação,
+quadras_por_milhao_arrecadado,api_valorSaldoReservaGarantidora_cod,2019,,,,sem variação,
+quadras_por_milhao_arrecadado,api_valorTotalPremioFaixaUm_cod,2019,,,,sem variação,
+quadras_por_milhao_arrecadado,api_exibirDetalhamentoPorCidade_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,estimativa_recebida,2017,-0.2164,-0.0053,0.8134,,0.8959
+quinas_por_milhao_arrecadado,acumulado_recebido,2019,-0.2132,-0.0132,0.5545,,0.7207
+quinas_por_milhao_arrecadado,api_id_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,api_tipoJogo_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,api_numeroJogo_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,api_tipoPublicacao_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,api_ultimoConcurso_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,api_listaDezenasSegundoSorteio_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,api_listaResultadoEquipeEsportiva_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,api_premiacaoContingencia_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,api_valorSaldoReservaGarantidora_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,api_valorTotalPremioFaixaUm_cod,2019,,,,sem variação,
+quinas_por_milhao_arrecadado,api_exibirDetalhamentoPorCidade_cod,2019,,,,sem variação,
+estimativa_recebida,acumulado_recebido,2227,0.9687,0.9561,0.0,,0.0
+estimativa_recebida,api_id_cod,2227,,,,sem variação,
+estimativa_recebida,api_tipoJogo_cod,2227,,,,sem variação,
+estimativa_recebida,api_numeroJogo_cod,2227,,,,sem variação,
+estimativa_recebida,api_tipoPublicacao_cod,2227,,,,sem variação,
+estimativa_recebida,api_ultimoConcurso_cod,2227,,,,sem variação,
+estimativa_recebida,api_listaDezenasSegundoSorteio_cod,2227,,,,sem variação,
+estimativa_recebida,api_listaResultadoEquipeEsportiva_cod,2227,,,,sem variação,
+estimativa_recebida,api_premiacaoContingencia_cod,2227,,,,sem variação,
+estimativa_recebida,api_valorSaldoReservaGarantidora_cod,2227,,,,sem variação,
+estimativa_recebida,api_valorTotalPremioFaixaUm_cod,2227,,,,sem variação,
+estimativa_recebida,api_exibirDetalhamentoPorCidade_cod,2227,,,,sem variação,
+acumulado_recebido,api_id_cod,3087,,,,sem variação,
+acumulado_recebido,api_tipoJogo_cod,3087,,,,sem variação,
+acumulado_recebido,api_numeroJogo_cod,3087,,,,sem variação,
+acumulado_recebido,api_tipoPublicacao_cod,3087,,,,sem variação,
+acumulado_recebido,api_ultimoConcurso_cod,3087,,,,sem variação,
+acumulado_recebido,api_listaDezenasSegundoSorteio_cod,3087,,,,sem variação,
+acumulado_recebido,api_listaResultadoEquipeEsportiva_cod,3087,,,,sem variação,
+acumulado_recebido,api_premiacaoContingencia_cod,3087,,,,sem variação,
+acumulado_recebido,api_valorSaldoReservaGarantidora_cod,3087,,,,sem variação,
+acumulado_recebido,api_valorTotalPremioFaixaUm_cod,3087,,,,sem variação,
+acumulado_recebido,api_exibirDetalhamentoPorCidade_cod,3087,,,,sem variação,
+api_id_cod,api_tipoJogo_cod,3088,,,,sem variação,
+api_id_cod,api_numeroJogo_cod,3088,,,,sem variação,
+api_id_cod,api_tipoPublicacao_cod,3088,,,,sem variação,
+api_id_cod,api_ultimoConcurso_cod,3088,,,,sem variação,
+api_id_cod,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+api_id_cod,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+api_id_cod,api_premiacaoContingencia_cod,3088,,,,sem variação,
+api_id_cod,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+api_id_cod,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+api_id_cod,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+api_tipoJogo_cod,api_numeroJogo_cod,3088,,,,sem variação,
+api_tipoJogo_cod,api_tipoPublicacao_cod,3088,,,,sem variação,
+api_tipoJogo_cod,api_ultimoConcurso_cod,3088,,,,sem variação,
+api_tipoJogo_cod,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+api_tipoJogo_cod,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+api_tipoJogo_cod,api_premiacaoContingencia_cod,3088,,,,sem variação,
+api_tipoJogo_cod,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+api_tipoJogo_cod,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+api_tipoJogo_cod,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+api_numeroJogo_cod,api_tipoPublicacao_cod,3088,,,,sem variação,
+api_numeroJogo_cod,api_ultimoConcurso_cod,3088,,,,sem variação,
+api_numeroJogo_cod,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+api_numeroJogo_cod,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+api_numeroJogo_cod,api_premiacaoContingencia_cod,3088,,,,sem variação,
+api_numeroJogo_cod,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+api_numeroJogo_cod,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+api_numeroJogo_cod,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+api_tipoPublicacao_cod,api_ultimoConcurso_cod,3088,,,,sem variação,
+api_tipoPublicacao_cod,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+api_tipoPublicacao_cod,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+api_tipoPublicacao_cod,api_premiacaoContingencia_cod,3088,,,,sem variação,
+api_tipoPublicacao_cod,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+api_tipoPublicacao_cod,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+api_tipoPublicacao_cod,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+api_ultimoConcurso_cod,api_listaDezenasSegundoSorteio_cod,3088,,,,sem variação,
+api_ultimoConcurso_cod,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+api_ultimoConcurso_cod,api_premiacaoContingencia_cod,3088,,,,sem variação,
+api_ultimoConcurso_cod,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+api_ultimoConcurso_cod,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+api_ultimoConcurso_cod,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+api_listaDezenasSegundoSorteio_cod,api_listaResultadoEquipeEsportiva_cod,3088,,,,sem variação,
+api_listaDezenasSegundoSorteio_cod,api_premiacaoContingencia_cod,3088,,,,sem variação,
+api_listaDezenasSegundoSorteio_cod,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+api_listaDezenasSegundoSorteio_cod,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+api_listaDezenasSegundoSorteio_cod,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+api_listaResultadoEquipeEsportiva_cod,api_premiacaoContingencia_cod,3088,,,,sem variação,
+api_listaResultadoEquipeEsportiva_cod,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+api_listaResultadoEquipeEsportiva_cod,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+api_listaResultadoEquipeEsportiva_cod,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+api_premiacaoContingencia_cod,api_valorSaldoReservaGarantidora_cod,3088,,,,sem variação,
+api_premiacaoContingencia_cod,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+api_premiacaoContingencia_cod,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+api_valorSaldoReservaGarantidora_cod,api_valorTotalPremioFaixaUm_cod,3088,,,,sem variação,
+api_valorSaldoReservaGarantidora_cod,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,
+api_valorTotalPremioFaixaUm_cod,api_exibirDetalhamentoPorCidade_cod,3088,,,,sem variação,

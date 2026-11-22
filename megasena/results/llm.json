@@ -1,0 +1,330 @@
+{
+  "arquitetura": "GPT decoder 3 camadas, d=96, 4 cabeças, contexto 12 concursos (91 tokens)",
+  "parametros": 356221,
+  "melhor_epoca_validacao": 3,
+  "entropia_cruzada_nats_por_bola": {
+    "acaso_sem_reposicao": 4.0513,
+    "llm_treino": 4.0371,
+    "llm_teste": 4.0646
+  },
+  "curva": [
+    {
+      "epoca": 0,
+      "treino": 4.1456,
+      "validacao": 4.1132
+    },
+    {
+      "epoca": 1,
+      "treino": 4.0749,
+      "validacao": 4.0831
+    },
+    {
+      "epoca": 2,
+      "treino": 4.0572,
+      "validacao": 4.0783
+    },
+    {
+      "epoca": 3,
+      "treino": 4.0522,
+      "validacao": 4.0751
+    },
+    {
+      "epoca": 4,
+      "treino": 4.0473,
+      "validacao": 4.078
+    },
+    {
+      "epoca": 5,
+      "treino": 4.0431,
+      "validacao": 4.0795
+    },
+    {
+      "epoca": 6,
+      "treino": 4.0374,
+      "validacao": 4.0826
+    },
+    {
+      "epoca": 7,
+      "treino": 4.0322,
+      "validacao": 4.0918
+    },
+    {
+      "epoca": 8,
+      "treino": 4.0272,
+      "validacao": 4.1003
+    },
+    {
+      "epoca": 9,
+      "treino": 4.0183,
+      "validacao": 4.1075
+    },
+    {
+      "epoca": 10,
+      "treino": 4.0069,
+      "validacao": 4.1153
+    },
+    {
+      "epoca": 11,
+      "treino": 3.9946,
+      "validacao": 4.1247
+    },
+    {
+      "epoca": 12,
+      "treino": 3.9826,
+      "validacao": 4.1325
+    },
+    {
+      "epoca": 13,
+      "treino": 3.9697,
+      "validacao": 4.1434
+    },
+    {
+      "epoca": 14,
+      "treino": 3.9545,
+      "validacao": 4.1497
+    },
+    {
+      "epoca": 15,
+      "treino": 3.9422,
+      "validacao": 4.1532
+    },
+    {
+      "epoca": 16,
+      "treino": 3.9259,
+      "validacao": 4.1639
+    },
+    {
+      "epoca": 17,
+      "treino": 3.91,
+      "validacao": 4.1663
+    },
+    {
+      "epoca": 18,
+      "treino": 3.894,
+      "validacao": 4.1799
+    },
+    {
+      "epoca": 19,
+      "treino": 3.8715,
+      "validacao": 4.1914
+    },
+    {
+      "epoca": 20,
+      "treino": 3.8552,
+      "validacao": 4.2052
+    },
+    {
+      "epoca": 21,
+      "treino": 3.8297,
+      "validacao": 4.2149
+    },
+    {
+      "epoca": 22,
+      "treino": 3.8099,
+      "validacao": 4.2259
+    },
+    {
+      "epoca": 23,
+      "treino": 3.7869,
+      "validacao": 4.2411
+    },
+    {
+      "epoca": 24,
+      "treino": 3.7649,
+      "validacao": 4.2536
+    },
+    {
+      "epoca": 25,
+      "treino": 3.7357,
+      "validacao": 4.2666
+    },
+    {
+      "epoca": 26,
+      "treino": 3.7093,
+      "validacao": 4.2892
+    },
+    {
+      "epoca": 27,
+      "treino": 3.6803,
+      "validacao": 4.314
+    },
+    {
+      "epoca": 28,
+      "treino": 3.6503,
+      "validacao": 4.3242
+    },
+    {
+      "epoca": 29,
+      "treino": 3.6286,
+      "validacao": 4.3468
+    },
+    {
+      "epoca": 30,
+      "treino": 3.5921,
+      "validacao": 4.3721
+    },
+    {
+      "epoca": 31,
+      "treino": 3.5712,
+      "validacao": 4.3926
+    },
+    {
+      "epoca": 32,
+      "treino": 3.5462,
+      "validacao": 4.4125
+    },
+    {
+      "epoca": 33,
+      "treino": 3.5077,
+      "validacao": 4.4336
+    },
+    {
+      "epoca": 34,
+      "treino": 3.4937,
+      "validacao": 4.4643
+    },
+    {
+      "epoca": 35,
+      "treino": 3.453,
+      "validacao": 4.4858
+    },
+    {
+      "epoca": 36,
+      "treino": 3.4407,
+      "validacao": 4.5083
+    },
+    {
+      "epoca": 37,
+      "treino": 3.4011,
+      "validacao": 4.5274
+    },
+    {
+      "epoca": 38,
+      "treino": 3.3645,
+      "validacao": 4.5589
+    },
+    {
+      "epoca": 39,
+      "treino": 3.336,
+      "validacao": 4.5881
+    },
+    {
+      "epoca": 40,
+      "treino": 3.3023,
+      "validacao": 4.6184
+    },
+    {
+      "epoca": 41,
+      "treino": 3.2875,
+      "validacao": 4.644
+    },
+    {
+      "epoca": 42,
+      "treino": 3.253,
+      "validacao": 4.6688
+    },
+    {
+      "epoca": 43,
+      "treino": 3.2258,
+      "validacao": 4.7035
+    },
+    {
+      "epoca": 44,
+      "treino": 3.2067,
+      "validacao": 4.7303
+    },
+    {
+      "epoca": 45,
+      "treino": 3.1856,
+      "validacao": 4.7558
+    },
+    {
+      "epoca": 46,
+      "treino": 3.1601,
+      "validacao": 4.7758
+    },
+    {
+      "epoca": 47,
+      "treino": 3.1345,
+      "validacao": 4.8002
+    },
+    {
+      "epoca": 48,
+      "treino": 3.0965,
+      "validacao": 4.8423
+    },
+    {
+      "epoca": 49,
+      "treino": 3.0879,
+      "validacao": 4.8629
+    },
+    {
+      "epoca": 50,
+      "treino": 3.0624,
+      "validacao": 4.8984
+    },
+    {
+      "epoca": 51,
+      "treino": 3.0421,
+      "validacao": 4.9154
+    },
+    {
+      "epoca": 52,
+      "treino": 3.0062,
+      "validacao": 4.9477
+    },
+    {
+      "epoca": 53,
+      "treino": 2.9742,
+      "validacao": 4.9646
+    },
+    {
+      "epoca": 54,
+      "treino": 2.9531,
+      "validacao": 4.9928
+    },
+    {
+      "epoca": 55,
+      "treino": 2.9372,
+      "validacao": 5.0211
+    },
+    {
+      "epoca": 56,
+      "treino": 2.9151,
+      "validacao": 5.0509
+    },
+    {
+      "epoca": 57,
+      "treino": 2.8919,
+      "validacao": 5.0844
+    },
+    {
+      "epoca": 58,
+      "treino": 2.8706,
+      "validacao": 5.1116
+    },
+    {
+      "epoca": 59,
+      "treino": 2.8386,
+      "validacao": 5.1365
+    }
+  ],
+  "backtest": {
+    "modelo": "llm_transformer",
+    "n_testes": 500,
+    "acertos_medios": 0.606,
+    "acaso_esperado": 0.6,
+    "z": 0.191,
+    "p_valor": 0.8487,
+    "distribuicao_acertos": {
+      "0": 250,
+      "1": 201,
+      "2": 45,
+      "3": 4,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "quadras_ou_mais": 0
+  }
+}

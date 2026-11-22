@@ -1,0 +1,377 @@
+{
+  "concursos_previstos": 3087,
+  "acaso_pct": 10.0,
+  "distribuicao_acertos": {
+    "mais_frequentes_historico": {
+      "0": 1569,
+      "1": 1200,
+      "2": 284,
+      "3": 34,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "quentes_ultimos_25": {
+      "0": 1583,
+      "1": 1212,
+      "2": 266,
+      "3": 25,
+      "4": 1,
+      "5": 0,
+      "6": 0
+    },
+    "atrasados_maior_jejum": {
+      "0": 1614,
+      "1": 1177,
+      "2": 268,
+      "3": 27,
+      "4": 1,
+      "5": 0,
+      "6": 0
+    },
+    "frequentes_ultimos_1000": {
+      "0": 1544,
+      "1": 1212,
+      "2": 301,
+      "3": 30,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "logistica_online": {
+      "0": 1600,
+      "1": 1189,
+      "2": 268,
+      "3": 29,
+      "4": 1,
+      "5": 0,
+      "6": 0
+    },
+    "llm_online": {
+      "0": 1570,
+      "1": 1207,
+      "2": 291,
+      "3": 17,
+      "4": 2,
+      "5": 0,
+      "6": 0
+    },
+    "ensemble_adaptativo": {
+      "0": 1574,
+      "1": 1180,
+      "2": 291,
+      "3": 40,
+      "4": 2,
+      "5": 0,
+      "6": 0
+    },
+    "aleatorio": {
+      "0": 1574,
+      "1": 1160,
+      "2": 315,
+      "3": 33,
+      "4": 5,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "llm_erro_antes_do_ajuste_nats_por_bola": {
+    "acaso": 4.0513,
+    "media_geral": 4.1542,
+    "por_ano": {
+      "1996": 4.2241,
+      "1997": 4.2049,
+      "1998": 4.2159,
+      "1999": 4.234,
+      "2000": 4.1767,
+      "2001": 4.184,
+      "2002": 4.1372,
+      "2003": 4.1549,
+      "2004": 4.171,
+      "2005": 4.1722,
+      "2006": 4.1524,
+      "2007": 4.1619,
+      "2008": 4.1568,
+      "2009": 4.1675,
+      "2010": 4.181,
+      "2011": 4.1411,
+      "2012": 4.147,
+      "2013": 4.1717,
+      "2014": 4.169,
+      "2015": 4.125,
+      "2016": 4.1603,
+      "2017": 4.1322,
+      "2018": 4.1388,
+      "2019": 4.1634,
+      "2020": 4.1235,
+      "2021": 4.1429,
+      "2022": 4.1636,
+      "2023": 4.1341,
+      "2024": 4.1361,
+      "2025": 4.1279,
+      "2026": 4.1039
+    }
+  },
+  "pesos_ensemble_fim_de_cada_ano": {
+    "1996": {
+      "mais_frequentes_historico": 0.169,
+      "quentes_ultimos_25": 0.159,
+      "atrasados_maior_jejum": 0.205,
+      "frequentes_ultimos_1000": 0.169,
+      "logistica_online": 0.11,
+      "llm_online": 0.189
+    },
+    "1997": {
+      "mais_frequentes_historico": 0.14,
+      "quentes_ultimos_25": 0.19,
+      "atrasados_maior_jejum": 0.253,
+      "frequentes_ultimos_1000": 0.14,
+      "logistica_online": 0.122,
+      "llm_online": 0.155
+    },
+    "1998": {
+      "mais_frequentes_historico": 0.119,
+      "quentes_ultimos_25": 0.125,
+      "atrasados_maior_jejum": 0.332,
+      "frequentes_ultimos_1000": 0.119,
+      "logistica_online": 0.154,
+      "llm_online": 0.15
+    },
+    "1999": {
+      "mais_frequentes_historico": 0.106,
+      "quentes_ultimos_25": 0.074,
+      "atrasados_maior_jejum": 0.41,
+      "frequentes_ultimos_1000": 0.106,
+      "logistica_online": 0.192,
+      "llm_online": 0.112
+    },
+    "2000": {
+      "mais_frequentes_historico": 0.084,
+      "quentes_ultimos_25": 0.045,
+      "atrasados_maior_jejum": 0.478,
+      "frequentes_ultimos_1000": 0.084,
+      "logistica_online": 0.218,
+      "llm_online": 0.09
+    },
+    "2001": {
+      "mais_frequentes_historico": 0.115,
+      "quentes_ultimos_25": 0.061,
+      "atrasados_maior_jejum": 0.359,
+      "frequentes_ultimos_1000": 0.115,
+      "logistica_online": 0.207,
+      "llm_online": 0.144
+    },
+    "2002": {
+      "mais_frequentes_historico": 0.215,
+      "quentes_ultimos_25": 0.057,
+      "atrasados_maior_jejum": 0.232,
+      "frequentes_ultimos_1000": 0.215,
+      "logistica_online": 0.131,
+      "llm_online": 0.15
+    },
+    "2003": {
+      "mais_frequentes_historico": 0.169,
+      "quentes_ultimos_25": 0.06,
+      "atrasados_maior_jejum": 0.207,
+      "frequentes_ultimos_1000": 0.169,
+      "logistica_online": 0.074,
+      "llm_online": 0.321
+    },
+    "2004": {
+      "mais_frequentes_historico": 0.195,
+      "quentes_ultimos_25": 0.06,
+      "atrasados_maior_jejum": 0.104,
+      "frequentes_ultimos_1000": 0.195,
+      "logistica_online": 0.058,
+      "llm_online": 0.388
+    },
+    "2005": {
+      "mais_frequentes_historico": 0.17,
+      "quentes_ultimos_25": 0.047,
+      "atrasados_maior_jejum": 0.114,
+      "frequentes_ultimos_1000": 0.17,
+      "logistica_online": 0.048,
+      "llm_online": 0.452
+    },
+    "2006": {
+      "mais_frequentes_historico": 0.201,
+      "quentes_ultimos_25": 0.067,
+      "atrasados_maior_jejum": 0.158,
+      "frequentes_ultimos_1000": 0.201,
+      "logistica_online": 0.052,
+      "llm_online": 0.321
+    },
+    "2007": {
+      "mais_frequentes_historico": 0.148,
+      "quentes_ultimos_25": 0.043,
+      "atrasados_maior_jejum": 0.18,
+      "frequentes_ultimos_1000": 0.148,
+      "logistica_online": 0.067,
+      "llm_online": 0.414
+    },
+    "2008": {
+      "mais_frequentes_historico": 0.157,
+      "quentes_ultimos_25": 0.042,
+      "atrasados_maior_jejum": 0.108,
+      "frequentes_ultimos_1000": 0.151,
+      "logistica_online": 0.028,
+      "llm_online": 0.513
+    },
+    "2009": {
+      "mais_frequentes_historico": 0.151,
+      "quentes_ultimos_25": 0.041,
+      "atrasados_maior_jejum": 0.052,
+      "frequentes_ultimos_1000": 0.145,
+      "logistica_online": 0.024,
+      "llm_online": 0.588
+    },
+    "2010": {
+      "mais_frequentes_historico": 0.109,
+      "quentes_ultimos_25": 0.045,
+      "atrasados_maior_jejum": 0.033,
+      "frequentes_ultimos_1000": 0.137,
+      "logistica_online": 0.041,
+      "llm_online": 0.634
+    },
+    "2011": {
+      "mais_frequentes_historico": 0.106,
+      "quentes_ultimos_25": 0.057,
+      "atrasados_maior_jejum": 0.026,
+      "frequentes_ultimos_1000": 0.135,
+      "logistica_online": 0.051,
+      "llm_online": 0.625
+    },
+    "2012": {
+      "mais_frequentes_historico": 0.08,
+      "quentes_ultimos_25": 0.047,
+      "atrasados_maior_jejum": 0.029,
+      "frequentes_ultimos_1000": 0.124,
+      "logistica_online": 0.031,
+      "llm_online": 0.689
+    },
+    "2013": {
+      "mais_frequentes_historico": 0.136,
+      "quentes_ultimos_25": 0.062,
+      "atrasados_maior_jejum": 0.037,
+      "frequentes_ultimos_1000": 0.175,
+      "logistica_online": 0.024,
+      "llm_online": 0.566
+    },
+    "2014": {
+      "mais_frequentes_historico": 0.19,
+      "quentes_ultimos_25": 0.029,
+      "atrasados_maior_jejum": 0.025,
+      "frequentes_ultimos_1000": 0.123,
+      "logistica_online": 0.012,
+      "llm_online": 0.622
+    },
+    "2015": {
+      "mais_frequentes_historico": 0.19,
+      "quentes_ultimos_25": 0.023,
+      "atrasados_maior_jejum": 0.02,
+      "frequentes_ultimos_1000": 0.128,
+      "logistica_online": 0.008,
+      "llm_online": 0.632
+    },
+    "2016": {
+      "mais_frequentes_historico": 0.237,
+      "quentes_ultimos_25": 0.024,
+      "atrasados_maior_jejum": 0.021,
+      "frequentes_ultimos_1000": 0.105,
+      "logistica_online": 0.007,
+      "llm_online": 0.606
+    },
+    "2017": {
+      "mais_frequentes_historico": 0.144,
+      "quentes_ultimos_25": 0.023,
+      "atrasados_maior_jejum": 0.02,
+      "frequentes_ultimos_1000": 0.107,
+      "logistica_online": 0.007,
+      "llm_online": 0.698
+    },
+    "2018": {
+      "mais_frequentes_historico": 0.153,
+      "quentes_ultimos_25": 0.051,
+      "atrasados_maior_jejum": 0.018,
+      "frequentes_ultimos_1000": 0.214,
+      "logistica_online": 0.005,
+      "llm_online": 0.559
+    },
+    "2019": {
+      "mais_frequentes_historico": 0.179,
+      "quentes_ultimos_25": 0.041,
+      "atrasados_maior_jejum": 0.018,
+      "frequentes_ultimos_1000": 0.266,
+      "logistica_online": 0.003,
+      "llm_online": 0.493
+    },
+    "2020": {
+      "mais_frequentes_historico": 0.185,
+      "quentes_ultimos_25": 0.052,
+      "atrasados_maior_jejum": 0.007,
+      "frequentes_ultimos_1000": 0.293,
+      "logistica_online": 0.005,
+      "llm_online": 0.458
+    },
+    "2021": {
+      "mais_frequentes_historico": 0.269,
+      "quentes_ultimos_25": 0.105,
+      "atrasados_maior_jejum": 0.005,
+      "frequentes_ultimos_1000": 0.382,
+      "logistica_online": 0.01,
+      "llm_online": 0.228
+    },
+    "2022": {
+      "mais_frequentes_historico": 0.304,
+      "quentes_ultimos_25": 0.047,
+      "atrasados_maior_jejum": 0.004,
+      "frequentes_ultimos_1000": 0.458,
+      "logistica_online": 0.006,
+      "llm_online": 0.182
+    },
+    "2023": {
+      "mais_frequentes_historico": 0.266,
+      "quentes_ultimos_25": 0.019,
+      "atrasados_maior_jejum": 0.002,
+      "frequentes_ultimos_1000": 0.557,
+      "logistica_online": 0.004,
+      "llm_online": 0.153
+    },
+    "2024": {
+      "mais_frequentes_historico": 0.155,
+      "quentes_ultimos_25": 0.009,
+      "atrasados_maior_jejum": 0.001,
+      "frequentes_ultimos_1000": 0.769,
+      "logistica_online": 0.002,
+      "llm_online": 0.064
+    },
+    "2025": {
+      "mais_frequentes_historico": 0.219,
+      "quentes_ultimos_25": 0.004,
+      "atrasados_maior_jejum": 0.002,
+      "frequentes_ultimos_1000": 0.662,
+      "logistica_online": 0.002,
+      "llm_online": 0.112
+    },
+    "2026": {
+      "mais_frequentes_historico": 0.224,
+      "quentes_ultimos_25": 0.004,
+      "atrasados_maior_jejum": 0.001,
+      "frequentes_ultimos_1000": 0.69,
+      "logistica_online": 0.001,
+      "llm_online": 0.079
+    }
+  },
+  "logistica_pesos_finais": [
+    -0.0074,
+    -0.0002,
+    -0.0023,
+    0.0075,
+    0.0065,
+    -0.0,
+    0.001,
+    0.0038,
+    -0.0051,
+    -2.2005
+  ]
+}

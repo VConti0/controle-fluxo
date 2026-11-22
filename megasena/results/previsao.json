@@ -1,0 +1,122 @@
+{
+  "proximo_concurso": 3089,
+  "data_prevista": "22/11/2026",
+  "probabilidade_sena_qualquer_jogo": "1 em 50.063.860",
+  "palpites": {
+    "surpresinha_aleatoria": [
+      5,
+      23,
+      39,
+      51,
+      52,
+      57
+    ],
+    "mais_frequentes_historico": [
+      5,
+      10,
+      27,
+      37,
+      38,
+      53
+    ],
+    "quentes_ultimos_25": [
+      4,
+      6,
+      10,
+      27,
+      29,
+      57
+    ],
+    "atrasados_maior_jejum": [
+      8,
+      11,
+      15,
+      26,
+      53,
+      56
+    ],
+    "exploratorio_frequentes_ultimos_1000": [
+      10,
+      11,
+      27,
+      35,
+      38,
+      46
+    ],
+    "gradient_boosting": [
+      10,
+      16,
+      28,
+      30,
+      36,
+      38
+    ],
+    "llm_transformer_top6_marginal": [
+      5,
+      10,
+      11,
+      32,
+      35,
+      52
+    ],
+    "llm_transformer_jogo_mais_gerado": [
+      3,
+      4,
+      5,
+      36,
+      37,
+      42
+    ],
+    "consenso_modelos": [
+      4,
+      5,
+      10,
+      16,
+      38,
+      43
+    ]
+  },
+  "llm_prob_marginal_top10": [
+    [
+      10,
+      0.1288
+    ],
+    [
+      5,
+      0.1251
+    ],
+    [
+      11,
+      0.1138
+    ],
+    [
+      52,
+      0.1128
+    ],
+    [
+      35,
+      0.1123
+    ],
+    [
+      32,
+      0.1117
+    ],
+    [
+      43,
+      0.1108
+    ],
+    [
+      53,
+      0.1099
+    ],
+    [
+      37,
+      0.1094
+    ],
+    [
+      2,
+      0.1094
+    ]
+  ],
+  "llm_prob_marginal_esperada_se_aleatorio": 0.1
+}

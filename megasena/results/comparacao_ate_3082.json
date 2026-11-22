@@ -1,0 +1,314 @@
+{
+  "treino": "concursos 1–3082 (até 06/11/2026)",
+  "n_concursos_treino": 3082,
+  "resultados_reais": {
+    "3083": {
+      "data": "08/11/2026",
+      "dezenas": [
+        22,
+        25,
+        29,
+        37,
+        46,
+        54
+      ]
+    },
+    "3084": {
+      "data": "10/11/2026",
+      "dezenas": [
+        6,
+        14,
+        22,
+        30,
+        31,
+        37
+      ]
+    },
+    "3085": {
+      "data": "12/11/2026",
+      "dezenas": [
+        10,
+        27,
+        29,
+        37,
+        39,
+        59
+      ]
+    }
+  },
+  "acaso_esperado_por_concurso": 0.6,
+  "comparacao": [
+    {
+      "modelo": "surpresinha_aleatoria",
+      "palpite": [
+        13,
+        17,
+        35,
+        40,
+        51,
+        60
+      ],
+      "acertos": {
+        "3083": {
+          "qtd": 0,
+          "dezenas": []
+        },
+        "3084": {
+          "qtd": 0,
+          "dezenas": []
+        },
+        "3085": {
+          "qtd": 0,
+          "dezenas": []
+        }
+      },
+      "media_acertos": 0.0
+    },
+    {
+      "modelo": "mais_frequentes_historico",
+      "palpite": [
+        5,
+        10,
+        27,
+        37,
+        38,
+        53
+      ],
+      "acertos": {
+        "3083": {
+          "qtd": 1,
+          "dezenas": [
+            37
+          ]
+        },
+        "3084": {
+          "qtd": 1,
+          "dezenas": [
+            37
+          ]
+        },
+        "3085": {
+          "qtd": 3,
+          "dezenas": [
+            10,
+            27,
+            37
+          ]
+        }
+      },
+      "media_acertos": 1.667
+    },
+    {
+      "modelo": "quentes_ultimos_25",
+      "palpite": [
+        4,
+        5,
+        10,
+        38,
+        41,
+        57
+      ],
+      "acertos": {
+        "3083": {
+          "qtd": 0,
+          "dezenas": []
+        },
+        "3084": {
+          "qtd": 0,
+          "dezenas": []
+        },
+        "3085": {
+          "qtd": 1,
+          "dezenas": [
+            10
+          ]
+        }
+      },
+      "media_acertos": 0.333
+    },
+    {
+      "modelo": "atrasados_maior_jejum",
+      "palpite": [
+        15,
+        21,
+        26,
+        37,
+        46,
+        56
+      ],
+      "acertos": {
+        "3083": {
+          "qtd": 2,
+          "dezenas": [
+            37,
+            46
+          ]
+        },
+        "3084": {
+          "qtd": 1,
+          "dezenas": [
+            37
+          ]
+        },
+        "3085": {
+          "qtd": 1,
+          "dezenas": [
+            37
+          ]
+        }
+      },
+      "media_acertos": 1.333
+    },
+    {
+      "modelo": "exploratorio_frequentes_ultimos_1000",
+      "palpite": [
+        10,
+        11,
+        27,
+        35,
+        38,
+        46
+      ],
+      "acertos": {
+        "3083": {
+          "qtd": 1,
+          "dezenas": [
+            46
+          ]
+        },
+        "3084": {
+          "qtd": 0,
+          "dezenas": []
+        },
+        "3085": {
+          "qtd": 2,
+          "dezenas": [
+            10,
+            27
+          ]
+        }
+      },
+      "media_acertos": 1.0
+    },
+    {
+      "modelo": "gradient_boosting",
+      "palpite": [
+        2,
+        4,
+        5,
+        14,
+        16,
+        58
+      ],
+      "acertos": {
+        "3083": {
+          "qtd": 0,
+          "dezenas": []
+        },
+        "3084": {
+          "qtd": 1,
+          "dezenas": [
+            14
+          ]
+        },
+        "3085": {
+          "qtd": 0,
+          "dezenas": []
+        }
+      },
+      "media_acertos": 0.333
+    },
+    {
+      "modelo": "llm_transformer_top6_marginal",
+      "palpite": [
+        10,
+        35,
+        38,
+        43,
+        53,
+        54
+      ],
+      "acertos": {
+        "3083": {
+          "qtd": 1,
+          "dezenas": [
+            54
+          ]
+        },
+        "3084": {
+          "qtd": 0,
+          "dezenas": []
+        },
+        "3085": {
+          "qtd": 1,
+          "dezenas": [
+            10
+          ]
+        }
+      },
+      "media_acertos": 0.667
+    },
+    {
+      "modelo": "llm_transformer_jogo_mais_gerado",
+      "palpite": [
+        2,
+        9,
+        29,
+        37,
+        43,
+        47
+      ],
+      "acertos": {
+        "3083": {
+          "qtd": 2,
+          "dezenas": [
+            29,
+            37
+          ]
+        },
+        "3084": {
+          "qtd": 1,
+          "dezenas": [
+            37
+          ]
+        },
+        "3085": {
+          "qtd": 2,
+          "dezenas": [
+            29,
+            37
+          ]
+        }
+      },
+      "media_acertos": 1.667
+    },
+    {
+      "modelo": "consenso_modelos",
+      "palpite": [
+        4,
+        5,
+        10,
+        35,
+        38,
+        43
+      ],
+      "acertos": {
+        "3083": {
+          "qtd": 0,
+          "dezenas": []
+        },
+        "3084": {
+          "qtd": 0,
+          "dezenas": []
+        },
+        "3085": {
+          "qtd": 1,
+          "dezenas": [
+            10
+          ]
+        }
+      },
+      "media_acertos": 0.333
+    }
+  ]
+}

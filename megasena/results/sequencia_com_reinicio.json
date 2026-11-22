@@ -1,0 +1,18 @@
+{
+  "tentativas": 10000000000,
+  "tempo_s": 631,
+  "tentativas_por_segundo": 15856101,
+  "acertou_o_concurso_1": 208,
+  "acertou_1_e_2_seguidos": 0,
+  "acertou_1_2_e_3_seguidos": 0,
+  "maior_sequencia": 1,
+  "tentativas_esperadas": {
+    "1_concurso": 50063860,
+    "2_seguidos": 2506390078099600,
+    "3_seguidos": 125479561975367440456000
+  },
+  "tempo_estimado_nesta_maquina": {
+    "2_seguidos_anos": 5.0,
+    "3_seguidos_anos": 250000000.0
+  }
+}

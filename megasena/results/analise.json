@@ -1,0 +1,112 @@
+{
+  "concursos": 3088,
+  "primeiro": "1996-03-11",
+  "ultimo": "2026-11-19",
+  "frequencia": {
+    "esperado_por_numero": 308.8,
+    "mais_sorteados": [
+      [
+        10,
+        364
+      ],
+      [
+        53,
+        350
+      ],
+      [
+        5,
+        337
+      ],
+      [
+        37,
+        334
+      ],
+      [
+        27,
+        332
+      ],
+      [
+        38,
+        331
+      ],
+      [
+        30,
+        329
+      ],
+      [
+        17,
+        329
+      ],
+      [
+        33,
+        329
+      ],
+      [
+        43,
+        328
+      ]
+    ],
+    "menos_sorteados": [
+      [
+        26,
+        250
+      ],
+      [
+        21,
+        262
+      ],
+      [
+        55,
+        265
+      ],
+      [
+        15,
+        276
+      ],
+      [
+        22,
+        279
+      ],
+      [
+        3,
+        284
+      ],
+      [
+        12,
+        285
+      ],
+      [
+        31,
+        287
+      ],
+      [
+        7,
+        289
+      ],
+      [
+        48,
+        290
+      ]
+    ],
+    "qui2": 83.68,
+    "gl": 59,
+    "p_valor": 0.019
+  },
+  "repeticao_concurso_anterior": {
+    "media_observada": 0.5808,
+    "media_se_aleatorio": 0.6
+  },
+  "autocorrelacao_lag1": {
+    "media": -0.00423,
+    "max_abs": 0.0461,
+    "limite_95pct_ruido": 0.0353
+  },
+  "soma_dezenas": {
+    "media_obs": 183.03,
+    "media_teorica": 183.0,
+    "dp_obs": 39.94,
+    "dp_teorico": 40.58
+  },
+  "primeira_bola_uniforme_p": 0.0927,
+  "pares_por_concurso_media": 3.016
+}

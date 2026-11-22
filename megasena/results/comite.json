@@ -1,0 +1,170 @@
+{
+  "concursos": 3088,
+  "hipergeometrica": {
+    "0": {
+      "combinacoes": 25827165,
+      "prob": 0.5158844124284464,
+      "um_em": 1.9
+    },
+    "1": {
+      "combinacoes": 18975060,
+      "prob": 0.3790171193351851,
+      "um_em": 2.6
+    },
+    "2": {
+      "combinacoes": 4743765,
+      "prob": 0.09475427983379628,
+      "um_em": 10.6
+    },
+    "3": {
+      "combinacoes": 496080,
+      "prob": 0.009908944296344709,
+      "um_em": 100.9
+    },
+    "4": {
+      "combinacoes": 21465,
+      "prob": 0.0004287523974379922,
+      "um_em": 2332.3
+    },
+    "5": {
+      "combinacoes": 324,
+      "prob": 6.4717343009508255e-06,
+      "um_em": 154518.1
+    },
+    "6": {
+      "combinacoes": 1,
+      "prob": 1.997448858318156e-08,
+      "um_em": 50063860.0
+    },
+    "total_combinacoes": 50063860,
+    "media_acertos": 0.6
+  },
+  "auditoria": {
+    "qui2": 83.68,
+    "gl": 59,
+    "p": 0.019,
+    "freq_max": [
+      10,
+      364
+    ],
+    "freq_min": [
+      26,
+      250
+    ],
+    "entropia_shannon_bits": 5.9036,
+    "entropia_maxima_bits": 5.90689,
+    "eficiencia_entropia": 0.999443,
+    "runs_por_numero": {
+      "rejeitados_5pct": 2,
+      "esperado_por_acaso": 3.0,
+      "z_medio": 0.218,
+      "z_dp": 0.982,
+      "maior_|z|": [
+        35,
+        2.56
+      ]
+    },
+    "runs_soma_acima_mediana": {
+      "z": 0.83,
+      "p": 0.4067
+    },
+    "runs_mais_de_3_pares": {
+      "z": -0.156,
+      "p": 0.8759
+    }
+  },
+  "monte_carlo": {
+    "simulacoes": 5000,
+    "entropia_max_por_sorteio_bits": 25.577,
+    "qui2_simulado": {
+      "media": 53.97,
+      "p95": 71.63,
+      "p99": 81.0,
+      "p_empirico_do_real": 0.0052
+    },
+    "freq_maxima_simulada": {
+      "media": 348.3,
+      "p95": 362,
+      "prob_max>=real": 0.0414
+    },
+    "freq_minima_simulada": {
+      "media": 270.4,
+      "p5": 257,
+      "prob_min<=real": 0.0086
+    },
+    "entropia_simulada": {
+      "media": 5.90479,
+      "p5": 5.9041,
+      "prob_H<=real": 0.0048
+    },
+    "convergencia": {
+      "100": {
+        "real_desvio_max_pct": 60.0,
+        "teorico_dp_pct": 30.0
+      },
+      "500": {
+        "real_desvio_max_pct": 42.0,
+        "teorico_dp_pct": 13.4
+      },
+      "1000": {
+        "real_desvio_max_pct": 24.0,
+        "teorico_dp_pct": 9.5
+      },
+      "2000": {
+        "real_desvio_max_pct": 18.0,
+        "teorico_dp_pct": 6.7
+      },
+      "3088": {
+        "real_desvio_max_pct": 19.0,
+        "teorico_dp_pct": 5.4
+      }
+    }
+  },
+  "series_temporais": {
+    "ljung_box_p": {
+      "1": 0.2075,
+      "5": 0.2525,
+      "10": 0.4343,
+      "20": 0.5771,
+      "50": 0.5479
+    },
+    "acf_soma": {
+      "lag1": -0.0227,
+      "max_abs_50_lags": 0.0397,
+      "banda_95pct": 0.0353,
+      "lags_fora_da_banda": 1,
+      "esperado_fora": 2.5
+    },
+    "arima_soma": {
+      "(0, 0, 0)": {
+        "aic": 31541.11,
+        "bic": 31553.18
+      },
+      "(1, 0, 0)": {
+        "aic": 31541.52,
+        "bic": 31559.63
+      },
+      "(0, 0, 1)": {
+        "aic": 31541.48,
+        "bic": 31559.58
+      },
+      "(1, 0, 1)": {
+        "aic": 31540.8,
+        "bic": 31564.94
+      },
+      "(2, 0, 2)": {
+        "aic": 31541.91,
+        "bic": 31578.12
+      }
+    },
+    "ar1_coef": -0.0227,
+    "ar1_p": 0.2144,
+    "fft": {
+      "maior_pico_periodo_concursos": 6.37,
+      "fisher_g": 0.00494,
+      "p_fisher": 0.7427
+    },
+    "acf_por_numero_fracao_fora_banda": 0.0475,
+    "esperado": 0.05
+  }
+}
