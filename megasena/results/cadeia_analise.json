@@ -1,0 +1,488 @@
+{
+ "concursos_na_cadeia": 3089,
+ "ramos_simulados": 1321200,
+ "reinicios": 4,
+ "relogio_final_s": 49423.7,
+ "ramos_medios_por_extracao": [
+  49.1,
+  50.3,
+  53.5,
+  59.6,
+  77.6,
+  135.4
+ ],
+ "testes_feitos": 93,
+ "p_necessario_bonferroni": 0.00054,
+ "A_estado_inicial_x_bola_sorteada": {
+  "distancia_ate_a_boca": {
+   "auc": 0.5005,
+   "acaso_media": 0.4999,
+   "acaso_desvio": 0.0022,
+   "z": 0.28,
+   "p": 0.7512
+  },
+  "altura_z": {
+   "auc": 0.5003,
+   "acaso_media": 0.4999,
+   "acaso_desvio": 0.0021,
+   "z": 0.18,
+   "p": 0.8905
+  },
+  "posicao_x_eixo": {
+   "auc": 0.502,
+   "acaso_media": 0.5001,
+   "acaso_desvio": 0.0022,
+   "z": 0.88,
+   "p": 0.4129
+  },
+  "posicao_y": {
+   "auc": 0.5039,
+   "acaso_media": 0.5001,
+   "acaso_desvio": 0.0024,
+   "z": 1.58,
+   "p": 0.1144
+  },
+  "raio_ao_centro": {
+   "auc": 0.5031,
+   "acaso_media": 0.5,
+   "acaso_desvio": 0.0022,
+   "z": 1.4,
+   "p": 0.1493
+  },
+  "velocidade": {
+   "auc": 0.5047,
+   "acaso_media": 0.5,
+   "acaso_desvio": 0.0022,
+   "z": 2.17,
+   "p": 0.0348
+  },
+  "velocidade_vertical": {
+   "auc": 0.5036,
+   "acaso_media": 0.5,
+   "acaso_desvio": 0.0021,
+   "z": 1.74,
+   "p": 0.0995
+  },
+  "rotacao": {
+   "auc": 0.5008,
+   "acaso_media": 0.4999,
+   "acaso_desvio": 0.0023,
+   "z": 0.39,
+   "p": 0.7313
+  },
+  "massa_da_bola": {
+   "auc": 0.4994,
+   "acaso_media": 0.5,
+   "acaso_desvio": 0.0023,
+   "z": -0.24,
+   "p": 0.8109
+  },
+  "saiu_no_concurso_anterior": {
+   "auc": 0.4982,
+   "acaso_media": 0.4999,
+   "acaso_desvio": 0.0012,
+   "z": -1.48,
+   "p": 0.1542
+  },
+  "numero_da_bola": {
+   "auc": 0.5002,
+   "acaso_media": 0.5001,
+   "acaso_desvio": 0.002,
+   "z": 0.03,
+   "p": 0.9751
+  }
+ },
+ "A_sem_as_bolas_recolocadas": {
+  "distancia_ate_a_boca": {
+   "auc": 0.5029,
+   "acaso_desvio": 0.0023,
+   "z": 1.36,
+   "p": 0.1841
+  },
+  "altura_z": {
+   "auc": 0.5026,
+   "acaso_desvio": 0.0024,
+   "z": 1.15,
+   "p": 0.2189
+  },
+  "massa_da_bola": {
+   "auc": 0.4993,
+   "acaso_desvio": 0.0023,
+   "z": -0.36,
+   "p": 0.7264
+  },
+  "raio_ao_centro": {
+   "auc": 0.5017,
+   "acaso_desvio": 0.0025,
+   "z": 0.75,
+   "p": 0.4776
+  },
+  "velocidade": {
+   "auc": 0.5036,
+   "acaso_desvio": 0.0024,
+   "z": 1.56,
+   "p": 0.1294
+  },
+  "rotacao": {
+   "auc": 0.4988,
+   "acaso_desvio": 0.0022,
+   "z": -0.49,
+   "p": 0.607
+  }
+ },
+ "B_extracao_x_dezena": {
+  "angulo_das_pas": {
+   "numero_da_dezena": {
+    "r": 0.0011,
+    "p": 0.8876
+   },
+   "massa_da_bola": {
+    "r": 0.0049,
+    "p": 0.5062
+   }
+  },
+  "energia_cinetica": {
+   "numero_da_dezena": {
+    "r": -0.0076,
+    "p": 0.3118
+   },
+   "massa_da_bola": {
+    "r": -0.008,
+    "p": 0.2739
+   }
+  },
+  "altura_media": {
+   "numero_da_dezena": {
+    "r": 0.0055,
+    "p": 0.4393
+   },
+   "massa_da_bola": {
+    "r": 0.004,
+    "p": 0.5622
+   }
+  },
+  "momento_angular": {
+   "numero_da_dezena": {
+    "r": 0.0108,
+    "p": 0.1369
+   },
+   "massa_da_bola": {
+    "r": -0.0008,
+    "p": 0.918
+   }
+  },
+  "folga_2a_bola": {
+   "numero_da_dezena": {
+    "r": 0.0034,
+    "p": 0.6397
+   },
+   "massa_da_bola": {
+    "r": 0.0095,
+    "p": 0.2034
+   }
+  },
+  "ramos_gastos": {
+   "numero_da_dezena": {
+    "r": -0.008,
+    "p": 0.2674
+   },
+   "massa_da_bola": {
+    "r": -0.0069,
+    "p": 0.3448
+   }
+  },
+  "ramos_que_serviam": {
+   "numero_da_dezena": {
+    "r": 0.0083,
+    "p": 0.2644
+   },
+   "massa_da_bola": {
+    "r": -0.0043,
+    "p": 0.5492
+   }
+  },
+  "bola_x": {
+   "numero_da_dezena": {
+    "r": -0.0029,
+    "p": 0.6777
+   },
+   "massa_da_bola": {
+    "r": -0.0111,
+    "p": 0.1194
+   }
+  },
+  "bola_y": {
+   "numero_da_dezena": {
+    "r": -0.0104,
+    "p": 0.1599
+   },
+   "massa_da_bola": {
+    "r": 0.0053,
+    "p": 0.4863
+   }
+  },
+  "bola_velocidade": {
+   "numero_da_dezena": {
+    "r": 0.0044,
+    "p": 0.5427
+   },
+   "massa_da_bola": {
+    "r": -0.002,
+    "p": 0.7876
+   }
+  },
+  "bola_rotacao": {
+   "numero_da_dezena": {
+    "r": -0.0047,
+    "p": 0.5232
+   },
+   "massa_da_bola": {
+    "r": -0.0079,
+    "p": 0.2954
+   }
+  }
+ },
+ "C_por_concurso": {
+  "energia_media": {
+   "autocorrelacao_lag1": 0.0853,
+   "p_autocorrelacao": 0.0005,
+   "x_resultado": {
+    "soma_das_dezenas": {
+     "r": -0.0102,
+     "p": 0.5672
+    },
+    "qtd_pares": {
+     "r": 0.0188,
+     "p": 0.2999
+    },
+    "repetidas_do_anterior": {
+     "r": -0.0172,
+     "p": 0.3543
+    },
+    "massa_media_das_6": {
+     "r": -0.0093,
+     "p": 0.6227
+    },
+    "maior_dezena": {
+     "r": 0.0128,
+     "p": 0.4943
+    }
+   }
+  },
+  "altura_media": {
+   "autocorrelacao_lag1": -0.0117,
+   "p_autocorrelacao": 0.5137,
+   "x_resultado": {
+    "soma_das_dezenas": {
+     "r": 0.0045,
+     "p": 0.8106
+    },
+    "qtd_pares": {
+     "r": -0.0037,
+     "p": 0.8351
+    },
+    "repetidas_do_anterior": {
+     "r": -0.0136,
+     "p": 0.4508
+    },
+    "massa_media_das_6": {
+     "r": 0.0063,
+     "p": 0.7236
+    },
+    "maior_dezena": {
+     "r": 0.0196,
+     "p": 0.2594
+    }
+   }
+  },
+  "momento_angular_medio": {
+   "autocorrelacao_lag1": 0.0523,
+   "p_autocorrelacao": 0.0035,
+   "x_resultado": {
+    "soma_das_dezenas": {
+     "r": 0.0139,
+     "p": 0.4538
+    },
+    "qtd_pares": {
+     "r": -0.0191,
+     "p": 0.2859
+    },
+    "repetidas_do_anterior": {
+     "r": 0.0221,
+     "p": 0.2189
+    },
+    "massa_media_das_6": {
+     "r": 0.0257,
+     "p": 0.1564
+    },
+    "maior_dezena": {
+     "r": 0.0027,
+     "p": 0.8971
+    }
+   }
+  },
+  "angulo_das_pas_1a_bola": {
+   "autocorrelacao_lag1": 0.9977,
+   "p_autocorrelacao": 0.0005,
+   "x_resultado": {
+    "soma_das_dezenas": {
+     "r": 0.0127,
+     "p": 0.4828
+    },
+    "qtd_pares": {
+     "r": -0.0111,
+     "p": 0.5377
+    },
+    "repetidas_do_anterior": {
+     "r": -0.0051,
+     "p": 0.7851
+    },
+    "massa_media_das_6": {
+     "r": 0.0346,
+     "p": 0.058
+    },
+    "maior_dezena": {
+     "r": 0.0261,
+     "p": 0.1529
+    }
+   }
+  },
+  "ramos_total": {
+   "autocorrelacao_lag1": -0.0093,
+   "p_autocorrelacao": 0.5917,
+   "x_resultado": {
+    "soma_das_dezenas": {
+     "r": -0.024,
+     "p": 0.1734
+    },
+    "qtd_pares": {
+     "r": -0.0129,
+     "p": 0.4768
+    },
+    "repetidas_do_anterior": {
+     "r": 0.0069,
+     "p": 0.7061
+    },
+    "massa_media_das_6": {
+     "r": 0.0323,
+     "p": 0.083
+    },
+    "maior_dezena": {
+     "r": -0.0071,
+     "p": 0.6877
+    }
+   }
+  },
+  "folga_media": {
+   "autocorrelacao_lag1": 0.0198,
+   "p_autocorrelacao": 0.2604,
+   "x_resultado": {
+    "soma_das_dezenas": {
+     "r": 0.0191,
+     "p": 0.2999
+    },
+    "qtd_pares": {
+     "r": 0.0071,
+     "p": 0.6812
+    },
+    "repetidas_do_anterior": {
+     "r": 0.0091,
+     "p": 0.6337
+    },
+    "massa_media_das_6": {
+     "r": 0.0011,
+     "p": 0.951
+    },
+    "maior_dezena": {
+     "r": -0.0044,
+     "p": 0.8236
+    }
+   }
+  },
+  "energia_inicial": {
+   "autocorrelacao_lag1": 0.1443,
+   "p_autocorrelacao": 0.0005,
+   "x_resultado": {
+    "soma_das_dezenas": {
+     "r": -0.0101,
+     "p": 0.5747
+    },
+    "qtd_pares": {
+     "r": 0.0131,
+     "p": 0.4773
+    },
+    "repetidas_do_anterior": {
+     "r": 0.0058,
+     "p": 0.7391
+    },
+    "massa_media_das_6": {
+     "r": -0.019,
+     "p": 0.2869
+    },
+    "maior_dezena": {
+     "r": -0.0077,
+     "p": 0.6822
+    }
+   }
+  },
+  "altura_inicial_media": {
+   "autocorrelacao_lag1": 0.0994,
+   "p_autocorrelacao": 0.0005,
+   "x_resultado": {
+    "soma_das_dezenas": {
+     "r": 0.0219,
+     "p": 0.2269
+    },
+    "qtd_pares": {
+     "r": 0.0172,
+     "p": 0.3438
+    },
+    "repetidas_do_anterior": {
+     "r": -0.0193,
+     "p": 0.2849
+    },
+    "massa_media_das_6": {
+     "r": -0.0059,
+     "p": 0.7521
+    },
+    "maior_dezena": {
+     "r": 0.0156,
+     "p": 0.3783
+    }
+   }
+  },
+  "rotacao_inicial_media": {
+   "autocorrelacao_lag1": 0.6862,
+   "p_autocorrelacao": 0.0005,
+   "x_resultado": {
+    "soma_das_dezenas": {
+     "r": -0.0125,
+     "p": 0.5022
+    },
+    "qtd_pares": {
+     "r": -0.0326,
+     "p": 0.0715
+    },
+    "repetidas_do_anterior": {
+     "r": -0.0027,
+     "p": 0.8691
+    },
+    "massa_media_das_6": {
+     "r": 0.0122,
+     "p": 0.4973
+    },
+    "maior_dezena": {
+     "r": 0.0193,
+     "p": 0.2809
+    }
+   }
+  }
+ },
+ "autocorrelacao_dos_resultados_reais": {
+  "soma_das_dezenas": -0.0228,
+  "qtd_pares": -0.0123,
+  "repetidas_do_anterior": -0.0112,
+  "massa_media_das_6": 0.0127,
+  "maior_dezena": 0.0005
+ }
+}
