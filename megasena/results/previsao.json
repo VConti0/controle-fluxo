@@ -1,15 +1,16 @@
 {
-  "proximo_concurso": 3089,
-  "data_prevista": "22/11/2026",
+  "treinado_ate_concurso": 3089,
+  "treinado_ate_data": "22/11/2026",
+  "proximo_concurso": 3090,
   "probabilidade_sena_qualquer_jogo": "1 em 50.063.860",
   "palpites": {
     "surpresinha_aleatoria": [
-      5,
-      23,
-      39,
-      51,
-      52,
-      57
+      8,
+      24,
+      36,
+      42,
+      49,
+      56
     ],
     "mais_frequentes_historico": [
       5,
@@ -20,11 +21,11 @@
       53
     ],
     "quentes_ultimos_25": [
-      4,
       6,
       10,
-      27,
+      22,
       29,
+      41,
       57
     ],
     "atrasados_maior_jejum": [
@@ -44,78 +45,78 @@
       46
     ],
     "gradient_boosting": [
+      4,
+      6,
       10,
       16,
-      28,
       30,
-      36,
-      38
+      36
     ],
     "llm_transformer_top6_marginal": [
       5,
       10,
-      11,
-      32,
-      35,
-      52
+      23,
+      28,
+      33,
+      43
     ],
     "llm_transformer_jogo_mais_gerado": [
-      3,
+      1,
       4,
-      5,
-      36,
-      37,
-      42
+      21,
+      27,
+      30,
+      58
     ],
     "consenso_modelos": [
       4,
       5,
       10,
-      16,
-      38,
+      28,
+      37,
       43
     ]
   },
   "llm_prob_marginal_top10": [
     [
       10,
-      0.1288
+      0.123
     ],
     [
-      5,
-      0.1251
-    ],
-    [
-      11,
+      23,
       0.1138
     ],
     [
-      52,
-      0.1128
+      43,
+      0.1134
     ],
     [
-      35,
+      5,
+      0.1129
+    ],
+    [
+      28,
+      0.1126
+    ],
+    [
+      33,
       0.1123
     ],
     [
-      32,
-      0.1117
+      46,
+      0.1111
     ],
     [
-      43,
-      0.1108
-    ],
-    [
-      53,
-      0.1099
+      17,
+      0.1088
     ],
     [
       37,
-      0.1094
+      0.1088
     ],
     [
-      2,
-      0.1094
+      53,
+      0.1085
     ]
   ],
   "llm_prob_marginal_esperada_se_aleatorio": 0.1
